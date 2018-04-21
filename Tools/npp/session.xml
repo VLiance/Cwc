@@ -1,0 +1,16 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="0">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="496" startPos="370" endPos="370" selMode="0" lang="C++" encoding="-1" filename="E:\_Project\Cwc\Lib\Honera\GZE\GZE-0.1.0\SubLib_System\Lib_GZ_OpenGL\Lib_GZ_OpenGL.h" backupFilePath="E:\_Project\Cwc\Tools\npp\backup\Lib_GZ_OpenGL.h@2018-03-04_142800" originalFileLastModifTimestamp="1514338179" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="280" startPos="62" endPos="62" selMode="0" lang="Normal Text" encoding="-1" filename="E:\_Project\_Current_LibRT_WebRT\WebRT-1.35.0\emscripten\1.35.0\.gitignore" backupFilePath="" originalFileLastModifTimestamp="1510378312" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="192" startPos="0" endPos="0" selMode="0" lang="Normal Text" encoding="-1" filename="E:\_Project\_Current_LibRT_WebRT\WebRT-1.35.0\emscripten\1.35.0\site\.gitignore" backupFilePath="" originalFileLastModifTimestamp="1447427080" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="96" startPos="0" endPos="0" selMode="0" lang="Normal Text" encoding="-1" filename="E:\_Project\_Current_LibRT_WebRT\WebRT-1.35.0\emscripten\1.35.0\tests\sockets\p2p\.gitignore" backupFilePath="" originalFileLastModifTimestamp="1447427086" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="160" startPos="0" endPos="0" selMode="0" lang="Normal Text" encoding="-1" filename="E:\_Project\_Current_LibRT_WebRT\WebRT-1.35.0\emscripten\1.35.0\third_party\websockify\.gitignore" backupFilePath="" originalFileLastModifTimestamp="1447427086" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="72" startPos="34" endPos="34" selMode="0" lang="Normal Text" encoding="-1" filename="E:\_Project\_Current_LibRT_WebRT\WebRT-1.35.0\emscripten\1.35.0\tools\eliminator\node_modules\uglify-js\.gitignore" backupFilePath="" originalFileLastModifTimestamp="1447427086" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1088" startPos="0" endPos="0" selMode="0" lang="C++" encoding="-1" filename="E:\_Project\Cwc\Compiler\Honera\LibRT\LibRT-0.0.9\wType\01_Mingw.xml" backupFilePath="" originalFileLastModifTimestamp="1518182957" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="464" startPos="218" endPos="218" selMode="0" lang="C++" encoding="-1" filename="E:\_Project\Cwc\_Cwc_Demos\Cwc_Demos-0.0.6\Base_Example\02_HelloGZE\Build.cwc" backupFilePath="" originalFileLastModifTimestamp="1518893779" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="336" startPos="0" endPos="0" selMode="0" lang="Normal Text" encoding="-1" filename="E:\_Project\Cwc\_Cwc_Demos\Cwc_Demos-0.0.6\Base_Example\02_HelloGZE\Make_For_Web (Emscripten).cwMake" backupFilePath="" originalFileLastModifTimestamp="1518251738" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

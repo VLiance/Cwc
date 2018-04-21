@@ -1,0 +1,61 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.out
+*.app
+
+# Other
+*.log
+*.exe.config
+*.pdb
+*.vshost.exe
+*.manifest
+*.I
+*.lnk
+*test.bat
+
+Cwide.exe
+
+*.rar
+*.zip
+
+PluginCore.dll
+
+# Directory
+temp/
+_Cwc_Demos/
+IDE/
+Modules/
+cppast/
+_Cwc_Demos_Src/
+Upd_Cwc/
+old/
+Compiler/
+Lib/
+backup/
+curl/
+SubLib_System/
+Config/
+.vs/
