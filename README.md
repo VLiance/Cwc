@@ -1,5 +1,5 @@
 
-# The CWeet compiler " [![Screen Shot](Tools/Cwc_small.png)](https://github.com/Honera/Cwc/blob/master/Tools/Cwc_small.png) "
+# The CWeet compilation " [![Screen Shot](Tools/Cwc_small.png)](https://github.com/Honera/Cwc/blob/master/Tools/Cwc_small.png) "
 
 Cwc is a **front-end** C++ compiler, for any programmer who wants to simplify life.
 
@@ -58,12 +58,12 @@ Cwc can export binary to any platform without any modification of your makefile 
 
 Here are the functional toolchain for now:
 
-* Windows           ([LibRT](https://github.com/Honera/LibRT))
-* Web -> Emscriptem ([WebRT](https://github.com/Honera/WebRT))
+* Windows           ([LibRT](https://github.com/VLiance/LibRT))
+* Web -> Emscriptem ([WebRT](https://github.com/VLiance/WebRT))
 
 TODO:
 
-* Android           (DroidRT)
-* OSX
+* Android           ([DroidRT](https://github.com/VLiance/DroidRT))
+* IOS				([DroidRT](https://github.com/VLiance/IRT))
 
-Any other custom toolchain can be added easily with a Github repo, possibilities are limitless
+Any other custom toolchain can be add easily with a Github repo, possibilities is limitless
