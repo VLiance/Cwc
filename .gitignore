@@ -58,4 +58,6 @@ backup/
 curl/
 SubLib_System/
 Config/
+backup/
 .vs/
+session.xml
