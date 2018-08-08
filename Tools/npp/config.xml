@@ -13,11 +13,11 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="37" y="152" width="966" height="945" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="-1236" y="426" width="1139" height="702" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="no" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="3" whiteSpaceShow="hide" eolShow="hide" lineWrapMethod="aligned" disableAdvancedScrolling="no" borderEdge="yes" zoom2="2" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="hide" currentLineHilitingShow="show" Wrap="no" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="0" whiteSpaceShow="hide" eolShow="hide" lineWrapMethod="aligned" disableAdvancedScrolling="no" borderEdge="yes" zoom2="2" borderWidth="2" smoothFont="no" />
         <!-- For the secodary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box" -->
@@ -90,32 +90,43 @@
         <GUIConfig name="stylerTheme" path="E:\_Project\Cwc\Tools\npp\stylers.xml" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" />
-        <GUIConfig name="DockingManager" leftWidth="214" rightWidth="200" topHeight="200" bottomHeight="290">
+        <GUIConfig name="DockingManager" leftWidth="366" rightWidth="765" topHeight="200" bottomHeight="280">
+            <FloatingWindow cont="4" x="-1296" y="485" width="-391" height="695" />
+            <FloatingWindow cont="5" x="-1296" y="485" width="-391" height="695" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="yes" />
-            <PluginDlg pluginName="NppManagedPluginDemo" id="15" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="4" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="NppManagedPluginDemo" id="15" curr="1" prev="5" isVisible="yes" />
             <ActiveTabs cont="0" activeTab="0" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
-            <ActiveTabs cont="3" activeTab="-1" />
+            <ActiveTabs cont="3" activeTab="0" />
+            <ActiveTabs cont="4" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
         <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0" />
+        <Path name="E:\_Project\TestNppDBG\DBGpPlugin_0_13b_src" />
+        <Path name="E:\_Project\Cwc\_Cwc_Demos" />
+        <Path name="E:\_Project\" />
         <Path name="E:\_Project\_MyProject\CWave_Haxe\CWave" />
         <Filter name="*.*" />
+        <Filter name="*.h,*.cpp" />
         <Filter name="*.h" />
-        <Find name="ArrayPtr" />
-        <Find name="uPoint3D" />
-        <Find name="ThreadEnd" />
-        <Find name="_gzStr8" />
-        <Find name="gzPStr" />
-        <Find name="gzStrC" />
-        <Find name="n" />
-        <Find name="qe" />
-        <Find name="q" />
-        <Find name="a" />
+        <Find name="zNull" />
+        <Find name="gzArray" />
+        <Find name="func" />
+        <Find name="Get(" />
+        <Find name="GZ_mStaticClass" />
+        <Find name=" Get(" />
+        <Find name="Get" />
+        <Find name="cMainEntry" />
+        <Find name="uOverplace" />
+        <Find name="GZ_mStaticClassOp" />
+        <Replace name="\\" />
+        <Replace name="/" />
         <Replace name="s" />
         <Replace name="qa" />
         <Replace name="d" />
@@ -124,29 +135,29 @@
         <Replace name="q" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\Debugging.h" />
-        <File filename="E:\_Project\Cwc\_Cwc_Demos\Cwc_Demos-0.0.6\Base_Example\07_CWayv\obj\cw\Lib_GZ\Sys\Window.h" />
-        <File filename="E:\_Project\Cwc\_Cwc_Demos\Cwc_Demos-0.0.6\Base_Example\07_CWayv\src_(Demo)\Screen\DemoText.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Gfx\Clip\TextRange.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Gfx\Clip\Rectangle.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Gfx\Shape.cw" />
-        <File filename="E:\_Project\_MyProject\CWave_Haxe\CWDK\GZE\CwLib_GZ\Gfx\Attribute.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Gfx\Attribute.cw" />
-        <File filename="E:\_Project\Cwc\_Cwc_Demos\Cwc_Demos-0.0.6\Base_Example\07_CWayv\obj\cw\Lib_GZ\Gfx\Object.h" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Wrapper_(GZ)\Lib.cw" />
-        <File filename="E:\_Project\Cwc\_Cwc_Demos\Cwc_Demos-0.0.6\Base_Example\07_CWift\Build.cwc" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\Macro.h" />
+        <File filename="E:\_Project\Cwc\_Cwc_Demos\Cwc_Demos-0.0.6\Base_Example\07_CWayv\obj\cw\Lib_Demo\Lib_Demo.icpp" />
+        <File filename="E:\_Project\Cwc\_Cwc_Demos\Cwc_Demos-0.0.6\Base_Example\07_CWayv\obj\cw\Lib_Demo\Lib_Demo.h" />
+        <File filename="E:\_Project\Cwc\_Cwc_Demos\Cwc_Demos-0.0.6\Base_Example\07_CWayv\obj\cw\Lib_Demo\Lib_Demo.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Wrapper_(GZ)\Thread.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\Class.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\ThreadExt.h" />
+        <File filename="E:\_Project\Cwc\_Cwc_Demos\Cwc_Demos-0.0.6\Base_Example\06_Array\src\Array.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\StThread.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\StThread.cpp" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/Cwc/_Cwc_Demos/Cwc_Demos-0.0.6/Base_Example/07_CWayv/">
-        <root foldername="E:/_Project/Cwc/_Cwc_Demos/Cwc_Demos-0.0.6/Base_Example/07_CWayv/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cpp/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cpp/SubLib_System/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cw/Engine_(GZ)/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cw/Wrapper_(GZ)/" />
-    </FileBrowser>
+    
+<FileBrowser>
+ <root foldername="E:/_Project/Cwc/_Cwc_Demos/Cwc_Demos-0.0.6/Base_Example/07_CWayv/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cpp/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cpp/SubLib_System/" />
+ <root foldername="src_(Demo)/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cw/Engine_(GZ)/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cw/Wrapper_(GZ)/" />
+ <root foldername="obj/cw/" />
+</FileBrowser>
 </NotepadPlus>

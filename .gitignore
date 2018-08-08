@@ -61,3 +61,6 @@ Config/
 backup/
 .vs/
 session.xml
+old/
+Tools/npp/backup
+*.pdb
