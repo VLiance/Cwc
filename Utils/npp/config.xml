@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<NotepadPlus>
+    <!-- The History of opened files list -->
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0" />
+        <Path name="E:\_Project\TestNppDBG\DBGpPlugin_0_13b_src" />
+        <Path name="E:\_Project\Cwc\_Cwc_Demos" />
+        <Path name="E:\_Project\" />
+        <Path name="E:\_Project\_MyProject\CWave_Haxe\CWave" />
+        <Filter name="*.*" />
+        <Filter name="*.h,*.cpp" />
+        <Filter name="*.h" />
+        <Find name="ThreadMsg." />
+        <Find name=".ThreadMsg" />
+        <Find name="ThreadMsg" />
+        <Find name="fReceive" />
+        <Find name="cBase" />
+        <Find name="cwc" />
+        <Find name="GetInst" />
+        <Find name="oInst" />
+        <Find name="o" />
+        <Find name="CreateSingleton" />
+        <Replace name="h" />
+        <Replace name="e" />
+        <Replace name="b" />
+        <Replace name="\\" />
+        <Replace name="/" />
+        <Replace name="s" />
+        <Replace name="qa" />
+        <Replace name="d" />
+        <Replace name="qe" />
+        <Replace name="n" />
+    </FindHistory>
+    <History nbMaxFile="15" inSubMenu="no" customLength="-1">
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\Base\gzGate.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\Base\gzGate.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\SmartPtr\gzSp.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Base\Perspective.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Gfx\Perspective.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Base\Mat4x4.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Base\Mat3x4.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Base\Mat2x4.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Base\Mat1x4.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Sys\Message\BlitComplete.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Sys\Message\Blit.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Sys\Message\ContextLink.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Sys\Message\ContextCreated.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Sys\Context.cw" />
+        <File filename="E:\_Project\Cwc\_Cwc_Demos\Cwc_Demos-0.0.6\Base_Example\07_CWayv\obj\cw\Lib_GZ\Sys\ThreadObj.cpp" />
+    </History>
+    <GUIConfigs>
+        <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
+        <GUIConfig name="StatusBar">show</GUIConfig>
+        <GUIConfig name="TabBar" dragAndDrop="yes" drawTopBar="yes" drawInactiveTab="yes" reduce="yes" closeButton="yes" doubleClick2Close="no" vertical="no" multiLine="no" hide="no" quitOnEmpty="no" />
+        <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
+        <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
+        <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
+        <GUIConfig name="AppPosition" x="-1116" y="77" width="766" height="716" isMaximized="yes" />
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
+        <GUIConfig name="Auto-detection">auto</GUIConfig>
+        <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
+        <GUIConfig name="TrayIcon">no</GUIConfig>
+        <GUIConfig name="MaitainIndent">yes</GUIConfig>
+        <GUIConfig name="TagsMatchHighLight" TagAttrHighLight="yes" HighLightNonHtmlZone="no">yes</GUIConfig>
+        <GUIConfig name="RememberLastSession">yes</GUIConfig>
+        <GUIConfig name="DetectEncoding">yes</GUIConfig>
+        <GUIConfig name="NewDocDefaultSettings" format="0" encoding="4" lang="0" codepage="-1" openAnsiAsUTF8="yes" />
+        <GUIConfig name="langsExcluded" gr0="0" gr1="0" gr2="0" gr3="0" gr4="0" gr5="0" gr6="0" gr7="0" langMenuCompact="yes" />
+        <GUIConfig name="Print" lineNumber="no" printOption="3" headerLeft="$(FULL_CURRENT_PATH)" headerMiddle="" headerRight="$(LONG_DATE) $(TIME)" footerLeft="" footerMiddle="-$(CURRENT_PRINTING_PAGE)-" footerRight="" headerFontName="IBMPC" headerFontStyle="1" headerFontSize="8" footerFontName="" footerFontStyle="0" footerFontSize="9" margeLeft="0" margeRight="0" margeTop="0" margeBottom="0" />
+        <GUIConfig name="Backup" action="0" useCustumDir="no" dir="" isSnapshotMode="yes" snapshotBackupTiming="7000" />
+        <GUIConfig name="TaskList">yes</GUIConfig>
+        <GUIConfig name="MRU">yes</GUIConfig>
+        <GUIConfig name="URL">2</GUIConfig>
+        <GUIConfig name="globalOverride" fg="no" bg="no" font="no" fontSize="no" bold="no" italic="no" underline="no" />
+        <GUIConfig name="auto-completion" autoCAction="3" triggerFromNbChar="1" autoCIgnoreNumbers="yes" funcParams="yes" />
+        <GUIConfig name="auto-insert" parentheses="yes" brackets="yes" curlyBrackets="yes" quotes="no" doubleQuotes="yes" htmlXmlTag="no" />
+        <GUIConfig name="sessionExt"></GUIConfig>
+        <GUIConfig name="workspaceExt"></GUIConfig>
+        <GUIConfig name="MenuBar">show</GUIConfig>
+        <GUIConfig name="Caret" width="1" blinkRate="250" />
+        <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="yes" />
+        <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
+        <GUIConfig name="titleBar" short="no" />
+        <GUIConfig name="stylerTheme" path="E:\_Project\Cwc\Tools\npp\stylers.xml" />
+        <GUIConfig name="wordCharList" useDefault="yes" charsAdded="" />
+        <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
+        <GUIConfig name="multiInst" setting="0" />
+        <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" isFolderDroppedOpenFiles="no" docPeekOnTab="yes" docPeekOnMap="no" />
+        <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
+        <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="yes">yes</GUIConfig>
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="hide" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="-1" zoom2="2" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="DockingManager" leftWidth="285" rightWidth="765" topHeight="200" bottomHeight="304">
+            <FloatingWindow cont="4" x="594" y="907" width="1499" height="1117" />
+            <FloatingWindow cont="5" x="594" y="907" width="1499" height="1117" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="4" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="NppManagedPluginDemo" id="15" curr="1" prev="5" isVisible="yes" />
+            <ActiveTabs cont="0" activeTab="0" />
+            <ActiveTabs cont="1" activeTab="-1" />
+            <ActiveTabs cont="2" activeTab="-1" />
+            <ActiveTabs cont="3" activeTab="0" />
+            <ActiveTabs cont="4" activeTab="-1" />
+        </GUIConfig>
+    </GUIConfigs>
+    <ProjectPanels>
+        <ProjectPanel id="0" workSpaceFile="" />
+        <ProjectPanel id="1" workSpaceFile="" />
+        <ProjectPanel id="2" workSpaceFile="" />
+    </ProjectPanels>
+    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cpp/\Lib_GZ\ThreadExt.h">
+        <root foldername="E:/_Project/Cwc/_Cwc_Demos/Cwc_Demos-0.0.6/Base_Example/07_CWayv/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cpp/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cpp/SubLib_System/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cw/Engine_(GZ)/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cw/Wrapper_(GZ)/" />
+    </FileBrowser>
+</NotepadPlus>
