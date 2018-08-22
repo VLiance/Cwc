@@ -1,5 +1,5 @@
 
-# The CWeet compilation " [![Screen Shot](Tools/Cwc_small.png)](https://github.com/Honera/Cwc/blob/master/Tools/Cwc_small.png) "
+# The CWeet compilation " [![Screen Shot](Utils/Cwc_small.png)](https://github.com/Honera/Cwc/blob/master/Tools/Cwc_small.png) "
 
 Cwc is a **front-end** C++ compiler, for any programmer who wants to simplify life.
 
@@ -49,7 +49,7 @@ Connect to DrMemory, you can comb through all possible memory errors
 
 # Screen
 
- [![Screen Shot](Tools/Screen.png)](https://github.com/Honera/Cwc/blob/master/Tools/Screen.png)
+ [![Screen Shot](Utils/Screen.png)](https://github.com/Honera/Cwc/blob/master/Tools/Screen.png)
  
  
  # Supported Export Platform
