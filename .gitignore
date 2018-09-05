@@ -3,7 +3,7 @@
 *.lo
 *.o
 *.obj
-
+*.cwcfg
 # Precompiled Headers
 *.gch
 *.pch
@@ -63,5 +63,6 @@ backup/
 .vs/
 session.xml
 old/
+_old/
 Tools/npp/backup
 *.pdb
