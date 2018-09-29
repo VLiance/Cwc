@@ -113,13 +113,8 @@
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cw/Engine_(GZ)/\Gfx\Interface.cw">
+    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-3.9.0.1/clang_inc/\pkuintrin.h">
         <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-3.9.0.1/clang_inc/" />
-        <root foldername="E:/_Project/Cwc/_Cwc_Demos/Cwc_Demos-0.0.6/Base_Example/07_CWayv/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cpp/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cpp/SubLib_System/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cw/Engine_(GZ)/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cw/Wrapper_(GZ)/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cw/SubLib_System/GzWindows/" />
+        <root foldername="O:/_GitProjects/oryol/code/" />
     </FileBrowser>
 </NotepadPlus>
