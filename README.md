@@ -6,7 +6,7 @@ Cwc is a **front-end** C++ compiler, for any programmer who wants to simplify li
 It can be use as a direct remplacement of GCC or Clang. 
 Say goodbye to the huge mess of C++ compilation. This tool will become your best friend.
 
-It can be see as an intelligent compiler, it is use in the same way, but with additions. It can be connect to any IDE and enjoy all its features.
+It can be seen as an smart compiler, it is used in the same way, but with additions. It can be connected to any IDE and enjoy all its features.
 
 Cwc, is not a compiler in itself, like a chameleon, he redirects inputs / outputs with any back-end compiler
 
