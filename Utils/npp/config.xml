@@ -1,57 +1,41 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
-        <Path name="O:\_GitProjects\fips" />
-        <Path name="O:\_GitProjects\oryol-master(1)\oryol-master" />
-        <Path name="O:\_GitProjects\oryol\" />
-        <Path name="O:\_GitProjects\oryol\code\Modules" />
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="1" transparency="150" dotMatchesNewline="no">
         <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0" />
-        <Path name="E:\_Project\TestNppDBG\DBGpPlugin_0_13b_src" />
-        <Path name="E:\_Project\Cwc\_Cwc_Demos" />
-        <Path name="E:\_Project\" />
-        <Path name="E:\_Project\_MyProject\CWave_Haxe\CWave" />
+        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE" />
+        <Path name="E:\_Project\Cwc\_Cwc_Demos3\Cwc_Demos-0.0.6\Base_Example\07_CWayv\src_(Demo)" />
+        <Path name="E:\_Project\Cwc\_Cwc_Demos3\Cwc_Demos-0.0.6\Base_Example\07_CWayv\obj\cw" />
+        <Path name="E:\_Project\Cwc\_Cwc_Demos3\Cwc_Demos-0.0.6\Base_Example\07_CWayv" />
+        <Path name="E:\_Project\_MyProject\CWayv_Haxe" />
+        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\SubLib_System\GzWindows" />
+        <Path name="E:\_Project\MyHash\cryptogone-ariocppminer" />
+        <Path name="O:\HashTest\xmrigCC-master" />
+        <Path name="O:\_GitProjects\fips" />
         <Filter name="*.*" />
         <Filter name="*.h,*.cpp" />
         <Filter name="*.h" />
-        <Find name="add_custom_command" />
-        <Find name="DebugShaders" />
-        <Find name="ORYOL_COMPILER_HAS_THREADLOCAL" />
-        <Find name="_MSC_VER" />
-        <Find name="ORYOL_THREADLOCAL_PTR" />
-        <Find name="windows" />
-        <Find name="_wfullpath" />
-        <Find name="//////////////////////" />
-        <Find name="SetClass" />
-        <Find name="tHDef_IN_null" />
-        <Replace name=': return &quot;&quot;;' />
-        <Replace name="case _" />
-        <Replace name="void" />
-        <Replace name="h" />
-        <Replace name="e" />
-        <Replace name="b" />
-        <Replace name="\\" />
-        <Replace name="/" />
-        <Replace name="s" />
-        <Replace name="qa" />
+        <Find name="{wPath}" />
+        <Find name="Lib_GZ/Macro.h" />
+        <Find name="Lib_GZ::Base::pMath" />
+        <Find name="Lib_GZ::Base::Math" />
+        <Find name="GZ.Base.Math" />
+        <Find name="Lib_GZ::pMath" />
+        <Find name="Lib_GZ::Math" />
+        <Find name="GZ_M_fITronc" />
+        <Find name="Math" />
+        <Find name="Debug" />
+        <Replace name="Lib_GZ/Base/Macro.h" />
+        <Replace name="Lib_GZ::Base::Math::pMath" />
+        <Replace name="GZ.Base.Math.Math" />
+        <Replace name="Lib_GZ::Base::pMath" />
+        <Replace name="Lib_GZ::Base::Math" />
+        <Replace name="Lib_GZ::Base::Thread::cThreadMsg" />
+        <Replace name="Lib_GZ::Base::Thread::cThreadExt" />
+        <Replace name="namespace Lib_GZ{namespace Base{namespace Thread{class cThread;}}}" />
+        <Replace name="Lib_GZ::Base::Thread::cThread" />
+        <Replace name="Lib_GZ/Base/Thread/Thread" />
     </FindHistory>
-    <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="O:\_GitProjects\oryol\fips" />
-        <File filename="O:\_GitProjects\oryol\fips-files\generators\README.md" />
-        <File filename="O:\_GitProjects\oryol\code\Modules\Dbg\CMakeLists.txt" />
-        <File filename="O:\_GitProjects\oryol-master(1)\oryol-master\.gitignore" />
-        <File filename="O:\ProgAutre\oryol-master\code\Modules\Gfx\Setup\ProgramBundleSetup.cc" />
-        <File filename="O:\ProgAutre\fips-build\oryol-master\emsc-make-release\code\Modules\Dbg\DebugShaders.h" />
-        <File filename="O:\_GitProjects\oryol\code\Modules\Dbg\private\debugTextRenderer.cc" />
-        <File filename="O:\_GitProjects\oryol\code\Build.cwc" />
-        <File filename="O:\_GitProjects\oryol\code\Modules\Assets\Gfx\TextureLoader.cc" />
-        <File filename="O:\_GitProjects\oryol\code\Modules\Core\StackTrace.cc" />
-        <File filename="O:\_GitProjects\oryol\code\Modules\Core\private\windows\precompiled.h" />
-        <File filename="O:\_GitProjects\oryol\code\Modules\Core\Core.cc" />
-        <File filename="O:\_GitProjects\oryol\code\Modules\Core\App.cc" />
-        <File filename="N:\_MyPoject\_MyEngine_837\_MyEngine\_GroundZeroEngine\GzDemo\_Src\Demo\__MainInterface.h" />
-        <File filename="E:\_Project\_MyProject\CWayv_Haxe\CWDK\CwiftDemo\_outbin\test\Lib_Demo\MainEntry.h" />
-    </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
         <GUIConfig name="StatusBar">show</GUIConfig>
@@ -59,7 +43,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="-1603" y="684" width="685" height="520" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="-1217" y="392" width="860" height="952" isMaximized="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -92,13 +76,15 @@
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" isFolderDroppedOpenFiles="no" docPeekOnTab="yes" docPeekOnMap="no" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="yes">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="hide" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="yes" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="0" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
-        <GUIConfig name="DockingManager" leftWidth="264" rightWidth="765" topHeight="200" bottomHeight="324">
-            <FloatingWindow cont="4" x="594" y="907" width="1499" height="1117" />
-            <FloatingWindow cont="5" x="594" y="907" width="1499" height="1117" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="hide" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="3" zoom2="-1" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="SmartHighLightCaseSensitive">no</GUIConfig>
+        <GUIConfig name="DockingManager" leftWidth="211" rightWidth="765" topHeight="200" bottomHeight="166">
+            <FloatingWindow cont="4" x="1090" y="807" width="1431" height="940" />
+            <FloatingWindow cont="4" x="1090" y="807" width="1431" height="940" />
+            <FloatingWindow cont="5" x="2367" y="917" width="2708" height="1050" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="4" isVisible="no" />
-            <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="dummy" id="0" curr="3" prev="4" isVisible="yes" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppManagedPluginDemo" id="15" curr="1" prev="5" isVisible="yes" />
             <ActiveTabs cont="0" activeTab="0" />
@@ -108,13 +94,34 @@
             <ActiveTabs cont="4" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
+    <History nbMaxFile="15" inSubMenu="no" customLength="-1">
+        <File filename="E:\_Project\Cwc\_Cwc_Demos3\Cwc_Demos-0.0.6\Base_Example\07_CWayv\obj\cw\Lib_GZ\Base\Thread\Thread.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\Base\GzBase.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\Lib.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\GZ.h" />
+        <File filename="E:\_Project\Cwc\_Cwc_Demos3\Cwc_Demos-0.0.6\Base_Example\07_CWayv\obj\cw\Lib_GZ\Lib_GZ.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\Cpp\MinGZE.cxx" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\Base\Container\String\gzString.cpp" />
+        <File filename="E:\_Project\Cwc\_Cwc_Demos3\Cwc_Demos-0.0.6\Base_Example\07_CWayv\obj\cw\Lib_GZ\Gfx\Pixel.cpp" />
+        <File filename="E:\_Project\Cwc\_Cwc_Demos3\Cwc_Demos-0.0.6\Base_Example\07_CWayv\obj\cw\Lib_GZ\Gfx\Object.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\Base\Math\_Math.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Base\Math\Math.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\Base\Math\Math.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\Base\Math\Math.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\Base\Container\Array\DataArrayCommun.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Gfx\GlobalData.cw" />
+    </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-3.9.0.1/clang_inc/\pkuintrin.h">
+    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-3.9.0.1/i686-w64-mingw32/include/c++/\locale">
         <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-3.9.0.1/clang_inc/" />
-        <root foldername="O:/_GitProjects/oryol/code/" />
+        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-3.9.0.1/include/" />
+        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-3.9.0.1/i686-w64-mingw32/include/" />
+        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-3.9.0.1/i686-w64-mingw32/include/c++/" />
+        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-3.9.0.1/i686-w64-mingw32/include/c++/backward/" />
+        <root foldername="E:/_Project/Cwc/_Cwc_Demos/Cwc_Demos-0.0.6/Other/GZE_Prototype/" />
     </FileBrowser>
 </NotepadPlus>
