@@ -19,7 +19,7 @@ The main principle is to send several commands simultaneously, with the followin
 `|` : Allows you to send commands simultaneously in multi-process. The output is guaranteed to be in the same order,
 so it's always the same result that is displayed
 
-`>`: To make sequences, it will be necessary to wait for previous orders
+`>`: To make sequences, when it's necessary to wait for previous orders
 
 So we can do something like **"buildObj `|` buildObj `>` Link"**
 
@@ -42,13 +42,11 @@ Cwc has a concrete detection, it checks all the dependencies of each file, it al
 any change of command line. A command like "clean" is thus practically obsolete.
 
 ### Compilation by folder:
-It is possible to send a whole directory in one command line, it will process all the files inside it
-which greatly simplify the command list.
+It is possible to send a whole directory in one command line. It will process all the files inside, which greatly simplify the command list.
 
 ### Accepts the variables:
-We can insert variables in our commands, using parentheses ()
-Several important variables are predefined to simplify the management of the files according to
-the build type (x86, x64, Debug, O2, O3) which requires different.
+We can insert variables in our commands, using braces {}
+There are a lot of build-in vars to simplify compilation processs like the build type (x86, x64, Debug, O2, O3) which requires different folder
 
 ### Sanitizer:
 Connect to DrMemory, you can comb through all possible memory errors.
@@ -63,7 +61,7 @@ Connect to DrMemory, you can comb through all possible memory errors.
 
 Cwc can export binary files to any platform without any modification of your makefile or your code
 
-Here are the functional toolchains for now:
+Here are the supported toolchains for now:
 
 * Windows           ([LibRT](https://github.com/VLiance/LibRT))
 * Web -> Emscriptem ([WebRT](https://github.com/VLiance/WebRT))
