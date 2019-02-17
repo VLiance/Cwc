@@ -43,7 +43,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="-1217" y="392" width="860" height="952" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="-1578" y="655" width="860" height="952" isMaximized="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -95,7 +95,6 @@
         </GUIConfig>
     </GUIConfigs>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Project\Cwc\_Cwc_Demos3\Cwc_Demos-0.0.6\Base_Example\07_CWayv\obj\cw\Lib_GZ\Base\Thread\Thread.h" />
         <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\Base\GzBase.h" />
         <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\Lib.h" />
         <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\GZ.h" />
@@ -110,18 +109,12 @@
         <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\Base\Math\Math.h" />
         <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cpp\Lib_GZ\Base\Container\Array\DataArrayCommun.h" />
         <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.0\cw\Engine_(GZ)\Gfx\GlobalData.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.1\CWayv\_HelloWorld\obj\cw\Lib_Demo\MainEntry.cpp" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-3.9.0.1/i686-w64-mingw32/include/c++/\locale">
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-3.9.0.1/clang_inc/" />
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-3.9.0.1/include/" />
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-3.9.0.1/i686-w64-mingw32/include/" />
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-3.9.0.1/i686-w64-mingw32/include/c++/" />
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-3.9.0.1/i686-w64-mingw32/include/c++/backward/" />
-        <root foldername="E:/_Project/Cwc/_Cwc_Demos/Cwc_Demos-0.0.6/Other/GZE_Prototype/" />
-    </FileBrowser>
+    <FileBrowser />
 </NotepadPlus>
