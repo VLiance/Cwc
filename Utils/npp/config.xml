@@ -116,5 +116,18 @@
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser />
+    <FileBrowser latestSelectedItem="E:/_Project/Cwc/_Cwc_Demos2/Cwc_Demos-0.0.1/CWayv/Demo/\src_(Demo)">
+        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/clang_inc/" />
+        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/include/" />
+        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/i686-w64-mingw32/include/" />
+        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/i686-w64-mingw32/include/c++/" />
+        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/i686-w64-mingw32/include/c++/backward/" />
+        <root foldername="E:/_Project/Cwc/_Cwc_Demos2/Cwc_Demos-0.0.1/CWayv/Demo/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.1/src/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.1/src/SubLib_System/" />
+        <root foldername="E:/_Project/Cwc/_Cwc_Demos2/Cwc_Demos-0.0.1/CWayv/Demo/src_(Demo)/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.1/src/Lib_GZ/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.1/src/SubLib_System/Lib_GzWindows/" />
+        <root foldername="E:/_Project/Cwc/_Cwc_Demos2/Cwc_Demos-0.0.1/CWayv/Demo/obj/cw/" />
+    </FileBrowser>
 </NotepadPlus>
