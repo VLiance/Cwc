@@ -18,16 +18,18 @@
         <Filter name="*.cpp, *.h. *.cw" />
         <Filter name="*.h,*.cpp" />
         <Filter name="*.h" />
-        <Find name="int_sqrt" />
-        <Find name="lerp" />
-        <Find name="fToCStr" />
-        <Find name="fToWStr" />
-        <Find name="fPrint" />
-        <Find name="Get" />
-        <Find name="oGL" />
-        <Find name="Void" />
-        <Find name="f Void" />
-        <Find name="e Void" />
+        <Find name="ThreadLoop(" />
+        <Find name="fAdd(" />
+        <Find name="fLoop(" />
+        <Find name="Update(" />
+        <Find name="fNextTask" />
+        <Find name="qaList" />
+        <Find name="aList" />
+        <Find name="fAdd" />
+        <Find name="Monothread" />
+        <Find name="fManageMessage" />
+        <Replace name="GZ_D_Monothread" />
+        <Replace name="D_Monothread" />
         <Replace name="fTrace" />
         <Replace name="m" />
         <Replace name="GZ.Sys.Interface.Window" />
@@ -36,8 +38,6 @@
         <Replace name="_nVal" />
         <Replace name="Lib_GZ/GZ_inc.h" />
         <Replace name='&quot;Lib_GZ/GZ_inc.h&quot;' />
-        <Replace name="Lib_GZ/Base/Macro.h" />
-        <Replace name="Lib_GZ::Base::Math::pMath" />
     </FindHistory>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -46,7 +46,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="-1885" y="585" width="1656" height="821" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="226" y="455" width="1656" height="821" isMaximized="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -79,9 +79,9 @@
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" isFolderDroppedOpenFiles="no" docPeekOnTab="yes" docPeekOnMap="no" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="yes">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="hide" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="-1" zoom2="4" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="hide" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="2" zoom2="-1" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
         <GUIConfig name="SmartHighLightCaseSensitive">no</GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="282" rightWidth="765" topHeight="200" bottomHeight="410">
+        <GUIConfig name="DockingManager" leftWidth="282" rightWidth="765" topHeight="200" bottomHeight="295">
             <FloatingWindow cont="4" x="1090" y="807" width="1431" height="940" />
             <FloatingWindow cont="4" x="1090" y="807" width="1431" height="940" />
             <FloatingWindow cont="5" x="2367" y="917" width="2708" height="1050" />
@@ -98,27 +98,26 @@
         </GUIConfig>
     </GUIConfigs>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.2\CWayv\Demo\obj\cw\Lib_GZ\Gfx\Object.h" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gfx\Shape.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gfx\Object.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Easing\gzEase.h" />
-        <File filename="N:\_MyPoject\_MyEngine_838_BefRedoAll\_MyEngine\_CWaveLib\GZE\SimaCodeEngine\GFX\Shape.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gfx\Button.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gfx\Clip\TriangleClip.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Sys\Interface\Interface.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gfx\Clip\Rectangle.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.2\CWayv\Demo\src_(Demo)\Screen\DemoRoll.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gfx\Root.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gfx\Attribute.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzWeb\Emscripten\Sys\OpContextHandle.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzOpenGL\OpenGL - Copy.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\_old\cw\Engine_(GZ)\Gpu\ShaderBase\ShaderBase.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Container\Array\DataArrayCommun.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Atomic\AtomicQueue.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\_old\Thread.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzWindows\Overplace\OpThreadObj.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Thread\ThreadExt.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\_old\cw\Engine_(GZ)\Sys\ContextHandle.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Thread\ThreadList.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Thread\ThreadList.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\EntryPoint.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzWeb_Emsc\Emscripten\Sys\OpSystem.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Sys\Interface\Context.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.2\CWayv\Demo\obj\cw\Lib_GzWeb_Emsc\Emscripten\Sys\OpTimer.cpp" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.2/CWayv/Demo/\Make_For_Web (Emscripten).cwMake">
+    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.2/CWayv/Demo/\obj">
         <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/WebRT/WebRT-1.35.0/emscripten/1.35.0/system/include/" />
         <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.2/CWayv/Demo/" />
         <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/" />
@@ -126,6 +125,5 @@
         <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.2/CWayv/Demo/src_(Demo)/" />
         <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/Lib_GZ/" />
         <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/Lib_GzWeb_Emsc/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.2/CWayv/Demo/obj/cw/" />
     </FileBrowser>
 </NotepadPlus>
