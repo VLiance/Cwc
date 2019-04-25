@@ -69,6 +69,16 @@ Here are the supported toolchains for now:
 TODO:
 
 * Android           ([DroidRT](https://github.com/VLiance/DroidRT))
-* IOS				([DroidRT](https://github.com/VLiance/IRT))
+* IOS				([IRT](https://github.com/VLiance/IRT))
 
 Any other custom toolchain can be added easily with a Github repo, possibilities are limitless.
+
+ # How to use
+
+See the wiki:
+* [Directives](Cwc/wiki/Directives)
+* [Variable](Cwc/wiki/Variables)
+
+See some demos:
+* [Demos](https://github.com/VLiance/Demos)
+
