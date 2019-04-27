@@ -63,13 +63,13 @@ Cwc can export binary files to any platform without any modification of your mak
 
 Here are the supported toolchains for now:
 
-* Windows           ([LibRT](https://github.com/VLiance/LibRT))
-* Web -> Emscriptem ([WebRT](https://github.com/VLiance/WebRT))
+* Windows           ([LibRT](https://github.com/VLianceTool/LibRT))
+* Web -> Emscriptem ([WebRT](https://github.com/VLianceTool/WebRT))
 
 TODO:
 
-* Android           ([DroidRT](https://github.com/VLiance/DroidRT))
-* IOS				([IRT](https://github.com/VLiance/IRT))
+* Android           ([DroidRT](https://github.com/VLianceTool/DroidRT))
+* IOS				([IRT](https://github.com/VLianceTool/IRT))
 
 Any other custom toolchain can be added easily with a Github repo, possibilities are limitless.
 
