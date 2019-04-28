@@ -10,14 +10,14 @@
         <!-- 2 positions : "horizontal" or "vertical"-->
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <!-- For the attribut of position, 2 status : docked or undocked ; 2 status : "show" or "hide" -->
-        <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
+        <GUIConfig name="UserDefineDlg" position="docked">show</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="-29" y="51" width="1456" height="1019" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="164" y="212" width="1456" height="1019" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="no" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="-2" whiteSpaceShow="hide" eolShow="hide" lineWrapMethod="aligned" disableAdvancedScrolling="no" borderEdge="yes" zoom2="1" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="no" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="1" whiteSpaceShow="hide" eolShow="hide" lineWrapMethod="aligned" disableAdvancedScrolling="no" borderEdge="yes" zoom2="1" borderWidth="2" smoothFont="no" />
         <!-- For the secodary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box" -->
@@ -118,18 +118,20 @@
         <Find name="fSetSpeed" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="O:\_GitProjects\NazaraEngine-master_Remqb\NazaraEngine-Emscripten\include\Nazara\Core\ResourceLoader.hpp" />
-        <File filename="O:\_GitProjects\NazaraEngine-master_Remqb\NazaraEngine-Emscripten\src\Nazara\Core\Posix\HardwareInfoImpl.cpp" />
-        <File filename="O:\_GitProjects\NazaraEngine-master_Remqb\NazaraEngine-Emscripten\src\Nazara\Utility\Utility.cpp" />
-        <File filename="O:\_GitProjects\NazaraEngine-master_Remqb\NazaraEngine-Emscripten\Make_For_Web (Emscripten).cwMake" />
-        <File filename="O:\_GitProjects\NazaraEngine-master_Remqb\NazaraEngine-Emscripten\examples\MeshInfos\main.cpp" />
-        <File filename="O:\_GitProjects\NazaraEngine-master_Remqb\NazaraEngine-Emscripten\tests\resources\Engine\Graphics\dragon_recon\README" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzWeb_Emsc\Emscripten\Sys\OpDebug.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\_Make_For_Web (Emscripten).cwcfg" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\File\Image.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\File\Resource.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\File\RcFont.cw" />
+        <File filename="O:\_GitProjects\NazaraEngine-master_Remqb\NazaraEngine-Emscripten\src\Nazara\Utility\GuillotineImageAtlas.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\Lib\FreeType\_out\Web_Emsc\FreeType.a" />
+        <File filename="O:\_GitProjects\NazaraEngine-master_Remqb\NazaraEngine-Emscripten\src\Nazara\Utility2\GuillotineImageAtlas.cpp" />
+        <File filename="C:\Users\Administrator\Desktop\New Text Document (8).txt" />
+        <File filename="O:\_GitProjects\NazaraEngine-master_Remqb\NazaraEngine-Emscripten\Build.cwc" />
+        <File filename="O:\_GitProjects\NazaraEngine-master_Remqb\NazaraEngine-Emscripten\Build_so.cwc" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzWindows\MainHeader.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\.gitignore" />
+        <File filename="E:\_Project\Cwc\Toolchain\VLianceTool\LibRT\LibRT-Test\wType\00_Default.xml" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\Lib\FreeType\Make_For_Windows.cwMake" />
         <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\_Make_For_Windows.cwcfg" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\Make_For_Windows.cwMake" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\Make_For_Web (Emscripten).cwMake" />
-        <File filename="O:\_GitProjects\NazaraEngine-master_Remqb\NazaraEngine-Emscripten\Make_For_Web (Emscripten)_SO.cwMake" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
