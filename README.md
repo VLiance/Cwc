@@ -75,7 +75,7 @@ Any other custom toolchain can be added easily with a Github repo, possibilities
 
  # How to use
 
-See the wiki:
+See the [wiki](https://github.com/VLiance/Cwc/wiki):
 * [Directives](https://github.com/VLiance/Cwc/wiki/Directives)
 * [Variable](https://github.com/VLiance/Cwc/wiki/Variables)
 
