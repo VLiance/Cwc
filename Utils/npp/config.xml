@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="-1922" y="104" width="1501" height="1002" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="-1172" y="605" width="1501" height="1002" isMaximized="no" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -92,12 +92,12 @@
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" />
         <GUIConfig name="DockingManager" leftWidth="161" rightWidth="200" topHeight="200" bottomHeight="207">
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
-            <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="yes" />
             <ActiveTabs cont="0" activeTab="0" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
-            <ActiveTabs cont="3" activeTab="0" />
+            <ActiveTabs cont="3" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
@@ -138,15 +138,5 @@
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/i686-w64-mingw32/include/c++/\string">
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/include/" />
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/i686-w64-mingw32/include/" />
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/i686-w64-mingw32/include/c++/" />
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/i686-w64-mingw32/include/c++/backward/" />
-        <root foldername="O:/_GitProjects/CwcNazara/NazaraTest/TestNz/" />
-        <root foldername="E:/_Project/Cwc/Lib/Cwc-Lib/NazaraEngine/NazaraEngine-0.3.1.Emsc/src/" />
-        <root foldername="O:/_GitProjects/CwcNazara/NazaraTest/TestNz/obj/" />
-        <root foldername="E:/_Project/Cwc/Lib/Cwc-Lib/NazaraEngine/NazaraEngine-0.3.1.Emsc/thirdparty/include/" />
-        <root foldername="E:/_Project/Cwc/Lib/Cwc-Lib/NazaraEngine/NazaraEngine-0.3.1.Emsc/include/" />
-    </FileBrowser>
+    <FileBrowser />
 </NotepadPlus>
