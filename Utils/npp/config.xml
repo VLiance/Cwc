@@ -13,11 +13,11 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="-1699" y="314" width="1501" height="1002" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="23" y="156" width="1501" height="904" isMaximized="no" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="no" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="-1" whiteSpaceShow="hide" eolShow="hide" lineWrapMethod="aligned" disableAdvancedScrolling="no" borderEdge="yes" zoom2="1" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="no" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="-1" whiteSpaceShow="hide" eolShow="hide" lineWrapMethod="aligned" disableAdvancedScrolling="no" borderEdge="yes" zoom2="-1" borderWidth="2" smoothFont="no" />
         <!-- For the secodary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box" -->
@@ -90,7 +90,7 @@
         <GUIConfig name="stylerTheme" path="E:\_Project\Cwc\Utils\npp\stylers.xml" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" />
-        <GUIConfig name="DockingManager" leftWidth="161" rightWidth="200" topHeight="200" bottomHeight="99">
+        <GUIConfig name="DockingManager" leftWidth="161" rightWidth="200" topHeight="200" bottomHeight="234">
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="-1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="yes" />
@@ -107,47 +107,59 @@
         <Path name="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\Lib\FreeType\Freetype_GZE" />
         <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src" />
         <Path name="O:\_GitProjects\NazaraEngine-master_Remqb\NazaraEngine-Emscripten" />
+        <Filter name="*.cpp" />
         <Filter name="*.*" />
-        <Find name="#define NAZARA_CORE_WINDOWS_NT6" />
-        <Find name="InitializeConditionVariable" />
-        <Find name="m_cv" />
-        <Find name="TestNz" />
-        <Find name="c++11" />
-        <Find name="wPlatform" />
-        <Find name="undefined" />
-        <Find name="error" />
-        <Find name="wPath" />
-        <Find name="fcolor-diagnostics" />
+        <Find name="vNzOutLib" />
+        <Find name="vNzOutLib_Dynamic" />
+        <Find name="vNzOutObj" />
+        <Find name="IsButtonPressed" />
+        <Find name="ButtonPressed" />
+        <Find name="RefCounted" />
+        <Find name="platform" />
+        <Find name="NAZARA_PLATFORM_API" />
+        <Find name="main" />
+        <Find name="main(" />
+        <Replace name="vNzOutDynamic" />
+        <Replace name="vNzOutLib_Dynamic" />
         <Replace name="_sPlatform" />
         <Replace name="_pModule" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\Make_For_Web (Emscripten).cwMake" />
-        <File filename="O:\_GitProjects\CwcNazara\NazaraTest\TestNz\obj\TestNz_Windows_O2\Nazara_Obj_Windows_O2\Hash\SHA\Internal.o" />
-        <File filename="E:\_Project\_MyProject\Other\_Demos_OOinC\Demo_0005\Community\Nazara\Build_NazaraEngine.cwc" />
-        <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\src\Nazara\Core\Win32\ConditionVariableImpl.cpp" />
-        <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\src\Nazara\Core\Win32\ConditionVariableImpl.hpp" />
-        <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\include\Nazara\Core\Config.hpp" />
-        <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\build\cwc\NazaraEngine.cwcfg" />
-        <File filename="O:\_GitProjects\CwcNazara\NazaraTest\TestNz\Make_For_Windows.cwMake" />
-        <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\build\cwc\NzBuild - Copy.cwc" />
-        <File filename="O:\_GitProjects\CwcNazara\NazaraTest\TestNz\Make_For_Web (Emscripten).cwMake" />
-        <File filename="O:\_GitProjects\CwcNazara\NazaraTest\TestNz\Build.cwc" />
+        <File filename="O:\_GitProjects\CwcNazara\NazaraTest\TestNz\obj\TestNz_Windows_O2\Nazara_Obj_Windows_O2\Renderer\RenderWindow.o" />
+        <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\include\Nazara\Platform\Mouse.hpp" />
+        <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\include\Nazara\Platform\Config.hpp" />
+        <File filename="E:\_Project\oldd\Cwc2\22\Demos\Community\Nazara\Build_NazaraEngine.cwc" />
+        <File filename="E:\_Project\oldd\Cwc_good\old\_Cwc_Demos_Src_bavkup\Demos\Community\Nazara\Build_NazaraEngine.cwc" />
+        <File filename="C:\Users\Administrator\Desktop\Build_NazaraEngine.cwc" />
+        <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\src\Nazara\Platform\Win32\InputImpl.hpp" />
+        <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\src\Nazara\Platform\Win32\InputImpl.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\SDK\src\NDK\Widgets\TextAreaWidget.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\examples\Particles\LogoDemo.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\examples\Particles\SpacebattleDemo.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\src\Nazara\Platform\Mouse.cpp" />
+        <File filename="O:\_GitProjects\CwcNazara\NazaraTest\TestNz\.gitignore" />
+        <File filename="O:\_GitProjects\CwcNazara\NazaraTest\Github_Preview\Web_Emsc_O2\App.html" />
+        <File filename="E:\_Project\_Current_LibRT_WebRT\WebRT-1.38.27\_shell\Base\Shell_Common.js" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/i686-w64-mingw32/include/c++/\thread">
+    <FileBrowser latestSelectedItem="O:/_GitProjects/CwcNazara/NazaraTest/TestNz_REMqb_Fork/TestNz_Windows/\Make_For_Windows [Release].cwMake">
         <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/include/" />
         <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/i686-w64-mingw32/include/" />
         <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/i686-w64-mingw32/include/c++/" />
         <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/i686-w64-mingw32/include/c++/backward/" />
-        <root foldername="O:/_GitProjects/CwcNazara/NazaraTest/TestNz/" />
-        <root foldername="E:/_Project/Cwc/Lib/Cwc-Lib/NazaraEngine/NazaraEngine-0.3.1.Emsc/src/" />
-        <root foldername="O:/_GitProjects/CwcNazara/NazaraTest/TestNz/obj/" />
-        <root foldername="E:/_Project/Cwc/Lib/Cwc-Lib/NazaraEngine/NazaraEngine-0.3.1.Emsc/thirdparty/include/" />
-        <root foldername="E:/_Project/Cwc/Lib/Cwc-Lib/NazaraEngine/NazaraEngine-0.3.1.Emsc/include/" />
+        <root foldername="O:/_GitProjects/CwcNazara/NazaraTest/TestNz_REMqb_Fork/TestNz_Windows/" />
+        <root foldername="E:/_Project/Cwc/Lib/Cwc-Test/NazaraEngine_REMqb_Test/NazaraEngine_REMqb_Test-0.3.1.Cwc/src/" />
+        <root foldername="E:/_Project/Cwc/Lib/Cwc-Test/NazaraEngine_REMqb_Test/NazaraEngine_REMqb_Test-0.3.1.Cwc/thirdparty/include/" />
+        <root foldername="E:/_Project/Cwc/Lib/Cwc-Test/NazaraEngine_REMqb_Test/NazaraEngine_REMqb_Test-0.3.1.Cwc/include/" />
+        <root foldername="E:/_Project/Cwc/Lib/Cwc-Test/NazaraEngine_REMqb_Test/NazaraEngine_REMqb_Test-0.3.1.Cwc/SDK/include/" />
+        <root foldername="E:/_Project/Cwc/Lib/Cwc-Test/NazaraEngine_REMqb_Test/NazaraEngine_REMqb_Test-0.3.1.Cwc/SDK/src/" />
+        <root foldername="O:/_GitProjects/CwcNazara/NazaraTest/TestNz_REMqb_Fork/TestNz_Windows/obj/" />
+        <root foldername="O:/_GitProjects/CwcNazara/NazaraTest/TestNz_REMqb_Fork/TestNz_Windows/obj/TestNz_Windows_O2/Nazara_Lib_Static_Windows_O2/" />
+        <root foldername="O:/_GitProjects/CwcNazara/NazaraTest/TestNz_REMqb_Fork/TestNz_Windows/obj/TestNz_Windows_O2/Nazara_Lib_Dynamic_Windows_O2/" />
+        <root foldername="E:/_Project/Cwc/Lib/Cwc-Test/NazaraEngine_REMqb_Test/NazaraEngine_REMqb_Test-0.3.1.Cwc/thirdparty/lib/mingw/x86/" />
     </FileBrowser>
 </NotepadPlus>
