@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # The CWeet compilation " [![Screen Shot](Utils/Cwc_small.png)](https://github.com/Honera/Cwc/blob/master/Tools/Cwc_small.png) "
 
@@ -84,3 +85,7 @@ See some demos:
 * [Some libs using Cwc](https://github.com/cwc-lib)
 * [Some Web test](https://github.com/VLiance/Cwc_Tests)
 
+=======
+# Cwc
+Intelligent front-end C++ compiler
+>>>>>>> parent of 1e00b76... First
