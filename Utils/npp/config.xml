@@ -2,22 +2,25 @@
 <NotepadPlus>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base" />
+        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Container\String" />
+        <Path name="O:\_GitProjects\LevelDb" />
         <Path name="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\" />
         <Path name="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\src\Nazara\Core\Win32" />
         <Path name="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\Lib\FreeType\Freetype_GZE" />
         <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src" />
         <Path name="O:\_GitProjects\NazaraEngine-master_Remqb\NazaraEngine-Emscripten" />
         <Filter name="*.*" />
+        <Find name="gzDtThis" />
+        <Find name="pshpac" />
+        <Find name="leveldb" />
+        <Find name="Thread" />
+        <Find name="getSettings" />
+        <Find name="RandomString" />
+        <Find name="RunAllTest" />
         <Find name="#define NAZARA_CORE_WINDOWS_NT6" />
         <Find name="InitializeConditionVariable" />
         <Find name="m_cv" />
-        <Find name="TestNz" />
-        <Find name="c++11" />
-        <Find name="wPlatform" />
-        <Find name="undefined" />
-        <Find name="error" />
-        <Find name="wPath" />
-        <Find name="fcolor-diagnostics" />
         <Replace name="_sPlatform" />
         <Replace name="_pModule" />
     </FindHistory>
@@ -28,7 +31,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="-1502" y="74" width="1153" height="757" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="-72" y="818" width="1649" height="666" isMaximized="no" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -61,48 +64,48 @@
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" isFolderDroppedOpenFiles="no" docPeekOnTab="yes" docPeekOnMap="no" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="-1" zoom2="1" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="-1" zoom2="-1" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
         <GUIConfig name="SmartHighLightCaseSensitive">no</GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="389" rightWidth="200" topHeight="200" bottomHeight="183">
+        <GUIConfig name="DockingManager" leftWidth="220" rightWidth="200" topHeight="200" bottomHeight="226">
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
-            <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="-1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="-1" isVisible="no" />
             <ActiveTabs cont="0" activeTab="0" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
-            <ActiveTabs cont="3" activeTab="-1" />
+            <ActiveTabs cont="3" activeTab="0" />
         </GUIConfig>
     </GUIConfigs>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\build\cwc\NzBuild - Copy.cwc" />
-        <File filename="O:\_GitProjects\CwcNazara\NazaraTest\TestNz\Make_For_Web (Emscripten).cwMake" />
-        <File filename="O:\_GitProjects\CwcNazara\NazaraTest\TestNz\Build.cwc" />
-        <File filename="O:\_GitProjects\Navigateur-Reader-HTML-CSS-Cpcdos\litehtml_CpcDos_Test\include\master.css" />
-        <File filename="E:\_Project\_Current_LibRT_WebRT\LibRT-Windows\cwc\LibRT.Default.cwcfg" />
-        <File filename="C:\Users\Administrator\Desktop\New Text Document (3).txt" />
-        <File filename="E:\_Project\Cwc\Toolchain\VLianceTool\LibRT\LibRT-Test\cwc\LibRT.Mingw.cwcfg" />
-        <File filename="E:\_Project\Cwc\Toolchain\VLianceTool\LibRT\LibRT-Test\cwc\LibRT.Default.cwcfg" />
-        <File filename="O:\_GitProjects\NazaraEngine-master_Remqb\NazaraEngine-Emscripten\Build.cwc" />
-        <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\build\cwc\Web_Emsc\Nz_Web_Emsc.cwc" />
-        <File filename="E:\_Project\oldd\Cwc - Copy - Copy\_Cwc_Demos\Demos\Community\Nazara\Build_NazaraEngine.cwc" />
-        <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\build\cwc\Windows\Nz_Windows.cwc" />
         <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine\NazaraEngine-0.3.1.Emsc\build\cwc\NzBuild.cwc" />
-        <File filename="O:\_GitProjects\Navigateur-Reader-HTML-CSS-Cpcdos\litehtml_CpcDos_Test\src\Browser.cpp" />
-        <File filename="E:\_Project\Cwc\Toolchain\VLianceTool\LibRT\LibRT-Test\i686-w64-mingw32\include\c++\utility" />
+        <File filename="E:\_Project\Cwc\Lib\Cwc-Lib\NazaraEngine-0.3\build\cwc\NzBuild.cwc" />
+        <File filename="O:\_GitProjects\NazaraEngine-master_Remqb\NazaraEngine-Emscripten\Build.cwc" />
+        <File filename="E:\_Project\Cwc\Toolchain\VLianceTool\LibRT\LibRT-8\info.txt" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\Third-party\Sokol\Build.cwc" />
+        <File filename="E:\_Project\Cwc\Toolchain\VLianceTool\LibRT\LibRT-8\i686-w64-mingw32\include\float.h" />
+        <File filename="E:\_Project\Cwc\Toolchain\VLianceTool\WebRT\WebRT-1.38.27\cwc\WebRT.Default.cwcfg" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\src_(Demo)\MainEntry.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\src_(Demo)\Screen\DemoText.cw" />
+        <File filename="O:\_GitProjects\leveldb\cwc\Make_For_Windows [Debug].cwMake" />
+        <File filename="O:\_GitProjects\LevelDb\cwc\Make_For_Web (Emscripten).cwMake" />
+        <File filename="O:\_GitProjects\LevelDb\cwc\Make_For_Windows [Release].cwMake" />
+        <File filename="O:\_GitProjects\LevelDb\cwc\Build.cwc" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="O:/_GitProjects/Navigateur-Reader-HTML-CSS-Cpcdos/litehtml_CpcDos_Test/src/\main.cpp">
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/clang_inc/" />
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/include/" />
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/i686-w64-mingw32/include/" />
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/i686-w64-mingw32/include/c++/" />
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-Test/i686-w64-mingw32/include/c++/backward/" />
-        <root foldername="O:/_GitProjects/Navigateur-Reader-HTML-CSS-Cpcdos/litehtml_CpcDos_Test/" />
-        <root foldername="O:/_GitProjects/Navigateur-Reader-HTML-CSS-Cpcdos/litehtml_CpcDos_Test/include/" />
-        <root foldername="O:/_GitProjects/Navigateur-Reader-HTML-CSS-Cpcdos/litehtml_CpcDos_Test/src/" />
-    </FileBrowser>
+    
+<FileBrowser>
+ <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/clang_inc/" />
+ <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/lib/gcc/i686-w64-mingw32/8.1.0/include/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/obj/cw/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/src_(Demo)/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/Lib_GZ/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/Lib_GzWindows/" />
+</FileBrowser>
 </NotepadPlus>
