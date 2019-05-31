@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # The CWeet compilation " [![Screen Shot](Utils/Cwc_small.png)](https://github.com/Honera/Cwc/blob/master/Tools/Cwc_small.png) "
 
