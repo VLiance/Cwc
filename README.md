@@ -83,8 +83,3 @@ See some demos:
 * [Demos](https://github.com/VLiance/Demos)
 * [Some libs using Cwc](https://github.com/cwc-lib)
 * [Some Web test](https://github.com/VLiance/Cwc_Tests)
-
-=======
-# Cwc
-Intelligent front-end C++ compiler
->>>>>>> parent of 1e00b76... First
