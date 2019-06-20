@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src" />
+        <Path name="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw" />
+        <Path name="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj" />
         <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\" />
         <Path name="E:\_Project\Cwc\Lib\VLiance\ThalliumBrowser\litehtml" />
         <Path name="I:\ddd ddd ddd\Navigateur-Reader-HTML-CSS-Cpcdos\litehtml_CpcDos_Test" />
@@ -9,20 +12,17 @@
         <Path name="E:\_Project\Cwc\Lib\VLiance\ThalliumBrowser" />
         <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\" />
         <Path name="E:\_Project\Cwc\Toolchain\VLianceTool\LibRT\LibRT-9\i686-w64-mingw32" />
-        <Path name="E:\_Project\Cwc\Toolchain\VLianceTool\LibRT\LibRT-9\" />
-        <Path name="E:\_Project\Cwc\Toolchain\VLianceTool\LibRT\LibRT-9\pthreads" />
-        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base" />
         <Filter name="*.*" />
-        <Find name='&quot;Del' />
-        <Find name="Delete" />
-        <Find name="GetInst" />
-        <Find name='&quot;[&quot;' />
-        <Find name="fClear(" />
-        <Find name="remove(" />
-        <Find name="fClear" />
-        <Find name="gzSp.h" />
-        <Find name="remove" />
         <Find name="gzSCast" />
+        <Find name="gzSCastSelf" />
+        <Find name="gzQElementHold" />
+        <Find name="fPush" />
+        <Find name="SubAddInst" />
+        <Find name="AddInst" />
+        <Find name="Add Inst DemoRool" />
+        <Find name="cpp_class" />
+        <Find name="nNbInst" />
+        <Find name="~gzQElementHold" />
         <Replace name="gzSharedCount" />
         <Replace name="gzSp" />
         <Replace name="&#x0009;cBrowserContainer::" />
@@ -38,7 +38,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="-1543" y="83" width="1127" height="1033" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="-1895" y="48" width="1389" height="1100" isMaximized="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -73,7 +73,7 @@
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
         <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="0" zoom2="-1" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
         <GUIConfig name="SmartHighLightCaseSensitive">no</GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="223" rightWidth="200" topHeight="200" bottomHeight="196">
+        <GUIConfig name="DockingManager" leftWidth="255" rightWidth="200" topHeight="200" bottomHeight="373">
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="-1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="yes" />
@@ -84,35 +84,32 @@
         </GUIConfig>
     </GUIConfigs>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Project\Cwc\Lib\VLiance\ThalliumBrowser\obj\cw\Lib_GzWindows\Overplace\OpMainThreadPlatformMsg.cpp" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\ThalliumBrowser\obj\cw\Lib_GZ\Base\Class.h" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Class.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\ThalliumBrowser\obj\cw\Lib_Demo\Screen\DemoText.cpp" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\ThalliumBrowser\obj\cw\Lib_GZ\Gfx\Face.h" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\ThalliumBrowser\obj\cw\Lib_GZ\Gfx\Face.cpp" />
-        <File filename="O:\_Install\Scanner_Canon_LIDE_60\Important.txt" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\ThalliumBrowser\obj\cw\Lib_GZ\Gfx\Clip\Letter.h" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\ThalliumBrowser\obj\cw\Lib_GZ\Gfx\Clip\Letter.cpp" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\ThalliumBrowser\obj\cw\Lib_GZ\Gfx\Clip\TextRange.cpp" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\SmartPtr\SmartPtr.h" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Container\Array\gzArray.h" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\gzQArray.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GzWindows\Overplace\OpThreadObj.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GZ\Sys\ThreadObj.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GZ\Sys\FrameRate.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GZ\Gfx\Object.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GZ\Sys\Interface\Interface.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\src_(Demo)\Screen\DemoRoll.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_Demo\Screen\DemoText.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Container\Array\gzArray - Copy.h" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/\_Default.wdat">
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/clang_inc/" />
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/pthreads/" />
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/lib/gcc/i686-w64-mingw32/8.1.0/include/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/src_(Demo)/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/Lib_GZ/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/Lib_GzWindows/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/obj/cw/" />
-    </FileBrowser>
+    
+<FileBrowser>
+ <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/include/" />
+ <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/i686-w64-mingw32/include/" />
+ <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/i686-w64-mingw32/include/c++/" />
+ <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/i686-w64-mingw32/include/c++/backward/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/src_(Demo)/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/Lib_GZ/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/Lib_GzWindows/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/obj/cw/" />
+</FileBrowser>
 </NotepadPlus>
