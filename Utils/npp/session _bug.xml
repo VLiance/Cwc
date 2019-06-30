@@ -1,0 +1,12 @@
+<NotepadPlus>
+    <Session activeView="1">
+        <mainView activeIndex="0" />
+        <subView activeIndex="3">
+            <File firstVisibleLine="150" xOffset="0" scrollWidth="1008" startPos="4320" endPos="4337" selMode="0" lang="CWayv" encoding="-1" filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\src_(Demo)\Screen\DemoRoll.cw" backupFilePath="" originalFileLastModifTimestamp="1560943175" />
+            <File firstVisibleLine="41" xOffset="0" scrollWidth="679" startPos="1613" endPos="1613" selMode="0" lang="CWayv" encoding="-1" filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_Demo\Screen\DemoRoll.cpp" backupFilePath="" originalFileLastModifTimestamp="1560943177" />
+            <File firstVisibleLine="75" xOffset="0" scrollWidth="658" startPos="734" endPos="740" selMode="0" lang="CWayv" encoding="-1" filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\File\RcImg.cw" backupFilePath="" originalFileLastModifTimestamp="1558780312" />
+            <File firstVisibleLine="48" xOffset="0" scrollWidth="1974" startPos="1973" endPos="1973" selMode="0" lang="CWayv" encoding="-1" filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_Demo\Screen\DemoRoll.h" backupFilePath="" originalFileLastModifTimestamp="1560943177" />
+            <File firstVisibleLine="2897" xOffset="0" scrollWidth="1260" startPos="361271" endPos="361279" selMode="0" lang="Normal Text" encoding="-1" filename="new 1" backupFilePath="E:\_Project\Cwc\Utils\npp\backup\new 1@2019-06-19_072011" originalFileLastModifTimestamp="0" />
+        </subView>
+    </Session>
+</NotepadPlus>
