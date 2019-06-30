@@ -54,7 +54,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="871" y="35" width="871" height="929" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="304" y="45" width="871" height="929" isMaximized="no" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -105,10 +105,7 @@
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/lib/gcc/i686-w64-mingw32/8.1.0/include/\mwaitxintrin.h">
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/clang_inc/" />
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/pthreads/" />
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/lib/gcc/i686-w64-mingw32/8.1.0/include/" />
-        <root foldername="O:/__MyProjects/CpcDosExample/01_OpenFile/" />
+    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Toolchain/VLianceTool/CpcDosRT/CpcDosRT-0.5/SDK/">
+        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/CpcDosRT/CpcDosRT-0.5/SDK/" />
     </FileBrowser>
 </NotepadPlus>
