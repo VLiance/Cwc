@@ -105,7 +105,12 @@
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Toolchain/VLianceTool/CpcDosRT/CpcDosRT-0.5/SDK/">
-        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/CpcDosRT/CpcDosRT-0.5/SDK/" />
-    </FileBrowser>
+    
+<FileBrowser>
+ <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/clang_inc/" />
+ <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/pthreads/" />
+ <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/lib/gcc/i686-w64-mingw32/8.1.0/include/" />
+ <root foldername="O:/__MyProjects/CpcDos_Demos/02_BASIC_Interpreter/cwc/" />
+ <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/CpcDosRT/CpcDosRT-0.5/SDK/" />
+</FileBrowser>
 </NotepadPlus>
