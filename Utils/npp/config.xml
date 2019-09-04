@@ -13,16 +13,16 @@
         <Path name="E:\_Project\Cwc\Lib\VLiance\GZE" />
         <Path name="O:\__MyProjects\CpcDos_Demos\02_BASIC_Interpreter" />
         <Filter name="*.*" />
-        <Find name="aData" />
-        <Find name="aDa" />
-        <Find name="fBufferData" />
-        <Find name="fSendData(" />
-        <Find name="fDraw(" />
-        <Find name="SwapBuffers" />
-        <Find name="OpenGL" />
-        <Find name="GL_fClear" />
-        <Find name="GL_fClearColor" />
-        <Find name="fClear" />
+        <Find name="GZ_mIsImplemented" />
+        <Find name="disabled" />
+        <Find name="fBlit" />
+        <Find name="fCompile" />
+        <Find name="Vertex Shader Error" />
+        <Find name="D_Platform_Web_Emsc" />
+        <Find name="GZ_tWeb_Emsc" />
+        <Find name="Web_Emsc" />
+        <Find name="fGenVertexArrays" />
+        <Find name="GenVertexArrays" />
         <Replace name="\n" />
         <Replace name="gzU8" />
         <Replace name="PtA" />
@@ -41,7 +41,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="2008" y="-4" width="798" height="1039" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="876" y="140" width="798" height="1039" isMaximized="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -91,43 +91,35 @@
         </GUIConfig>
     </GUIConfigs>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Sys\Interface\Window.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel.h" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_GPU\OpenGL\Lib_GzOpenGL\ShaderBase\OpProgramShader.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzWeb_Emsc\Emscripten\Sys\OpContext.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_GPU\OpenGL\Lib_GzOpenGL_Windows\SOpGpu.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel.cw" />
         <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_GPU\OpenGL\Lib_GzOpenGL\OpenGL.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_GPU\OpenGL\Lib_GzOpenGL\ass\OpenGLasss.h" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel.cpp" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GZ\Gpu\GpuObj\GpuObject.cpp" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gfx\Object.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gpu\GpuObj\GpuFace.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gfx\Shape.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gfx\Clip\Rectangle.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gfx\Face.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_GPU\OpenGL\Lib_GzOpenGL_Web_Emsc\SOpGpu.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gfx\Clip.cw" />
         <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gpu\ShaderBase\ShaderBase.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Container\gzVal.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_GPU\OpenGL\Lib_GzOpenGL\ShaderBase\OpProgramShader.cw" />
+        <File filename="E:\_Project\z_Backup\Modules\Emscripten_x64\emscripten\1.35.0\system\include\emscripten\val.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GzOpenGL\ShaderBase\OpProgramShader.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\File\Image.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_GPU\OpenGL\Lib_GzOpenGL\Base\OpAttribute.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_GPU\OpenGL\Lib_GzOpenGL_Windows\old\glWin (2).h" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    
-
-<FileBrowser>
- <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/include/" />
- <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/i686-w64-mingw32/include/" />
- <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/i686-w64-mingw32/include/c++/" />
- <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/i686-w64-mingw32/include/c++/backward/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/src_(Demo)/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/Lib_GZ/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/Lib_GzWindows/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/Lib_GzOpenGL/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/Lib_GzOpenGL_Windows/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/obj/cw/" />
-</FileBrowser>
+    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/obj/cw/\Lib_GzOpenGL\OpenGL.cpp">
+        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/WebRT/WebRT-1.38.27/emscripten/1.38.30/system/include/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/src_(Demo)/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/Lib_GZ/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/Lib_GzWeb_Emsc/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/Lib_GzOpenGL/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/Lib_GzOpenGL_Web_Emsc/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/obj/cw/" />
+    </FileBrowser>
 </NotepadPlus>
