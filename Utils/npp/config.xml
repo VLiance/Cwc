@@ -2,27 +2,28 @@
 <NotepadPlus>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="yes" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src" />
+        <Path name="N:\_MyPoject\_Old\_MyEngine_383_BeforeRedoAll" />
         <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\" />
         <Path name="E:\_Project\_MyProject\Cwide_todel\CWDK" />
-        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src" />
         <Path name="E:\_Project\z_Backup\Simacode\CWDK" />
         <Path name="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw" />
         <Path name="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo" />
         <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\" />
         <Path name="E:\_Project\_MyProject\CWayv_Haxe\CWDK" />
         <Path name="E:\_Project\Cwc\Lib\VLiance\GZE" />
-        <Path name="O:\__MyProjects\CpcDos_Demos\02_BASIC_Interpreter" />
         <Filter name="*.*" />
-        <Find name="GZ_mIsImplemented" />
-        <Find name="disabled" />
-        <Find name="fBlit" />
-        <Find name="fCompile" />
-        <Find name="Vertex Shader Error" />
-        <Find name="D_Platform_Web_Emsc" />
-        <Find name="GZ_tWeb_Emsc" />
-        <Find name="Web_Emsc" />
-        <Find name="fGenVertexArrays" />
-        <Find name="GenVertexArrays" />
+        <Filter name="*.cw" />
+        <Find name="Module" />
+        <Find name="nFrameWidth" />
+        <Find name="fContextIni" />
+        <Find name="canvas" />
+        <Find name="gze_canvas" />
+        <Find name='&quot;canvas&quot;' />
+        <Find name='&quot;getBoundingClientRect&quot;' />
+        <Find name="createElement" />
+        <Find name="getBoundingClientRect" />
+        <Find name="GetWindowSize" />
         <Replace name="\n" />
         <Replace name="gzU8" />
         <Replace name="PtA" />
@@ -41,7 +42,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="876" y="140" width="798" height="1039" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="37" y="323" width="1519" height="620" isMaximized="no" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -74,9 +75,9 @@
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" isFolderDroppedOpenFiles="no" docPeekOnTab="yes" docPeekOnMap="no" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="0" zoom2="-2" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="0" zoom2="-1" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
         <GUIConfig name="SmartHighLightCaseSensitive">no</GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="264" rightWidth="200" topHeight="200" bottomHeight="441">
+        <GUIConfig name="DockingManager" leftWidth="236" rightWidth="200" topHeight="200" bottomHeight="407">
             <FloatingWindow cont="4" x="219" y="78" width="438" height="629" />
             <FloatingWindow cont="5" x="2533" y="615" width="2874" height="748" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="4" isVisible="yes" />
@@ -91,35 +92,37 @@
         </GUIConfig>
     </GUIConfigs>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzWeb_Emsc\Emscripten\Sys\OpContext.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_GPU\OpenGL\Lib_GzOpenGL_Windows\SOpGpu.cw" />
         <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_GPU\OpenGL\Lib_GzOpenGL\OpenGL.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gpu\ShaderBase\ShaderBase.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Container\gzVal.h" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_GPU\OpenGL\Lib_GzOpenGL\ShaderBase\OpProgramShader.cw" />
-        <File filename="E:\_Project\z_Backup\Modules\Emscripten_x64\emscripten\1.35.0\system\include\emscripten\val.h" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GzOpenGL\ShaderBase\OpProgramShader.cpp" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\File\Image.cpp" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_GPU\OpenGL\Lib_GzOpenGL\Base\OpAttribute.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_GPU\OpenGL\Lib_GzOpenGL_Windows\old\glWin (2).h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Quad.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\RayMarching-Builder\src_canvas\obj\cw\Lib_GzWeb_Emsc\Emscripten\Sys\OpContext.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzWeb_Emsc\Emscripten\Helper\html5_mouse.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzWeb_Emsc\Emscripten\Sys\OpSystem.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzWeb_Emsc\Emscripten\Sys\OpTimer.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzWeb_Emsc\Emscripten\Sys\OpMainThreadPlatformMsg.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzWeb_Emsc\Emscripten\Sys\OpFile.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzCpcDos\Sys\OpContextHandle.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzCpcDos\Sys\OpContext.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Sys\Interface\Window.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Sys\Interface\Interface.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzWeb_Emsc\Emscripten\Sys\OpDebug.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Raymarching.cw" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/obj/cw/\Lib_GzOpenGL\OpenGL.cpp">
+    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/\Lib_GzOpenGL\ShaderBase\OpVertexShader.cw">
         <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/WebRT/WebRT-1.38.27/emscripten/1.38.30/system/include/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/RayMarching-Builder/src_canvas/" />
         <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/" />
         <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/" />
         <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/src_(Demo)/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/RayMarching-Builder/src_canvas/src_(Demo)/" />
         <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/Lib_GZ/" />
         <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/Lib_GzWeb_Emsc/" />
         <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/Lib_GzOpenGL/" />
         <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/Lib_GzOpenGL_Web_Emsc/" />
-        <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/obj/cw/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/RayMarching-Builder/src_canvas/obj/cw/" />
     </FileBrowser>
 </NotepadPlus>
