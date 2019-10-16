@@ -2,28 +2,29 @@
 <NotepadPlus>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="yes" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
-        <Path name="O:\__MyProjects\ExeLoader\" />
         <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src" />
-        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\" />
-        <Path name="E:\_Project\Cwc\Toolchain\VLianceTool\CpcDosRT\CpcDosRT-0.5" />
-        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\SystemOverplace\" />
-        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\" />
-        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\SystemOverplace" />
-        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\SystemOverplace\OpenGL\GZ\Sys" />
-        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System" />
-        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\SystemOverplace\OpenGL\GZ\Sys\GpuObj" />
+        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gpu\" />
+        <Path name="O:\__MyProjects\ThalliumBrowser\litehtml\litehtml" />
+        <Path name="O:\__MyProjects\ThalliumBrowser\_out\CpcDos_Debug\Rc\" />
+        <Path name="O:\__MyProjects\ThalliumBrowser\_out\CpcDos_Debug\Rc\Websites\Kernel Cpcdos OSx   Page d&apos;accueil   Cpcdos_files" />
+        <Path name="O:\__MyProjects\ThalliumBrowser\litehtml" />
+        <Path name="J:\Download\litehtml-0.4" />
+        <Path name="J:\Download\litehtml-0.3\litehtml-0.3" />
+        <Path name="J:\Download\litehtml-master(1)" />
+        <Path name="J:\Download\litehtml-master\litehtml-master" />
         <Filter name="*.*" />
         <Filter name="*.cw" />
-        <Find name="My_lock" />
-        <Find name="_lock" />
-        <Find name="printf" />
-        <Find name="__pformat" />
-        <Find name="__pformat_t" />
-        <Find name="lock" />
-        <Find name='&quot;Found' />
-        <Find name="Found," />
-        <Find name="fMainExeLoader" />
-        <Find name="MemoryLoadLibrary" />
+        <Find name="vRot" />
+        <Find name="bTest" />
+        <Find name="Total Quad" />
+        <Find name="fEmptyArray" />
+        <Find name="fDataAlloc" />
+        <Find name="fStackDataCopyAlloc" />
+        <Find name="gzNewData8" />
+        <Find name="gzU8" />
+        <Find name="gzArray_" />
+        <Find name="aData" />
+        <Replace name="gzGp" />
         <Replace name='!&quot;)' />
         <Replace name="oTexId" />
         <Replace name="= 0x" />
@@ -33,7 +34,6 @@
         <Replace name="PtA" />
         <Replace name=": Pt&lt;Float&gt;" />
         <Replace name=": PtA&lt;Float&gt;" />
-        <Replace name="Number" />
     </FindHistory>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -42,7 +42,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="8" y="246" width="1680" height="1050" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="-1597" y="87" width="885" height="1100" isMaximized="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -75,35 +75,37 @@
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" isFolderDroppedOpenFiles="no" docPeekOnTab="yes" docPeekOnMap="no" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="-2" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="hide" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="-1" zoom2="-1" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
         <GUIConfig name="SmartHighLightCaseSensitive">no</GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="333" rightWidth="200" topHeight="200" bottomHeight="309">
+        <GUIConfig name="DockingManager" leftWidth="307" rightWidth="200" topHeight="200" bottomHeight="373">
             <FloatingWindow cont="4" x="219" y="78" width="438" height="629" />
-            <FloatingWindow cont="5" x="2533" y="615" width="2874" height="748" />
+            <FloatingWindow cont="5" x="760" y="-2" width="1674" height="1069" />
+            <FloatingWindow cont="6" x="760" y="-2" width="1674" height="1069" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="4" isVisible="yes" />
-            <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="dummy" id="0" curr="3" prev="5" isVisible="yes" />
+            <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="5" isVisible="no" />
+            <PluginDlg pluginName="dummy" id="0" curr="3" prev="6" isVisible="yes" />
             <ActiveTabs cont="0" activeTab="0" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
             <ActiveTabs cont="4" activeTab="-1" />
+            <ActiveTabs cont="5" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzCpcDos\Overplace\OpMainThreadPlatformMsg.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_System\Lib_GzCpcDos\Overplace\OpContext.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\ThalliumBrowser\src_(Demo)\MainInterface.cw" />
-        <File filename="O:\__MyProjects\ExeLoader\include\WinRemplaceFuncTable.h" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\ThalliumBrowser\Make_For_CpcDos.cwMake" />
-        <File filename="O:\__MyProjects\ExeLoader\include\FuncTable - Copy.h" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\GZE.h" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\EntryPoint.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\MinGZE.cxx" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Sys\Interface\Window.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Sys\Interface\Interface.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Sys\Interface\Context.cw" />
-        <File filename="O:\__MyProjects\RayMarching-Builder_GZE\src_canvas\obj\cw\Lib_GZ\Sys\Interface\Interface.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Container\Array\DataArray.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Container\Array\DataArray.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Container\Array\ArrayContainerCommun.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Container\String\gzStringCommon.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gpu\Base\Attribute.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\SmartPtr\SharedCount.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Container\DataRC.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Container\String\DataCowBase.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Container\Array\DataArrayCommun.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Quad.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GZ\Sys\Interface\Interface.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GZ\Gpu\Gpu.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GzOpenGL\GpuObj\OpGpuFace.cpp" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
@@ -112,20 +114,19 @@
     </ProjectPanels>
     
 <FileBrowser>
- <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/clang_inc/" />
- <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/pthreads/" />
- <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/lib/gcc/i686-w64-mingw32/8.1.0/include/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/ThalliumBrowser/" />
- <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/CpcDosRT/CpcDosRT-0.5/SDK/" />
+ <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/include/" />
+ <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/i686-w64-mingw32/include/" />
+ <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/i686-w64-mingw32/include/c++/" />
+ <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/i686-w64-mingw32/include/c++/backward/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/" />
  <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/" />
  <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/" />
  <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/ThalliumBrowser/src_(Demo)/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/src_(Demo)/" />
  <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/Lib_GZ/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/Lib_GzCpcDos/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/Lib_GzWindows/" />
  <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/Lib_GzOpenGL/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/Lib_GzOpenGL_CpcDos/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/ThalliumBrowser/obj/cw/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/ThalliumBrowser/litehtml/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/Lib_GzOpenGL_Windows/" />
+ <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/obj/cw/" />
 </FileBrowser>
 </NotepadPlus>
