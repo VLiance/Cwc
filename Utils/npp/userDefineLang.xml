@@ -18,9 +18,9 @@
             <Keywords name="Folders in code1, open">{</Keywords>
             <Keywords name="Folders in code1, middle"></Keywords>
             <Keywords name="Folders in code1, close">}</Keywords>
-            <Keywords name="Folders in code2, open">#if #ifdef cpp #ifndef cpp_class cpp_class_h cpp_h cpp_namespace cpp_namespace_h</Keywords>
+            <Keywords name="Folders in code2, open">#if #ifdef cpp #ifndef cpp_class cpp_class_h cpp_h cpp_namespace cpp_namespace_h glsl</Keywords>
             <Keywords name="Folders in code2, middle">#else #elif</Keywords>
-            <Keywords name="Folders in code2, close">#endif /cpp /cpp_class  /cpp_class_h /cpp_h /cpp_namespace /cpp_namespace_h</Keywords>
+            <Keywords name="Folders in code2, close">#endif /cpp /cpp_class /cpp_class_h /cpp_h /cpp_namespace /cpp_namespace_h /glsl</Keywords>
             <Keywords name="Folders in comment, open"></Keywords>
             <Keywords name="Folders in comment, middle"></Keywords>
             <Keywords name="Folders in comment, close"></Keywords>
