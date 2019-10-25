@@ -13,15 +13,15 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="141" y="53" width="1180" height="900" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="-34" y="16" width="1787" height="1096" isMaximized="no" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="no" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="-1" whiteSpaceShow="hide" eolShow="hide" lineWrapMethod="aligned" disableAdvancedScrolling="no" borderEdge="yes" zoom2="0" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="no" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="-2" whiteSpaceShow="hide" eolShow="hide" lineWrapMethod="aligned" disableAdvancedScrolling="no" borderEdge="yes" zoom2="0" borderWidth="2" smoothFont="no" />
         <!-- For the secodary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box" -->
-        <GUIConfig name="Auto-detection">yes</GUIConfig>
+        <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
         <GUIConfig name="RememberLastSession">yes</GUIConfig>
@@ -90,7 +90,7 @@
         <GUIConfig name="stylerTheme" path="E:\_Project\Cwc\Utils\npp\stylers.xml" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" />
-        <GUIConfig name="DockingManager" leftWidth="246" rightWidth="200" topHeight="200" bottomHeight="460">
+        <GUIConfig name="DockingManager" leftWidth="232" rightWidth="200" topHeight="200" bottomHeight="480">
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="-1" isVisible="no" />
@@ -103,53 +103,60 @@
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
         <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src" />
+        <Path name="N:\_MyPoject\_MyEngine_861_BefScrap\_MyEngine\_CWaveLib\GZE\SimaCodeEngine" />
+        <Path name="E:\_Project\Cwc\Lib\VLiance\_GroundZeroEngine_Last" />
+        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\SystemOverplace" />
         <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\SystemOverplace\" />
         <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\SystemOverplace\OpenGL\GZ\Sys\GpuObj" />
         <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\SystemOverplace\OpenGL\GZ\Sys" />
         <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2" />
         <Filter name="*.*" />
-        <Find name="fAttachAttribute" />
-        <Find name="fAddMain" />
-        <Find name="mainImage" />
-        <Find name="blend" />
-        <Find name="eBlendFunc" />
-        <Find name="GL_ZERO" />
-        <Find name="fBlendFunc" />
-        <Find name="BlendFunc" />
-        <Find name="BindFramebuffer" />
-        <Find name="BindFramebuffer(" />
+        <Filter name="*.cpp" />
+        <Filter name="*.cw" />
+        <Find name='vQuaternion.nX + &quot;, &quot;' />
+        <Find name="fReset" />
+        <Find name="fCombine" />
+        <Find name="vQuaternion" />
+        <Find name="USE_MATH_FUNCTION_INSTEAD" />
+        <Find name="GZ_tUSE_MATH_FUNCTION_INSTEAD" />
+        <Find name="fRoll" />
+        <Find name="vGblRot" />
+        <Find name="fRotate" />
+        <Find name="fApplyColor" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Container\Array\gzArray.h" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Container\Array\DataArrayCommun.h" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Container\Array\DataArray.h" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_GPU\OpenGL\Lib_GzOpenGL\ShaderBase\OpVbo.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gpu\ShaderBase\Vbo.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\SystemOverplace\OpenGL\GZ\Sys\GpuObj\SysGpuBatch.cpp" />
-        <File filename="J:\Download\gl(2).h" />
-        <File filename="O:\__MyProjects\RayMarching-Builder_GZE\src_canvas\obj\cw\Lib_GZ\Gpu\ShaderBase\ProgramShader.cpp" />
-        <File filename="O:\__MyProjects\RayMarching-Builder_GZE\src_canvas\obj\cw\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Shadertoy.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GZ\Base\Quaternion.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GZ\Base\Quaternion.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GZ\Base\Vec3.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Vec4.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Math\_Math.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GZ\Base\Mat4x4.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\obj\cw\Lib_GZ\Base\Vec4.h" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\EntryPoint.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\Demos\Demos-0.0.3\CWayv\Demo\src_(Demo)\MainEntry.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gfx\Root.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_GPU\OpenGL\Lib_GzOpenGL\GpuObj\OpGpuFace.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Quaternion.cw" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Math\Math.cpp" />
+        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Base\Math\Math.h" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    
-<FileBrowser>
- <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/include/" />
- <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/i686-w64-mingw32/include/" />
- <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/i686-w64-mingw32/include/c++/" />
- <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/i686-w64-mingw32/include/c++/backward/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/src_(Demo)/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/Lib_GZ/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/Lib_GzWindows/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/Lib_GzOpenGL/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/Lib_GzOpenGL_Windows/" />
- <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/obj/cw/" />
-</FileBrowser>
+    <FileBrowser latestSelectedItem="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/src_(Demo)/\Screen\DemoPerspective.cw">
+        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/include/" />
+        <root foldername="E:/_Project/Cwc/Toolchain/VLianceTool/LibRT/LibRT-8/i686-w64-mingw32/include/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/src_(Demo)/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/Lib_GZ/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_System/Lib_GzWindows/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/Lib_GzOpenGL/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.2/src/SubLib_GPU/OpenGL/Lib_GzOpenGL_Windows/" />
+        <root foldername="E:/_Project/Cwc/Lib/VLiance/Demos/Demos-0.0.3/CWayv/Demo/obj/cw/" />
+    </FileBrowser>
 </NotepadPlus>
