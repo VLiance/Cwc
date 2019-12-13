@@ -106,7 +106,7 @@
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_System/\Lib_GzWeb_Emsc">
+    <FileBrowser latestSelectedItem="E:/_Project/_GZE_Project/GZE_Text/src_(Demo)/\RcExe">
         <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/include/" />
         <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/i686-w64-mingw32/include/" />
         <root foldername="E:/_Project/_GZE_Project/GZE_Text/" />
@@ -118,5 +118,6 @@
         <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_System/Lib_GzWindows/" />
         <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_GPU/OpenGL/Lib_GzOpenGL/" />
         <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_GPU/OpenGL/Lib_GzOpenGL_Windows/" />
+        <root foldername="E:/_Project/_GZE_Project/GZE_Text/obj/cw/" />
     </FileBrowser>
 </NotepadPlus>
