@@ -15,6 +15,7 @@
         <Filter name="*.*" />
         <Filter name="*.cpp" />
         <Filter name="*.cw" />
+        <Find name="fTexture" />
         <Find name="oLine" />
         <Find name="line" />
         <Find name="Half" />
@@ -24,7 +25,6 @@
         <Find name="public var nWidth" />
         <Find name="nHeight =" />
         <Find name="nType" />
-        <Find name="iTexID" />
         <Replace name="oUvTexDimFetch" />
         <Replace name="vTexDimFetch" />
         <Replace name="vFinal" />
@@ -38,7 +38,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="562" y="837" width="1347" height="1023" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="465" y="208" width="1347" height="1023" isMaximized="no" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -73,7 +73,7 @@
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
         <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="4" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
         <GUIConfig name="SmartHighLightCaseSensitive">no</GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="195" rightWidth="200" topHeight="200" bottomHeight="324">
+        <GUIConfig name="DockingManager" leftWidth="295" rightWidth="200" topHeight="200" bottomHeight="140">
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="-1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="yes" />
@@ -85,28 +85,26 @@
         </GUIConfig>
     </GUIConfigs>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="O:\__MyProjects\My_Demos\GZE_Text\src_(Demo)\MainInterface.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Quad\GzShModel_Quad_Vertex.cw" />
-        <File filename="O:\__MyProjects\My_Demos\GZE_Text\obj\cw\Lib_GzOpenGL\GpuObj\OpGpuRcImg.cpp" />
-        <File filename="O:\__MyProjects\My_Demos\GZE_Text\src_(Demo)\Screen\FpsCount.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_GPU\OpenGL\Lib_GzOpenGL\GpuObj\OpGpuRcImg.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gpu\Base\Texture.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\SubLib_GPU\OpenGL\Lib_GzOpenGL\Base\OpTexture.cw" />
-        <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Quad_.cw" />
-        <File filename="O:\__MyProjects\My_Demos\GZE_Text\obj\cw\Lib_GZ\Gfx\Vector\HalfLine.cpp" />
-        <File filename="O:\__MyProjects\My_Demos\GZE_Text\obj\cw\Lib_GZ\Gfx\Shape.cpp" />
-        <File filename="O:\__MyProjects\My_Demos\GZE_Text\obj\cw\Lib_GZ\Gfx\Vector\Line.cpp" />
-        <File filename="O:\__MyProjects\My_Demos\GZE_Text\obj\cw\Lib_GZ\Gfx\Face.cpp" />
-        <File filename="O:\__MyProjects\My_Demos\GZE_Text\obj\cw\Lib_GZ\Gfx\Vector\Line.h" />
         <File filename="O:\__MyProjects\My_Demos\GZE_Text\obj\cw\Lib_Demo\Screen\DemoText.cpp" />
         <File filename="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Quad\GzShModel_Quad.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderBase\VertexShader.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Quad\GzShModel_Quad_Vertex.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gfx\Clip.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\GZ.cw" />
+        <File filename="E:\_Project\_Cwc\Toolchain\VLianceTool\LibRT\LibRT-999\cwc\LibRT.Default.cwcfg" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\GZE.cwcfg" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\Lib.cwc" />
+        <File filename="E:\_Project\_GZE_Project\GZE_Text\obj\cw\Lib_GzOpenGL\OpenGL.h" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_GPU\OpenGL\Lib_GzOpenGL\ShaderBase\OpProgramShader.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderBase\FragmentShader.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderBase\ProgramShader.cw" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/_GZE_Project/GZE_Text/src_(Demo)/\RcExe">
+    <FileBrowser latestSelectedItem="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/Lib_GZ/\Gpu\ShaderModel\GzModel\GzShModel_Quad\GzShModel_Quad_Fragment.cw">
         <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/include/" />
         <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/i686-w64-mingw32/include/" />
         <root foldername="E:/_Project/_GZE_Project/GZE_Text/" />
