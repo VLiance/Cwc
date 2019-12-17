@@ -38,7 +38,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="465" y="208" width="1347" height="1023" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="465" y="208" width="1347" height="1023" isMaximized="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -104,7 +104,7 @@
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/Lib_GZ/\Gpu\ShaderModel\GzModel\GzShModel_Quad\GzShModel_Quad_Fragment.cw">
+    <FileBrowser latestSelectedItem="E:/_Project/_GZE_Project/GZE_Text/src_(Demo)/\RcExe_Old">
         <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/include/" />
         <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/i686-w64-mingw32/include/" />
         <root foldername="E:/_Project/_GZE_Project/GZE_Text/" />
