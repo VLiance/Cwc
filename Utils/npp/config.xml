@@ -2,6 +2,7 @@
 <NotepadPlus>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+        <Path name="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_3rdparty\Lib_GzBox2D\src\Box2D\" />
         <Path name="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_3rdparty\Lib_GzNima\Runtime\nima" />
         <Path name="E:\_Project\Autre\Nima-Cpp-OpenGL" />
         <Path name="E:\_Project\Autre\Nima-Cwc\" />
@@ -11,20 +12,19 @@
         <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\src\" />
         <Path name="N:\_MyPoject\_MyEngine_838_BefRedoAll" />
         <Path name="E:\_Project\_GroundZeroEngine" />
-        <Path name="E:\_Project\Cwc\Lib\VLiance\GZE\GZE-0.2.2\" />
         <Filter name="*.*" />
         <Filter name="*.cpp" />
         <Filter name="*.cw" />
+        <Find name="_nLimH" />
+        <Find name="128" />
+        <Find name="b2PolygonShape" />
+        <Find name="GetShape" />
+        <Find name="fAddPt" />
+        <Find name="b2Math.h" />
+        <Find name="NmAc" />
+        <Find name="NimaAc" />
+        <Find name="Nima" />
         <Find name="M_PI" />
-        <Find name="prep(" />
-        <Find name="drawTexturedAndDeformedSkin" />
-        <Find name="uvOffset" />
-        <Find name="m_DeformVertexBuffer" />
-        <Find name="fTexture" />
-        <Find name="oLine" />
-        <Find name="line" />
-        <Find name="Half" />
-        <Find name="sin(" />
         <Replace name="oUvTexDimFetch" />
         <Replace name="vTexDimFetch" />
         <Replace name="vFinal" />
@@ -38,7 +38,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="-310" y="170" width="1210" height="776" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="170" y="13" width="1117" height="939" isMaximized="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -71,9 +71,9 @@
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" isFolderDroppedOpenFiles="no" docPeekOnTab="yes" docPeekOnMap="no" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="2" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="hide" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="3" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
         <GUIConfig name="SmartHighLightCaseSensitive">no</GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="143" rightWidth="200" topHeight="200" bottomHeight="215">
+        <GUIConfig name="DockingManager" leftWidth="255" rightWidth="200" topHeight="200" bottomHeight="174">
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="-1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="yes" />
@@ -85,42 +85,42 @@
         </GUIConfig>
     </GUIConfigs>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_3rdparty\Lib_GzNima\Runtime\nima\Exceptions\OverflowException.hpp" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_3rdparty\Lib_GzNima\Runtime\nima\Exceptions\UnsupportedVersionException.hpp" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\Lib.cwc" />
-        <File filename="E:\_Project\_GZE_Project\GZE_Nima\_out\Windows_O3\Rc\SimpleButton.png" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_3rdparty\Lib_GzNima\Runtime\nima\ActorIKConstraint.cpp" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_3rdparty\Lib_GzNima\Runtime\nima\Animation\Interpolators\CubicSolver.cpp" />
-        <File filename="E:\_Project\Autre\Nima-Cpp-OpenGL\Source\Graphics\OpenGL\GLRenderer2D.cpp" />
-        <File filename="E:\_Project\_GZE_Project\GZE_Nima\Build.cwc" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_3rdparty\Lib_GzNima\Runtime\nima\Actor.cpp" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_3rdparty\Lib_GzNima\Runtime\nima\Animation\Interpolators\CubicSolver.hpp" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_3rdparty\Lib_GzNima\Runtime\nima\ActorRotationConstraint.cpp" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_3rdparty\Lib_GzNima\Runtime\nima\ActorTransformConstraint.cpp" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_3rdparty\Lib_GzNima\Runtime\nima\BlockReader.cpp" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\GZE.cwcfg" />
-        <File filename="E:\_Project\Autre\Nima-Cpp-OpenGL\Source\GameActor.cpp" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_3rdparty\Lib_GzNima\Runtime\NmActor.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Base\Vec2.cw" />
+        <File filename="E:\_Project\CwcLib\Box2D\HelloWorld\HelloWorld.cpp" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_3rdparty\Box2D\Dynamics\Joints\b2WeldJoint.h" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_3rdparty\Box2D\Dynamics\b2WorldCallbacks.h" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_3rdparty\Box2D\Dynamics\Joints\b2WheelJoint.h" />
+        <File filename="E:\_Project\_GZE_Project\GZE_Box2D\src_(Demo)\MainEntry.cw" />
+        <File filename="E:\_Project\_GZE_Project\GZE_Box2D\obj\cw\Lib_GZ\Gfx\Triangle.cpp" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\Gpu.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_GPU\OpenGL\Lib_GzOpenGL\OpGpu.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_GPU\OpenGL\Lib_GzOpenGL_Windows\SOpGpu.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_GPU\OpenGL\Lib_GzOpenGL_Web_Emsc\SOpGpu.cw" />
+        <File filename="E:\_Project\_GZE_Project\GZE_Box2D\obj\cw\Lib_GZ\Gfx\Pixel.cpp" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_System/Lib_GzWindows/">
+    <FileBrowser latestSelectedItem="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/\Lib_GZ\Gfx\Pixel.cw">
         <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/include/" />
         <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/i686-w64-mingw32/include/" />
-        <root foldername="E:/_Project/_GZE_Project/GZE_Nima/" />
+        <root foldername="E:/_Project/_GZE_Project/GZE_Box2D/" />
         <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/" />
         <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_System/" />
+        <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_3rdparty/" />
         <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_GPU/OpenGL/" />
-        <root foldername="E:/_Project/_GZE_Project/GZE_Nima/src_(Demo)/" />
+        <root foldername="E:/_Project/_GZE_Project/GZE_Box2D/src_(Demo)/" />
         <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/Lib_GZ/" />
         <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_System/Lib_GzWindows/" />
         <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_GPU/OpenGL/Lib_GzOpenGL/" />
         <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_GPU/OpenGL/Lib_GzOpenGL_Windows/" />
         <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_3rdparty/Lib_GzNima/" />
-        <root foldername="E:/_Project/_GZE_Project/GZE_Nima/obj/cw/" />
-        <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_3rdparty/Lib_GzNima/Runtime/" />
+        <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_3rdparty/Lib_GzBox2D/" />
+        <root foldername="E:/_Project/_GZE_Project/GZE_Box2D/obj/cw/" />
         <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_3rdparty/Lib_GzNima/NimaMath/" />
+        <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_3rdparty/Lib_GzBox2D/src/" />
     </FileBrowser>
 </NotepadPlus>
