@@ -86,7 +86,7 @@
             <Keywords name="Folders in comment, open"></Keywords>
             <Keywords name="Folders in comment, middle"></Keywords>
             <Keywords name="Folders in comment, close"></Keywords>
-            <Keywords name="Keywords1">-#To -#Lauch -#Run -#Obj -#Build&#x000D;&#x000A;-#If_HasIncluded&#x000D;&#x000A;- -e -L -o -c -I&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords1">-#To -#Lauch -#Run -#Obj -#Build&#x000D;&#x000A;-#If_HasIncluded&#x000D;&#x000A;- -e -L -o -c -I -cw &#x000D;&#x000A;</Keywords>
             <Keywords name="Keywords2">VLianceTool/LibRT&#x000D;&#x000A;VLianceTool/WebRT&#x000D;&#x000A;VLiance/GZE&#x000D;&#x000A;</Keywords>
             <Keywords name="Keywords3">-std=c++11&#x000D;&#x000A;_pModule&#x000D;&#x000A;_pProject&#x000D;&#x000A;_sPlatform&#x000D;&#x000A;_sOpt&#x000D;&#x000A;_pOutput</Keywords>
             <Keywords name="Keywords4">VLianceTool/&#x000D;&#x000A;VLiance/</Keywords>
