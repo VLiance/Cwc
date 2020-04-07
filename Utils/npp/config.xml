@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+        <Path name="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\" />
+        <Path name="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\" />
+        <Path name="E:\_Project\Game\witchblast\src" />
+        <Path name="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999" />
         <Path name="E:\_Test_Android\_MyEngine_468_AndroidWork\" />
         <Path name="E:\_Test_Android\_MyEngine_468_AndroidWork\_MyEngine\_GroundZero\_Lib\Lib_GZE\" />
         <Path name="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ" />
         <Path name="E:\_Project\_GZE_Project\GZE_HelloGUI\" />
         <Path name="E:\_Project\_GZE_Project\GZE_HelloGUI\java" />
         <Path name="E:\_Project\ExeLoader" />
-        <Path name="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\" />
-        <Path name="E:\_Project\ExeLoader\include" />
-        <Path name="E:\_Project\ExeLoader\src" />
-        <Path name="E:\_Project\ExeLoader\" />
         <Filter name="*.*" />
         <Filter name="*.cpp" />
         <Filter name="*.cw" />
-        <Find name="Android" />
-        <Find name="glGetProgramInfoLog" />
-        <Find name="fLoadShaderFromMemory" />
-        <Find name="D_Platform_Web_Emsc" />
-        <Find name="fInitialise_Keyboard" />
-        <Find name="fPrintData" />
-        <Find name="fPrint" />
-        <Find name="IniLib_Lib_GZ" />
-        <Find name="p_rLastClass" />
-        <Find name="fLoadAllLib" />
+        <Find name="GzShCommun_Light" />
+        <Find name="nType =" />
+        <Find name=" nType =" />
+        <Find name="fAddLight" />
+        <Find name="fAddChild" />
+        <Find name="ThreadItf" />
+        <Find name="parent" />
+        <Find name="parent =" />
+        <Find name="D_Debug" />
+        <Find name="new Box" />
         <Replace name="/" />
         <Replace name="oUvTexDimFetch" />
         <Replace name="vTexDimFetch" />
@@ -39,7 +39,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="-990" y="21" width="1435" height="928" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="1007" y="160" width="901" height="831" isMaximized="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -72,9 +72,9 @@
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" isFolderDroppedOpenFiles="no" docPeekOnTab="yes" docPeekOnMap="no" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="hide" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="3" zoom2="-2" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="hide" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="2" zoom2="-2" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
         <GUIConfig name="SmartHighLightCaseSensitive">no</GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="338" rightWidth="57" topHeight="200" bottomHeight="156">
+        <GUIConfig name="DockingManager" leftWidth="350" rightWidth="57" topHeight="200" bottomHeight="276">
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="-1" isVisible="no" />
@@ -86,37 +86,36 @@
         </GUIConfig>
     </GUIConfigs>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Project\_GZE_Project\GZE_HelloGUI\java\gz\TopExceptionHandler.java" />
-        <File filename="E:\_Project\_GZE_Project\GZE_HelloGUI\OtherPlatforms\Minimal_Android.cwMake" />
-        <File filename="E:\_Project\_Cwc\Toolchain\VLianceTool\DroidRT\DroidRT-999\cwc\DroidRT.Default.cwcfg" />
-        <File filename="E:\_Project\_GZE_Project\GZE_HelloGUI\java\Android\Wrapper\WrapCpp.h" />
-        <File filename="E:\_Project\_GZE_Project\GZE_HelloGUI\java\Android\Wrapper\WrapCpp.cpp" />
-        <File filename="E:\_Project\_GZE_Project\GZE_HelloGUI\OtherPlatforms\obj\cw\Lib_GZ\Sys\ThreadItf.cpp" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Sys\ThreadItf.cw" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Base\Macro.h" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_System\Lib_GzAndroid\Gpu\Sys\GpuObj\GpuBuffer.cw" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_System\Lib_GzAndroid\Gpu\Sys\GpuObj\GpuFace.cw" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_System\Lib_GzAndroid\Gpu\Sys\GpuObj\GpuObject.cw" />
-        <File filename="E:\_Test_Android\_MyEngine_468_AndroidWork\_MyEngine\_GroundZero\_Lib\Lib_GZE\System\OpenGL\GZ\GpuObj\SysGpuObject.h" />
-        <File filename="E:\_Test_Android\_MyEngine_468_AndroidWork\_MyEngine\_GroundZero\_Lib\Lib_GZE\System\Android\Wrapper\RendererES2.cpp" />
-        <File filename="E:\_Test_Android\_MyEngine_468_AndroidWork\_MyEngine\_GroundZero\GzDemo\Android\Eclipse\libs\armeabi\libProject.so" />
-        <File filename="E:\_Test_Android\_MyEngine_468_AndroidWork\_MyEngine\_GroundZero\GzDemo\Android\Eclipse\obj\local\armeabi\objs-debug\Project\__\__\__\__\_Lib\Lib_GZE\System\OpenGL\GZ\SysGpuGzSh.o" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Tiles\GzShModel_Tiles.cw" />
+        <File filename="E:\_Project\_GZE_Project\GZE_3D_Tiles\src_(Demo)\MainInterface.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gfx\Vector\Box.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_GPU\OpenGL\Lib_GzOpenGL\GpuObj\OpGpuFace.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\GpuObj\GpuBatch.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\GpuObj\GpuBuffer.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\GpuObj\GpuObject.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\GpuObj\GpuFace.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Quad\GzShModel_Quad_Vertex.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Quad\GzShModel_Quad.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gfx\Effects\Light.cw" />
+        <File filename="E:\_Project\_GZE_Project\GZE_3D_Tiles\src_(Demo)\Screen\DemoSideScroller\Perso.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Quad\GzShModel_Quad_Fragment.cw" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_GPU/OpenGL/\Lib_GzOpenGL\OpenGL.cw">
+    <FileBrowser latestSelectedItem="E:/_Project/_GZE_Project/GZE_3D_Tiles/\src_(Demo)\Screen\DemoSideScroller\DemoSideScroller.cw">
         <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/include/" />
         <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/i686-w64-mingw32/include/" />
         <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/pthreads/" />
+        <root foldername="E:/_Project/_GZE_Project/GZE_3D_Tiles/" />
         <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/" />
         <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_System/" />
         <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_3rdparty/" />
         <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_GPU/OpenGL/" />
-        <root foldername="E:/_Project/_GZE_Project/GZE_HelloGUI/OtherPlatforms/../src_(Demo)/" />
+        <root foldername="E:/_Project/_GZE_Project/GZE_3D_Tiles/src_(Demo)/" />
         <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/Lib_GZ/" />
-        <root foldername="E:/_Project/_GZE_Project/GZE_HelloGUI/OtherPlatforms/obj/cw/" />
+        <root foldername="E:/_Project/_GZE_Project/GZE_3D_Tiles/obj/cw/" />
     </FileBrowser>
 </NotepadPlus>
