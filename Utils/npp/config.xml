@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+        <Path name="D:\_Project\_Current_LibRT_WebRT\old\WebRT-1.35.0 - Copy\emscripten\1.35.0\" />
+        <Path name="E:\_Project\Vellum\Cello" />
+        <Path name="E:\_Project\Vellum\Cello\include" />
+        <Path name="E:\_Project\CwcLib\Sokol\" />
+        <Path name="E:\_Project\CwcLib\Sokol\Sokol" />
         <Path name="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\" />
+        <Path name="E:\_Project\_GZE_Project\GZE_3D_Tiles\obj" />
         <Path name="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\" />
         <Path name="E:\_Project\Game\witchblast\src" />
         <Path name="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999" />
-        <Path name="E:\_Test_Android\_MyEngine_468_AndroidWork\" />
-        <Path name="E:\_Test_Android\_MyEngine_468_AndroidWork\_MyEngine\_GroundZero\_Lib\Lib_GZE\" />
-        <Path name="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ" />
-        <Path name="E:\_Project\_GZE_Project\GZE_HelloGUI\" />
-        <Path name="E:\_Project\_GZE_Project\GZE_HelloGUI\java" />
-        <Path name="E:\_Project\ExeLoader" />
         <Filter name="*.*" />
         <Filter name="*.cpp" />
         <Filter name="*.cw" />
-        <Find name="GzShCommun_Light" />
-        <Find name="nType =" />
-        <Find name=" nType =" />
-        <Find name="fAddLight" />
-        <Find name="fAddChild" />
-        <Find name="ThreadItf" />
-        <Find name="parent" />
-        <Find name="parent =" />
-        <Find name="D_Debug" />
-        <Find name="new Box" />
+        <Find name="GDB_Show" />
+        <Find name="moddi3" />
+        <Find name="new" />
+        <Find name="Instance" />
+        <Find name="calloc" />
+        <Find name="malloc" />
+        <Find name="ORYOL_WINDOWS" />
+        <Find name="test_array_new" />
+        <Find name="suite_array" />
+        <Find name="suite_file" />
         <Replace name="/" />
         <Replace name="oUvTexDimFetch" />
         <Replace name="vTexDimFetch" />
@@ -39,7 +39,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="1007" y="160" width="901" height="831" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="947" y="334" width="1039" height="931" isMaximized="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -72,50 +72,45 @@
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" isFolderDroppedOpenFiles="no" docPeekOnTab="yes" docPeekOnMap="no" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="hide" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="2" zoom2="-2" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="hide" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="0" zoom2="1" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
         <GUIConfig name="SmartHighLightCaseSensitive">no</GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="350" rightWidth="57" topHeight="200" bottomHeight="276">
+        <GUIConfig name="DockingManager" leftWidth="214" rightWidth="57" topHeight="200" bottomHeight="259">
+            <FloatingWindow cont="4" x="950" y="682" width="1863" height="897" />
+            <FloatingWindow cont="4" x="950" y="682" width="1863" height="897" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
-            <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="yes" />
-            <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="4" isVisible="no" />
+            <PluginDlg pluginName="dummy" id="0" curr="3" prev="4" isVisible="yes" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
             <ActiveTabs cont="0" activeTab="0" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
-            <ActiveTabs cont="3" activeTab="0" />
+            <ActiveTabs cont="3" activeTab="-1" />
+            <ActiveTabs cont="4" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Tiles\GzShModel_Tiles.cw" />
-        <File filename="E:\_Project\_GZE_Project\GZE_3D_Tiles\src_(Demo)\MainInterface.cw" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gfx\Vector\Box.cw" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_GPU\OpenGL\Lib_GzOpenGL\GpuObj\OpGpuFace.cw" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\GpuObj\GpuBatch.cw" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\GpuObj\GpuBuffer.cw" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\GpuObj\GpuObject.cw" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\GpuObj\GpuFace.cw" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Quad\GzShModel_Quad_Vertex.cw" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Quad\GzShModel_Quad.cw" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gfx\Effects\Light.cw" />
-        <File filename="E:\_Project\_GZE_Project\GZE_3D_Tiles\src_(Demo)\Screen\DemoSideScroller\Perso.cw" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Quad\GzShModel_Quad_Fragment.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShCommun\GzShCommun_Base.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Raymarching.cw" />
+        <File filename="E:\_Project\_GZE_Project\GZE_Raytracer\src_(Demo)\Screen\Bush.cw" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderModel\AtModel\Attribute_Quad.cw" />
+        <File filename="E:\_Project\_GZE_Project\GZE_HelloGUI\Make_For_Windows [Release].cwMake" />
+        <File filename="E:\_Project\Vellum\sokol-samples\wgpu\noninterleaved-wgpu.glsl" />
+        <File filename="E:\_Project\Vellum\_UltimateArray\src\Lib_GZ\External\Basic\xMemory.h" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Base\Container\String\Utf8.cpp" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Base\Container\String\Utf8.h" />
+        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Base\Container\String\gzStringBaseConstuct.h" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/_GZE_Project/GZE_3D_Tiles/\src_(Demo)\Screen\DemoSideScroller\DemoSideScroller.cw">
-        <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/include/" />
-        <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/i686-w64-mingw32/include/" />
+    <FileBrowser latestSelectedItem="E:/_Project/Vellum/_UltimateArray/\src\Lib_GZ\Core\Types.h">
+        <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/clang_inc/" />
         <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/pthreads/" />
-        <root foldername="E:/_Project/_GZE_Project/GZE_3D_Tiles/" />
-        <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/" />
-        <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_System/" />
-        <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_3rdparty/" />
-        <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/SubLib_GPU/OpenGL/" />
-        <root foldername="E:/_Project/_GZE_Project/GZE_3D_Tiles/src_(Demo)/" />
-        <root foldername="E:/_Project/_Cwc/Lib/VLiance/GZE/GZE-999/src/Lib_GZ/" />
-        <root foldername="E:/_Project/_GZE_Project/GZE_3D_Tiles/obj/cw/" />
+        <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/lib/gcc/i686-w64-mingw32/8.1.0/include/" />
+        <root foldername="E:/_Project/Vellum/_UltimateArray/" />
+        <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/CpcDosRT/CpcDosRT-999/SDK/" />
+        <root foldername="E:/_Project/Vellum/_UltimateArray/src/" />
     </FileBrowser>
 </NotepadPlus>
