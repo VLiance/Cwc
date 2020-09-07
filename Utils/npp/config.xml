@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+        <Path name="E:\_Project\Vellum\mesa\" />
+        <Path name="E:\_Project\Vellum\mesa\mesa-newir" />
+        <Path name="E:\_Project\Vellum\mesa\src\gallium\drivers" />
+        <Path name="E:\_Project\Vellum\_UltimateArray\src\" />
         <Path name="D:\_Project\_Current_LibRT_WebRT\old\WebRT-1.35.0 - Copy\emscripten\1.35.0\" />
         <Path name="E:\_Project\Vellum\Cello" />
         <Path name="E:\_Project\Vellum\Cello\include" />
         <Path name="E:\_Project\CwcLib\Sokol\" />
         <Path name="E:\_Project\CwcLib\Sokol\Sokol" />
         <Path name="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\" />
-        <Path name="E:\_Project\_GZE_Project\GZE_3D_Tiles\obj" />
-        <Path name="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\" />
-        <Path name="E:\_Project\Game\witchblast\src" />
-        <Path name="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999" />
+        <Filter name="*.h" />
         <Filter name="*.*" />
         <Filter name="*.cpp" />
         <Filter name="*.cw" />
-        <Find name="GDB_Show" />
-        <Find name="moddi3" />
-        <Find name="new" />
-        <Find name="Instance" />
-        <Find name="calloc" />
-        <Find name="malloc" />
-        <Find name="ORYOL_WINDOWS" />
-        <Find name="test_array_new" />
-        <Find name="suite_array" />
-        <Find name="suite_file" />
+        <Find name="nir_shader_compiler_options" />
+        <Find name="nir_serialize" />
+        <Find name="UTIL_ARCH_LITTLE_ENDIAN" />
+        <Find name="pushbuf" />
+        <Find name="bufctx" />
+        <Find name="nouveau_pushbuf" />
+        <Find name="push" />
+        <Find name="LDT" />
+        <Find name="gzView::" />
+        <Find name="gzView" />
         <Replace name="/" />
         <Replace name="oUvTexDimFetch" />
         <Replace name="vTexDimFetch" />
@@ -39,7 +40,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="947" y="334" width="1039" height="931" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="-1696" y="296" width="1039" height="931" isMaximized="no" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -72,9 +73,9 @@
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" isFolderDroppedOpenFiles="no" docPeekOnTab="yes" docPeekOnMap="no" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="hide" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="0" zoom2="1" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="hide" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="6" zoom2="1" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
         <GUIConfig name="SmartHighLightCaseSensitive">no</GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="214" rightWidth="57" topHeight="200" bottomHeight="259">
+        <GUIConfig name="DockingManager" leftWidth="214" rightWidth="57" topHeight="200" bottomHeight="163">
             <FloatingWindow cont="4" x="950" y="682" width="1863" height="897" />
             <FloatingWindow cont="4" x="950" y="682" width="1863" height="897" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
@@ -89,28 +90,56 @@
         </GUIConfig>
     </GUIConfigs>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShCommun\GzShCommun_Base.cw" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Raymarching.cw" />
-        <File filename="E:\_Project\_GZE_Project\GZE_Raytracer\src_(Demo)\Screen\Bush.cw" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Gpu\ShaderModel\AtModel\Attribute_Quad.cw" />
-        <File filename="E:\_Project\_GZE_Project\GZE_HelloGUI\Make_For_Windows [Release].cwMake" />
-        <File filename="E:\_Project\Vellum\sokol-samples\wgpu\noninterleaved-wgpu.glsl" />
-        <File filename="E:\_Project\Vellum\_UltimateArray\src\Lib_GZ\External\Basic\xMemory.h" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Base\Container\String\Utf8.cpp" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Base\Container\String\Utf8.h" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\Lib_GZ\Base\Container\String\gzStringBaseConstuct.h" />
+        <File filename="E:\_Project\_Cwc\Toolchain\VLianceTool\DroidRT\DroidRT-999\cwc\DroidRT.Default.cwcfg" />
+        <File filename="E:\_Project\Vellum\mesa\src\compiler\glsl_types.h" />
+        <File filename="E:\_Project\Vellum\mesa\src\compiler\nir_types.h" />
+        <File filename="E:\_Project\Vellum\mesa\src\gallium\drivers\nouveau\nouveau_vp3_video.c" />
+        <File filename="E:\_Project\_Cwc\Toolchain\VLianceTool\LibRT\LibRT-999\i686-w64-mingw32\include\stdio.h" />
+        <File filename="E:\_Project\_Cwc\Toolchain\VLianceTool\LibRT\LibRT-999\i686-w64-mingw32\include\_mingw_off_t.h" />
+        <File filename="E:\_Project\Vellum\mesa\_cwc\other\sys\ioccom.h" />
+        <File filename="D:\_Project\_Current_LibRT_WebRT\old\WebRT-1.35.0\emscripten\1.35.0\system\include\libc\sys\types.h" />
+        <File filename="E:\_Project\Vellum\mesa\src\gallium\drivers\nouveau\nouveau_screen.c" />
+        <File filename="E:\_Project\Vellum\mesa\src\gallium\auxiliary\os\os_mman.h" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/Vellum/_UltimateArray/\src\Lib_GZ\Core\Types.h">
-        <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/clang_inc/" />
-        <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/pthreads/" />
-        <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/lib/gcc/i686-w64-mingw32/8.1.0/include/" />
-        <root foldername="E:/_Project/Vellum/_UltimateArray/" />
-        <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/CpcDosRT/CpcDosRT-999/SDK/" />
-        <root foldername="E:/_Project/Vellum/_UltimateArray/src/" />
-    </FileBrowser>
+    
+
+
+
+
+
+
+
+<FileBrowser>
+ <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/include/" />
+ <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/i686-w64-mingw32/include/" />
+ <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/i686-w64-mingw32/include/c++/" />
+ <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/i686-w64-mingw32/include/c++/backward/" />
+ <root foldername="E:/_Project/_Cwc/Toolchain/VLianceTool/LibRT/LibRT-999/pthreads/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../other/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../other/gen/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../../src/gallium/drivers/nouveau/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../../src/gallium/auxiliary/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../../src/gallium/include/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../../include/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../../drm/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../../drm/nouveau/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../../drm/include/drm/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../../src/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../../src/compiler/nir/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../../src/compiler/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../../src/mesa/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../../src/loader/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../../src/util/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../../" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../../src/gallium/winsys/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../../libatomic_ops-7.6.10/src/" />
+ <root foldername="E:/_Project/Vellum/mesa/_cwc/driver_nouveau/../../src/mapi/" />
+</FileBrowser>
 </NotepadPlus>
