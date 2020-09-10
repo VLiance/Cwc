@@ -65,11 +65,8 @@ Here are the supported toolchains for now:
 
 * Windows           ([LibRT](https://github.com/VLianceTool/LibRT))
 * Web -> Emscriptem ([WebRT](https://github.com/VLianceTool/WebRT))
-
-TODO:
-
 * Android           ([DroidRT](https://github.com/VLianceTool/DroidRT))
-* IOS				([IRT](https://github.com/VLianceTool/IRT))
+
 
 Any other custom toolchain can be added easily with a Github repo, possibilities are limitless.
 
