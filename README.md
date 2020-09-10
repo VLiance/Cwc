@@ -78,4 +78,4 @@ See the [wiki](https://github.com/VLiance/Cwc/wiki):
 
 See some demos:
 * [Some libs using Cwc](https://github.com/cwc-lib)
-* [Some web examples with GZE](https://github.com/cwc-gze)
+* [Some examples with GZE](https://github.com/cwc-gze)
