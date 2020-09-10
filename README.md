@@ -77,6 +77,5 @@ See the [wiki](https://github.com/VLiance/Cwc/wiki):
 * [Variable](https://github.com/VLiance/Cwc/wiki/Variables)
 
 See some demos:
-* [Demos](https://github.com/VLiance/Demos)
 * [Some libs using Cwc](https://github.com/cwc-lib)
-* [Some Web test](https://github.com/VLiance/Cwc_Tests)
+* [Some example with GZE](https://github.com/cwc-gze)
