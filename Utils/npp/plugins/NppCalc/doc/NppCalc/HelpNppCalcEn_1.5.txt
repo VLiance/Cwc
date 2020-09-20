@@ -1,0 +1,949 @@
+ENTER - calculate
+
+Basic
+	+	addition
+	-	subtraction
+	*	multiplication
+	/	division
+	^	power
+	+>	concatenation
+
+Assignment
+	:=	assignment
+	+=	addition assignment
+	-=	subtraction assignment
+	*=	multiplication assignment
+	/=	division assignment
+
+Compare
+	=	equal to
+	>	greater than
+	>=	greater than or equal to
+	<	less than
+	<=	less than or equal to
+	<>	not equal to
+
+Separator of the integer and the fractional part of the numbers
+	. ( dot )
+Separator function
+	; ( semicolon )
+Separator function parameters
+	, ( comma )
+String data enclosed in single quotes
+	a := 'abcde'
+
+
+Create array
+	a := ( 1, 2, 3 )
+Access to array element
+	a[0]
+Set value to array element
+	a[0] := 5
+
+Object in the set
+	'1' IN ( '1', '2', '3' )
+String is an array of characters
+	a := 'abcde'
+	a[0]
+Break a string into an array by delimiter
+	a := Split( '1;2;3;4', ';' )
+Join array elements with a glue string
+	Join( ( 1, 2, 3, 'a' ), CRLF )
+	Join( ( 1, 2, 3, 'a' ), CRLF, True )
+Sorting array in ascending
+	Sort( ( 4, 2, 1, 3 ) )
+Sorting array in descending
+	RSort( ( 4, 2, 1, 3 ) )
+Create an array containing a range of elements
+	Range( start, end, step )
+	Range( 0, 10, 2 )
+Index of the first found element in the array
+	IndexOf( 3, ( 1, 2, 3, 4 ) )
+Count elements of the array
+	CountOf( 3, ( 1, 2, 3, 4, 3 ) )
+
+Cast to integer
+	Int( '10.9' )
+Cast to float
+	Float( '10.9' )
+Cast to string
+	Str( 10 )
+Cast to boolean
+	Bool( 10.9 )
+Cast to null value
+	Empty( 10.9 )
+
+Add text to the output buffer
+	Echo( 2 )
+
+Select by condition
+	IF ( condition, a, b )
+	IF ( 1 > 2, echo( true ), echo( false ) )
+
+	IF ( condition, a, b, condition, a, b )
+	IF ( 1 > 2, echo( true ), echo( false ), 2 > 1, echo( true ), echo( false ) )
+
+Loop repeats instruction as long as the condition is met
+	For( i := 0, i < 10, Inc( i ), Echo( i ) )
+	i := 0; While( i < 10, Inc( i ); Echo( i ) )
+	i := 0; Repeat( Inc( i ); Echo( i ), i = 10 )
+	array := ( 1, 2, 3 ); Foreach( elem, array, Echo( elem ) )
+
+Ends execution of the current loop
+	Break
+Skip the rest of the current loop iteration
+	Continue
+
+
+Evaluates npp code from string
+	Eval( 'MsgBox( 2^8, ''test'' )' )
+Evaluates npp code from file ( shared variables )
+	EvalFromFile( filename )
+
+Logical
+	True
+	False
+Empty value
+	Null
+Number pi
+	Pi
+Base of the natural logarithm
+	e
+Catalans constant
+	Catalan
+Euler constant
+	Euler
+Golden ratio
+	GoldenRatio
+Speed of light ( m/s )
+	Light
+Speed of sound ( m/s )
+	Sound
+Gravitational acceleration ( m/s )
+	Gravity
+Carriage return
+	CR
+Line feed
+	LF
+Carriage return and Line feed
+	CRLF
+
+
+Hexadecimal number
+	0xAF
+Octal number
+	0t777
+Binary number
+	0b100101
+Character
+	#65
+
+
+Increments the value by the relevant value
+	Inc( 5, [1] )
+Exponentiation
+	2^3
+Squaring
+	Sqr( 20 )
+Square root
+	Sqrt( 9 )
+Nth root
+	SqrN( 27, 3 )
+Integer division
+	100 div 3
+Modulo
+	100 mod 3
+Percent
+	Per( 200, 10 )
+Absolute value
+	Abs( -20 )
+Returns e raised to the specified power
+	Exp( 2 )
+Natural logarithm
+	Ln( 10 )
+Decimal logarithm
+	Lg( 10 )
+Binary logarithm
+	Log2( 2 )
+Logarithm of the specified base
+	LogN( 5 [base] , 1 )
+Factorial of a number
+	Factorial( 5 )
+Fibonacci numbers
+	Fibonacci( 10 )
+Number of figures in number
+	Digits( 123456 )
+A number is even
+	Even( 4 )
+A number is odd
+	Odd( 4 )
+Number is prime
+	IsPrime( 7 )
+Next prime number
+	NextPrime( 7 )
+Prev prime number
+	PrevPrime( 11 )
+Random prime number
+	RandomPrime( 1000 )
+Least common multiple
+	LCM( 27, 18 )
+Greatest common divisor
+	GCD( 27, 18 )
+Uniform polynomial of one variable
+	Poly( 5, ( 1, 2, 3, 4 ) )
+Average array values
+	Avg( ( 1, 2, 3, 4 ) )
+Sum of values in an array
+	Sum( ( 1, 2, 3, 4 ) )
+Sum of squares in an array
+	SumOfSquares( ( 1, 2, 3, 4 ) )
+Greatest value in an array
+	Max( ( 1, 2, 3, 4 ) )
+Smallest value in an array
+	Min( ( 1, 2, 3, 4 ) )
+Standard deviation
+	StdDev( ( 1, 2, 3, 4 ) )
+Population standard deviation
+	PopnStdDev( ( 1, 2, 3, 4 ) )
+Variance
+	Variance( ( 1, 2, 3, 4 ) )
+Population variance
+	PopnVariance( ( 1, 2, 3, 4 ) )
+Total variance
+	TotalVariance( ( 1, 2, 3, 4 ) )
+The Euclidean L2-norm
+	Norm( ( 1, 2, 3, 4 ) )
+
+
+Sine
+	Sin( 1 )
+Arcsine
+	ArcSin( 1 )
+Hyperbolic sine
+	SinH( 1 )
+Hyperbolic arcsine
+	ArcSinH( 1 )
+
+Cosine
+	Cos( 1 )
+Arccosine
+	ArcCos( 1 )
+Hyperbolic cosine
+	CosH( 1 )
+Hyperbolic arccosine
+	ArcCosH( 1 )
+
+Tangent
+	Tan( 1 )
+Arctangent
+	ArcTan( 1 )
+Arctangent ( Y/X )
+	ArcTan2( y, x )
+Hyperbolic tangent
+	TanH( 1 )
+Hyperbolic arctangent
+	ArcTanH( 0 )
+
+Cotangent
+	Cot( 1 )
+Arccotangent
+	ArcCot( 1 )
+Hyperbolic cotangent
+	CotH( 1 )
+Hyperbolic arccotangent
+	ArcCotH( 10 )
+
+Secant
+	Sec( 1 )
+Arcsecant
+	ArcSec( 1 )
+Hyperbolic secant
+	SecH( 1 )
+Hyperbolic arcsecant
+	ArcSecH( 1 )
+
+Cosecant
+	Csc( 1 )
+Arccosecant
+	ArcCsc( 1 )
+Hyperbolic cosecant
+	CscH( 1 )
+Hyperbolic arccosecant
+	ArcCscH( 1 )
+
+Calculates the length of the hypotenuse
+	Hypot( 3, 4 )
+
+Converts radians to degrees
+	RadToDeg( 1 )
+Converts radians to grads
+	RadToGrad( 1 )
+Converts radians to cycles
+	RadToCycle( 1 )
+Converts degrees to radians
+	DegToRad( 1 )
+Converts degrees to grads
+	DegToGrad( 1 )
+Converts degrees to cycles
+	DegToCycle( 1 )
+Converts grads to radians
+	GradToRad( 1 )
+Converts grads to degrees
+	GradToDeg( 1 )
+Converts grads to cycles
+	GradToCycle( 1 )
+Converts cycles to radians
+	CycleToRad( 1 )
+Converts cycles to degrees
+	CycleToDeg( 1 )
+Converts cycles to grads
+	CycleToGrad( 1 )
+
+* For trigonometric functions argument in radians
+
+
+Character code
+	Ord( 'A' )
+Character
+	Chr( 65 )
+Length string/array
+	Len( 'ABC' )
+Index of the first occurrence of a substring within a string
+	Pos( 'bc', 'abcde' )
+Index of the first occurrence of a substring within a string, beginning the search at offset
+	PosEx( 'bc', 'abcdebc', 3 )
+Getting a substring between two string
+	StrPart( 'ab', 'bc', 'abcdebc' )
+Compare
+	CompareStr( 'ABC', 'abc' )
+	CompareText( 'ABC', 'abc' )
+Change case
+	UpperCase( 'Abc' )
+	LowerCase( 'Abc' )
+Remove spaces
+	Trim( ' ABC ' )
+	TrimLeft( ' ABC' )
+	TrimRight( 'ABC ' )
+Replaces all occurrences of a substring within a string
+	StrReplace( 'abcabc', 'b', 'B' )
+Return part of a string
+	SubStr( 'ABCD', 2, 2 )
+Reversed string
+	StrRev( 'abcd' )
+Pad a string from right
+	RightPad( 'abcd', 6, '-' )
+Pad a string from left
+	LeftPad( 'abcd', 6, '-' )
+Alphabet
+	Alphabet( ' ', ['ru'] )
+Wraps a string to a given number of characters using a string break character
+	WordWrap( 'string string', 6 )
+Convert from html to plain text
+	HtmlToPlain( htmldata )
+Soundex key of a string
+	Soundex( 'abcd' )
+Levenshtein distance between two strings
+	Levenshtein( 'abcd', 'abdc' )
+Insert a substring between characters strings
+	Sparse( 'abcdef', '-', 3 )
+Shuffle string characters
+	Shuffle( 'abcdef' )
+Calculate the entropy of the string
+	Entropy( 'abcdef', [detail = true] )
+
+
+A unique 128-bit identifier
+	GUID()
+
+
+Truncates a real number to an integer
+	Trunc( 10.9 )
+Fractional part
+	Frac( 10.9 )
+Rounded to the integer number
+	Round( 10.6 )
+Rounded value to a specified power of ten
+	RoundTo( 10.653, -1 )
+Rounds variables up toward positive infinity
+	Ceil( 10.5 )
+Rounds variables toward negative infinity
+	Floor( 10.5 )
+Hexadecimal number
+	Hex( 1000 )
+Octal number
+	Oct( 100 )
+Binary number
+	Bin( 20 )
+Roman numeral
+	Roman( 15 )
+	RomanToDec( 'XVIII' )
+Format
+	FormatFloat( '0.00', 1.2345 )
+	Bytes( 102434435 )
+Convert to any number system ( from 2 to 36 )
+	DecToBase( 200, 16 )
+	BaseToDec( 'C8', 16 )
+
+
+Current date
+	Date( ['d', 'M', 'y'] )
+	Date( 'd' )
+
+Current time
+	Time( ['h', 'm', 's'] )
+	Time( 's' )
+
+Current date and time
+	Now( ['d', 'M', 'y', 'h', 'm', 's'] )
+	Now( 'y' )
+
+Retrieves the number of milliseconds that have elapsed since the system was started
+	GetTickCount()
+
+Date shifted by a specified number
+	IncSecond( date(), 30 )
+	IncMinute( date(), 30 )
+	IncHour( date(), 12 )
+	IncDay( date(), 7 )
+	IncWeek( date(), 1 )
+	IncMonth( date(), 12 )
+	IncYear( date(), 10 )
+
+*Second parameter defaults to 1
+**If the parameter is negative then there is a decrease
+
+Part of the value of a date
+	SecondOf( now() )
+	MinuteOf( now() )
+	HourOf( now() )
+	DayOf( now() )
+	WeekOf( now() )
+	MonthOf( now() )
+	YearOf( now() )
+
+Difference between dates
+	SecondsBetween( date(), date() + 1 )
+	MinutesBetween( date(), date() + 1 )
+	HoursBetween( date(), date() + 1 )
+	DaysBetween( date(), date() + 1 )
+	WeeksBetween( date(), date() + 7 )
+	MonthsBetween( date(), date() + 31 )
+	YearsBetween( date(), date() + 366 )
+	DateBetween( date(), date() + 1.11, ['ru'] )
+
+Weeks in year
+	WeeksInYear( now() )
+Days in year
+	DaysInYear( now() )
+Days in month
+	DaysInMonth( now() )
+
+Index number for the date/time
+	MonthOfTheYear( now() )
+	WeekOfTheYear( now() )
+	DayOfTheYear( now() )
+	HourOfTheYear( now() )
+	MinuteOfTheYear( now() )
+	SecondOfTheYear( now() )
+	MilliSecondOfTheYear( now() )
+
+	WeekOfTheMonth( now() )
+	DayOfTheMonth( now() )
+	HourOfTheMonth( now() )
+	MinuteOfTheMonth( now() )
+	SecondOfTheMonth( now() )
+	MilliSecondOfTheMonth( now() )
+
+	DayOfTheWeek( now() )
+	HourOfTheWeek( now() )
+	MinuteOfTheWeek( now() )
+	SecondOfTheWeek( now() )
+	MilliSecondOfTheWeek( now() )
+
+	HourOfTheDay( now() )
+	MinuteOfTheDay( now() )
+	SecondOfTheDay( now() )
+	MilliSecondOfTheDay( now() )
+
+	MinuteOfTheHour( now() )
+	SecondOfTheHour( now() )
+	MilliSecondOfTheHour( now() )
+
+	SecondOfTheMinute( now() )
+	MilliSecondOfTheMinute( now() )
+
+	MilliSecondOfTheSecond( now() )
+
+Compare date
+	SameDateTime( date(), time() )
+	SameDate( date(), date() )
+	SameTime( now(), time() )
+
+Is leap year
+	IsLeapYear( 2012 )
+
+Age of the person by date
+	Age( '01.01.1965', [now()] )
+
+Horoscope
+	Horoscope( '01.01.1965', ['ru'] )
+
+Formatting dates
+	UnixTime( Now() )
+	TimeUnix( '@1111111111' )
+
+	FormatDateTime( 'dd.MM.yyyy hh:mm:ss', now() )
+
+
+The distance between the geographic coordinates in meters
+	VincentyDistance( latitude1, longitude1, latitude2, longitude2 )
+	VincentyDistance( 55.7537, 37.6199, 40.7145, -74.0071 )
+
+Euclidean distance
+	EuclideanDistance( (100, 100), (200, 200) )
+
+
+Check bits
+	isBitSet( 500, 3 )
+Enable bit
+	BitOn( 500, 3 )
+Disable bit
+	BitOff( 508, 3 )
+Invert bit
+	BitToggle( 500, 3 )
+Bitwise "AND"
+	10 and 50
+Bitwise "OR"
+	10 or 50
+Bitwise "XOR"
+	10 xor 50
+Bitwise shift left
+	10 shl 1
+Bitwise shift right
+	10 shr 1
+Negative
+	not True
+
+
+Random number generator
+	Rnd( 100 )
+Random string generator
+	RndP( 12, ['char map'] )
+Random numbers with Gaussian distribution about the mean
+	RandG( mean, stddev )
+Random number from a given range
+	RandomRange( 10, 100 )
+Random picked from the array
+	RandomFrom( ( 1, 2, 3, 4 ) )
+
+
+Beep
+	Beep( freq, duration )
+Plays a sound
+	PlaySound( filename, false [async] )
+Wait n milliseconds ( break ctrl-break )
+	Wait( 5000 )
+Dialog box with a message
+	MsgBox( 'message', 'caption' )
+Start program
+	Exec( 'filename', ['parameters'], ['directory'] )
+
+
+Open com-port
+	handle := OpenComPort( 1 )
+Set baud rate
+	BaudRate( handle, 9600 )
+
+Connect to a TCP/IP
+	handle := TcpClient( 'host / ip', port, [Timeout=1000] )
+
+Write data
+	WriteData( handle, 'data' )
+Read data
+	ReadData( handle, count )
+Read all data
+	ReadAll( handle )
+Close connection
+	Close( handle )
+
+
+Sending messages users registered in the working group
+	NetSend( 'host / ip', 'message' )
+
+Checking the connections TCP/IP
+	Ping( 'host / ip' )
+
+
+Function names correspond to encoding algorithm. _E - encoding, _D - decoding
+	Base64_E( 'string' )
+	Base64_D( 'c3RyaW5n' )
+	Morse_E( 'string', 'eng' ['rus'] )
+	Morse_D( '... - .-. .. -. --.', 'eng' ['rus'] )
+	UUE_E( 'string' )
+	UUE_D( '&<W1R:6YG' )
+	XXE_E( 'string' )
+	XXE_D( '4QrFmOKtb' )
+	URL_E( 'строка' )
+	URL_D( '%F1%F2%F0%EE%EA%E0' )
+
+	StrToHex( 'string' )
+	HexToStr( '737472696E67' )
+
+	AnsiToUtf8( 'строка' )
+	Utf8ToAnsi( 'СЃС‚СЂРѕРєР°' )
+
+	AnsiToOem( 'строка' )
+	OemToAnsi( 'бва®Є ' )
+
+Function names correspond to encryption algorithms. _E - encrypt, _D - decrypt
+	Blowfish_E( 'string', 'key' )
+	Blowfish_D( HexToStr( 'D6F0DF7489EC' ), 'key' )
+	Twofish_E( 'string', 'key' )
+	Twofish_D( HexToStr( '7E9CBE8F9B06' ), 'key' )
+	Cast128_E( 'string', 'key' )
+	Cast128_D( HexToStr( '216212CDDE4B' ), 'key' )
+	Cast256_E( 'string', 'key' )
+	Cast256_D( HexToStr( '05791D1DAD20' ), 'key' )
+	DES_E( 'string', 'key' )
+	DES_D( HexToStr( '6FAE586796A6' ), 'key' )
+	DES3_E( 'string', 'key' )
+	DES3_D( HexToStr( '2951EBBAC9FD' ), 'key' )
+	Ice_E( 'string', 'key' )
+	Ice_D( HexToStr( '84C91E3A8077' ), 'key' )
+	Ice2_E( 'string', 'key' )
+	Ice2_D( HexToStr( 'A328DA587437' ), 'key' )
+	ThinIce_E( 'string', 'key' )
+	ThinIce_D( HexToStr( '41A405D7254E' ), 'key' )
+	IDEA_E( 'string', 'key' )
+	IDEA_D( HexToStr( 'CA102AED6B57' ), 'key' )
+	MARS_E( 'string', 'key' )
+	MARS_D( HexToStr( 'C96B02CCFC78' ), 'key' )
+	Misty1_E( 'string', 'key' )
+	Misty1_D( HexToStr( '38ADC95AA8C0' ), 'key' )
+	RC2_E( 'string', 'key' )
+	RC2_D( HexToStr( '436053FA3B04' ), 'key' )
+	RC4_E( 'string', 'key' )
+	RC4_D( HexToStr( 'A236F9BAFB0A' ), 'key' )
+	RC5_E( 'string', 'key' )
+	RC5_D( HexToStr( 'EB9AC33B9AFB' ), 'key' )
+	RC6_E( 'string', 'key' )
+	RC6_D( HexToStr( '24A465DE92F2' ), 'key' )
+	Rijndael_E( 'string', 'key' )
+	Rijndael_D( HexToStr( '1FF3E7BB38EE' ), 'key' )
+	Serpent_E( 'string', 'key' )
+	Serpent_D( HexToStr( '79C40F945083' ), 'key' )
+	TEA_E( 'string', 'key' )
+	TEA_D( HexToStr( 'EB2858E82879' ), 'key' )
+	XOR_E( 'string', 'key' )
+	XOR_D( HexToStr( '18110B020B1E' ), 'key' )
+
+Function names correspond to algorithm of data compression. _P - pack, _U - unpack
+	RLE_P( 'ssssss' )
+	RLE_U( HexToStr( '1973' ) )
+	Huffman_P( 'ssssss' )
+	Huffman_U( HexToStr( '06000000E700' ) )
+	ArithmeticCoding_P( 'ssssss' )
+	ArithmeticCoding_U( HexToStr( '8B7E9FE80000' ) )
+	LZO_P( 'ssssss' )
+	LZO_U( HexToStr( '060017737373737373' ) )
+	LZW_P( 'ssssss' )
+	LZW_U( HexToStr( '801CE0503808' ) )
+	LZSS_P( 'ssssss' )
+	LZSS_U( HexToStr( '0173EEF2' ) )
+	LZ77_P( 'ssssss' )
+	LZ77_U( HexToStr( '0600000002730200' ) )
+	LZMA_P( 'ssssss' )
+	LZMA_U( HexToStr( '5D0000400006000000000000000039E97C000000' ) )
+	Deflate_P( 'ssssss' )
+	Deflate_U( HexToStr( '78DA2B2E060100097502B3' ) )
+
+Function names correspond to hash algorithm
+	CRC32( 'string' )
+	CRC32B( 'string' )
+	MD2( 'string' )
+	MD4( 'string' )
+	MD5( 'string' )
+	SHA1( 'string' )
+	SHA256( 'string' )
+	SHA384( 'string' )
+	SHA512( 'string' )
+	Haval128( 'string' )
+	Haval160( 'string' )
+	Haval192( 'string' )
+	Haval224( 'string' )
+	Haval256( 'string' )
+	Gost( 'string' )
+	Tiger128( 'string' )
+	Tiger160( 'string' )
+	Tiger192( 'string' )
+	RipeMD128( 'string' )
+	RipeMD160( 'string' )
+	Adler32( 'string' )
+
+
+Get all the possible permutations
+	Permutation( 'a', 'b', 'c' )
+Get all the arrangement of N by M
+	Arrangement( 2, 'a', 'b', 'c' )
+Get all the possible arrangement
+	FullArrangement( 'a', 'b', 'c' )
+Get all the combination of N by M
+	Combination( 2, 'a', 'b', 'c' )
+Get all the possible combination
+	FullCombination( 'a', 'b', 'c' )
+
+
+Copy to clipboard
+	ClipPut( 'string' )
+Paste from clipboard
+	ClipGet()
+
+
+Get rectangle area of the screen
+	GetRect()
+
+Make a screenshot
+	Screenshot( 'screen' )
+	Screenshot( 'area', GetRect() )
+	Screenshot( 'window' )
+	Screenshot( 'client' )
+
+View images
+	Preview( filename/imagedata/color )
+Convert the image to Windows Bitmap
+	BMP( filename/imagedata )
+Convert the image to JPEG
+	JPG( filename/imagedata )
+Convert the image to Portable network graphic
+	PNG( filename/imagedata )
+Convert the image to Graphics interchange format
+	GIF( filename/imagedata )
+Convert the image to Truevision
+	TGA( filename/imagedata )
+
+
+Font selection dialog
+	FontDialog()
+
+Color selection dialog
+	ColorDialog()
+	ColorDialog( 0x00DEADFF )
+
+Get pixel color in any window
+	PickColor()
+
+Get a color from the color model: red, green, blue
+	RGB( 255, 173, 222 )
+Split the color into its component colors: red, green, blue
+	ColorToRGB( 0x00DEADFF )
+
+Get a color from the color model: hue, saturation, lightness
+	HSL( 324.1, 360.5, 302.6 )
+Split the color into its component colors: hue, saturation, lightness
+	ColorToHSL( 0x00DEADFF )
+
+Get a color from the color model: win240 hue, saturation, lightness
+	WinHSL240( 216.1, 240.5, 201.9 )
+Split the color into its component colors: win240 hue, saturation, lightness
+	ColorToWinHSL240( 0x00DEADFF )
+
+Get a color from the color model: win255 hue, saturation, lightness
+	WinHSL255( 195.4, 255.5, 214.5 )
+Split the color into its component colors: win255 hue, saturation, lightness
+	ColorToWinHSL255( 0x00DEADFF )
+
+Get a color from the color model: cyan, magenta, yellow
+	CMY( 0, 82, 33 )
+Split the color into its component colors: cyan, magenta, yellow
+	ColorToCMY( 0x00DEADFF )
+
+Get a color from the color model: cyan, magenta, yellow, black
+	CMYK( 0, 32.2, 12.9, 0 )
+Split the color into its component colors: cyan, magenta, yellow, black
+	ColorToCMYK( 0x00DEADFF )
+
+Get a color from the color model: luma, 2 chrominance
+	YUV( 190.5, 137.4, 160.5 )
+Split the color into its component colors: luma, 2 chrominance
+	ColorToYUV( 0x00DEADFF )
+
+Get a color from the color model: hue, saturation, value
+	HSV( 324.1, 32.2, 100 )
+Split the color into its component colors: hue, saturation, value
+	ColorToHSV( 0x00DEADFF )
+
+Get a color from the color model: luma, in phase, quadrature
+	YIQ( 203.1, 161.1, 160.6 )
+Split the color into its component colors: luma, in phase, quadrature
+	ColorToYIQ( 0x00DEADFF )
+
+Get a color from the color model: luma, blue-difference, red-difference
+	YCbCr( 203.1, 160.4, 137.4 )
+Split the color into its component colors: luma, blue-difference, red-difference
+	ColorToYCbCr( 0x00DEADFF )
+
+Get a color from the color model: CIE XYZ
+	XYZ( 69.4, 56.4, 76.3 )
+Split the color into its component colors: CIE XYZ
+	ColorToXYZ( 0X00DEADFF )
+
+Get a color from the color model: CIE LAB
+	LAB( 79.9, 37, -12.4 )
+Split the color into its component colors: CIE LAB
+	ColorToLAB( 0x00DEADFF )
+
+Compare colors
+	CompareColors( 0x00DEADFF, 0x00DEADFE )
+Get average color
+	GetAvgColor( 0x00FF0000, 0x00000000 )
+Get color with transparency
+	TransparencyColor( color, background, value [0..100] )
+	TransparencyColor( 0x000000FF, 0x0000FFFF, 20 )
+Invert color
+	InvertColor( 0x00DEADFF )
+Gamma-correction
+	GammaCorrection( 0x00DEADFF, 1.5 )
+Convert to gray
+	ColorToGray( 0x00DEADFF )
+Wavelength to color, [380..780] nanometers
+	WavelengthToColor( 580 )
+Frequency to color, [384..788] terahertz
+	FrequencyToColor( 640 )
+
+
+Set color input/output format
+	'colorref':		'0x00DEADFF'			// colorref
+	'html':			'#FFADDE'				// html color
+	'css':			'rgb( 255, 173, 222 )'	// css color
+	'delphi':		'$00DEADFF'				// delphi color
+	'bgrdec':		'( 222, 173, 255 )'		// bgr decimal
+	'bgrnum':		'14593535'				// bgr number
+
+	SetColorFmt( 'colorref' )
+	SetColorFmt( 'html css bgrnum' )
+
+Get color input/output format
+	GetColorFmt()
+
+
+Directory selection dialog
+	FolderDialog()
+	FolderDialog( 'C:\' )
+File open dialog
+	OpenDialog()
+	OpenDialog( 'C:\', 'text file|*.txt' )
+File save dialog
+	SaveDialog()
+	SaveDialog( 'C:\', 'text file|*.txt' )
+Read from file
+	LoadFromFile( filename )
+Write to file. mode: 'a' - append, 'w' - rewrite
+	SaveToFile( data, filename, mode )
+Correct invalid characters in the file name
+	FixFileName( filename )
+Copy a directory or file
+	Copy( oldname, newname )
+Rename a directory or file
+	Move( oldname, newname )
+Remove a directory or file
+	Remove( filename )
+Check whether a particular file exists in the file system
+	FileExists( filename )
+Check whether a directory exists in the file system
+	DirectoryExists( pathname )
+Find all files that match the file mask
+	FindFile( 'c:\', '*.*', false [subfolder] )
+Extract the path from a filename
+	ExtractFilePath( filename )
+Extract the drive part from a filename
+	ExtractFileDrive( filename )
+Extract the filename part from a full path filename
+	ExtractFileName( filename )
+Return the extension from a filename
+	ExtractFileExt( filename )
+Change the extension of a filename
+	ChangeFileExt( filename, ext )
+Get date/time of the last file change
+	FileAge( filename )
+Return the current working directory of the application
+	GetCurrentDir()
+Set the current directory of the application
+	SetCurrentDir( path )
+Create a new directory
+	CreateDir( path )
+Create a chain of directories
+	ForceCreateDir( path )
+
+
+Conversion from one unit of measurement to another
+	Convert( 1, 'kilometers', 'meters' )
+	Convert( 0, 'kelvin', 'celsius' )
+	Convert( 1, 'millennia', 'years' )
+	Convert( 1, 'ukpints', 'liters' )
+
+Distance
+	'Micromicrons', 'Angstroms', 'Millimicrons', 'Microns',
+	'Millimeters', 'Centimeters', 'Decimeters', 'Meters',
+	'Decameters', 'Hectometers', 'Kilometers', 'Megameters',
+	'Gigameters', 'Inches', 'Feet', 'Yards', 'LightYears',
+	'NauticalMiles', 'AstronomicalUnits', 'Points', 'Miles',
+	'Parsecs', 'Cubits', 'Fathoms', 'Furlongs', 'Chains',
+	'Paces', 'Rods', 'Links', 'Picas', 'Hands'
+
+Area
+	'SquareMillimeters', 'SquareCentimeters', 'Ares',
+	'SquareDecimeters', 'SquareMeters', 'SquareDecameters',
+	'SquareHectometers', 'SquareKilometers', 'SquareInches',
+	'SquareFeet', 'SquareYards', 'SquareMiles', 'Acres',
+	'Centares', 'Hectares', 'SquareRods'
+
+Volume
+	'CubicMillimeters', 'CubicCentimeters', 'CubicDecimeters',
+	'CubicMeters', 'CubicDecameters', 'CubicHectometers',
+	'CubicKilometers', 'CubicInches', 'CubicFeet', 'CubicYards',
+	'CubicMiles', 'MilliLiters', 'CentiLiters', 'DeciLiters',
+	'Liters', 'DecaLiters', 'HectoLiters', 'KiloLiters', 'Cords',
+	'AcreFeet', 'AcreInches', 'CordFeet', 'Decisteres', 'Steres',
+	'Decasteres', 'FluidGallons', 'FluidQuarts', 'FluidPints',
+	'FluidCups', 'FluidGills', 'FluidOunces', 'FluidTablespoons',
+	'FluidTeaspoons', 'DryGallons', 'DryQuarts', 'DryPints',
+	'DryPecks', 'DryBuckets', 'DryBushels', 'UKGallons', 'UKGill',
+	'UKQuarts', 'UKPints', 'UKOunces', 'UKPecks', 'UKPottle',
+	'UKBuckets', 'UKBushels'
+
+Weight
+	'Nanograms', 'Micrograms', 'Milligrams', 'Centigrams', 'Grams',
+	'Decigrams', 'Decagrams', 'Hectograms', 'Kilograms', 'MetricTons',
+	'Drams', 'Grains', 'Tons', 'LongTons', 'Ounces', 'Pounds', 'Stones'
+
+Temperature
+	'Celsius', 'Kelvin', 'Fahrenheit', 'Rankine', 'Reaumur'
+
+Time
+	'MilliSeconds', 'Seconds', 'Minutes', 'Hours', 'Days', 'Weeks',
+	'Fortnights', 'Months', 'Years', 'Decades',	'Centuries',
+	'Millennia', 'DateTime', 'JulianDate', 'ModifiedJulianDate'
+
+
+Set default language
+	SetDefaultLang( 'en' ['ru'] )
+Get default language
+	GetDefaultLang()
+
+Set the maximum loop time ( ms )
+	SetMaxLoopTime( 30000 )
+Get the maximum loop time ( ms )
+	GetMaxLoopTime()
+
+
+Example
+
+Print the ANSI table with the codes
+	for( i := 0, i < 256, inc( i ), echo( chr( i ) + ' - ' + str( i ) ) )
+
+Take a screenshot of the screen and copy to clipboard
+	ClipPut( Screenshot( 'area', GetRect() ) )
+
+
+Author: RinOS
+https://sourceforge.net/projects/nppcalc/
