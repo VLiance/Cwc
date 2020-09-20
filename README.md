@@ -3,7 +3,7 @@
 
 Cwc is a **front-end** C++ compiler made for programmers who want to make their life easier.
 
-It use a straightforward language -> command line injection
+It use a **straightforward language -> command line injection**
 
 It can be used as a direct replacement for GCC or Clang.
 
