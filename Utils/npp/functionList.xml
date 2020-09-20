@@ -72,7 +72,8 @@
 			<!--         V                                                                -->
 			<association id=         "php_syntax"     langID= "1"                          />
 			<association id=           "c_function"   langID= "2"          />
-			<association id=   "cplusplus_syntax"     userDefinedLangName="CWayv"                          />
+			<association id=   "cplusplus_syntax"     userDefinedLangName="CWayv"          />
+			<association id=   "cplusplus_syntax"     ext=".glsl"                          />
 			<association id=      "csharp_class"      langID= "4"                          />
 			<association id=        "java_syntax"     langID= "6"                          />
 			<association id=         "xml_node"       langID= "9"                          />
