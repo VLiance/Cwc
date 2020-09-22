@@ -48,10 +48,15 @@ It is possible to send a whole directory in one command line. It will process al
 
 ### Accepts the variables:
 We can insert variables in our commands, using braces {}
-There are a lot of build-in vars to simplify compilation processs like the build type (x86, x64, Debug, O2, O3) which requires different folder
+There are a lot of build-in vars to simplify compilation processs like the build type (x86, x64, Debug, O2, O3) which requires different folder.
 
 ### Sanitizer:
 Connect to DrMemory, you can comb through all possible memory errors.
+
+### Debugger
+Cwc use the universal [DBGP common Debugger prorotocol](https://xdebug.org/docs-dbgp.php).
+
+So you can debug in your prefered IDE, see the notepad++ plugin: [DBGpPluginMx](https://github.com/VLiance/DBGpPluginMx)
 
 
 # Screen
