@@ -35,7 +35,7 @@ All backend compiler or lib that is required for a project will be automatically
 compilation toolchain and arguments
 
 
-### Speed
+### Speed + Dependency walker
 To speed up the compilation it is important not to recompile the already created object files.
 Many IDEs are unable to correctly detect changes and often result in an erroneous executable, some of which has not
 been up to date, causing serious errors that are difficult to pinpoint.
