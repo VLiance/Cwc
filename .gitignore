@@ -29,7 +29,6 @@
 # Other
 *.log
 *.exe.config
-*.pdb
 *.vshost.exe
 *.manifest
 *.I

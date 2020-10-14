@@ -1,21 +1,39 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no" regexBackward4PowerUser="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="yes" regexBackward4PowerUser="no">
+        <Path name="E:\_Project\Vellum\witchblast" />
+        <Path name="E:\_Project\Vellum\tower_defense\lib\" />
+        <Path name="E:\_Project\Vellum\tower_defense\lib\flecs-systems-sdl2" />
+        <Path name="E:\_Project\Vellum\tower_defense\" />
+        <Path name="E:\_Project\Vellum\tower_defense\lib\flecs-systems-sokol\" />
+        <Path name="E:\_Project\Vellum\witchblast\" />
+        <Path name="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999" />
+        <Path name="E:\_Project\Vellum\witchblast\SFML-2.5.1\" />
+        <Path name="E:\_Project\Vellum\witchblast\SFML-2.5.1\src\SFML\Window" />
         <Path name="E:\_Project\_Cwc\Utils\npp" />
-        <Filter name="" />
-        <Find name="cc" />
-        <Find name="nppexport" />
-        <Replace name="" />
-        <Replace name="" />
+        <Filter name="*.*" />
+        <Find name="arrow_pad" />
+        <Find name="WindowHandle handle)" />
+        <Find name="WindowHandle handle);" />
+        <Find name="VideoMode mode," />
+        <Find name="VideoMode mode" />
+        <Find name="cleanupResource" />
+        <Find name="resourceCount" />
+        <Find name="createContext" />
+        <Find name="states-&gt;context" />
+        <Find name="destroySurface" />
+        <Replace name="pSFML_obj" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Project\Vellum\Sokol\sokol-samples\sapp\modplay-sapp.c" />
-        <File filename="E:\_Project\Vellum\Sokol\sokol-samples\sapp\cube-sapp.c" />
-        <File filename="E:\_Project\Vellum\Sokol\sokol-samples\sapp\debugtext-sapp.c" />
-        <File filename="C:\Windows\System32\drivers\etc\hosts" />
-        <File filename="E:\_Project\Vellum\Sokol\sokol-samples\sapp\texcube-sapp.c" />
-        <File filename="E:\_Project\_Cwc\Utils\npp\plugins\Config\NppFavorites.ini" />
-        <File filename="E:\_Project\Vellum\Sokol\sokol\sokol_gfx.h" />
+        <File filename="E:\_Test\ODFAEG\ODFAEG\include\odfaeg\Window\Linux\display.hpp" />
+        <File filename="E:\_Test\ODFAEG\ODFAEG\include\odfaeg\Core\serialization.h" />
+        <File filename="E:\_Test\ODFAEG\ODFAEG\include\odfaeg\Math\vec2f.h" />
+        <File filename="E:\_Project\Vellum\witchblast\SFML-2.5.1\src\SFML\Audio\SoundSource.cpp" />
+        <File filename="E:\_Project\Vellum\witchblast\SFML-2.5.1\src\SFML\Audio\SoundStream.cpp" />
+        <File filename="E:\_Project\Vellum\witchblast\SFML-2.5.1\src\SFML\System\Win32\ThreadImpl.cpp" />
+        <File filename="E:\_Project\Vellum\witchblast\SFML-2.5.1\src\SFML\System\Thread.cpp" />
+        <File filename="E:\_Project\Vellum\witchblast\SFML-2.5.1\include\SFML\System\Thread.inl" />
+        <File filename="E:\_Project\Vellum\witchblast\_cwc\witchblast\Build.cwc" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -24,8 +42,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="-1401" y="175" width="1100" height="700" isMaximized="yes" />
-        <GUIConfig name="FindWindowPosition" left="-1134" top="371" right="-545" bottom="735" />
+        <GUIConfig name="AppPosition" x="70" y="108" width="1040" height="987" isMaximized="no" />
+        <GUIConfig name="FindWindowPosition" left="-1017" top="359" right="-428" bottom="723" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">yes</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -42,7 +60,7 @@
         <GUIConfig name="MRU">yes</GUIConfig>
         <GUIConfig name="URL">2</GUIConfig>
         <GUIConfig name="globalOverride" fg="no" bg="no" font="no" fontSize="no" bold="no" italic="no" underline="no" />
-        <GUIConfig name="auto-completion" autoCAction="3" triggerFromNbChar="1" autoCIgnoreNumbers="yes" funcParams="yes" />
+        <GUIConfig name="auto-completion" autoCAction="0" triggerFromNbChar="1" autoCIgnoreNumbers="yes" funcParams="yes" />
         <GUIConfig name="auto-insert" parentheses="no" brackets="no" curlyBrackets="no" quotes="no" doubleQuotes="no" htmlXmlTag="no" />
         <GUIConfig name="sessionExt"></GUIConfig>
         <GUIConfig name="workspaceExt"></GUIConfig>
@@ -57,19 +75,21 @@
         <GUIConfig name="multiInst" setting="0" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" monospacedFontFindDlg="no" writeTechnologyEngine="0" stopFillingFindField="no" newStyleSaveDlg="yes" isFolderDroppedOpenFiles="no" docPeekOnTab="no" docPeekOnMap="yes" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
-        <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="0" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="yes" />
-        <GUIConfig name="DockingManager" leftWidth="316" rightWidth="346" topHeight="200" bottomHeight="333">
-            <FloatingWindow cont="4" x="1668" y="595" width="1887" height="1151" />
-            <FloatingWindow cont="4" x="1668" y="595" width="1887" height="1151" />
+        <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="yes">yes</GUIConfig>
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="yes" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="0" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="yes" />
+        <GUIConfig name="DockingManager" leftWidth="202" rightWidth="395" topHeight="200" bottomHeight="206">
+            <FloatingWindow cont="4" x="-881" y="399" width="535" height="1203" />
+            <FloatingWindow cont="4" x="-881" y="399" width="535" height="1203" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="yes" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="4" isVisible="yes" />
-            <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="4" isVisible="no" />
+            <PluginDlg pluginName="3P" id="1" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="3P" id="2" curr="0" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="4" isVisible="yes" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="4" isVisible="no" />
             <PluginDlg pluginName="BookmarksDook.dll" id="0" curr="4" prev="3" isVisible="yes" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="-1" isVisible="yes" />
             <ActiveTabs cont="0" activeTab="0" />
-            <ActiveTabs cont="1" activeTab="1" />
+            <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
             <ActiveTabs cont="4" activeTab="-1" />
@@ -80,10 +100,7 @@
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/Vellum/Sokol/sokol-samples/sapp/\pixelformats-sapp.glsl">
-        <root foldername="E:/_Project/Vellum/Sokol/_cwc/sapp/" />
-        <root foldername="E:/_Project/Vellum/Sokol/sokol-samples/sapp/" />
-        <root foldername="E:/_Project/Vellum/Sokol/sokol-samples/libs/" />
-        <root foldername="E:/_Project/Vellum/Sokol/sokol/" />
+    <FileBrowser latestSelectedItem="E:/_Project/LLVM_3_8_0/_Cwc/">
+        <root foldername="E:/_Project/LLVM_3_8_0/_Cwc/" />
     </FileBrowser>
 </NotepadPlus>
