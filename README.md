@@ -21,7 +21,7 @@ The main principle is to send several commands simultaneously, with the followin
 `|` : Allows you to send commands simultaneously in multi-process. The output is guaranteed to be in the same order,
 so it's always the same result that is displayed
 
-`>`: To make sequences, when it's necessary to wait for previous orders
+`>`: To make sequences, when it's necessary to wait for previous commands completeness
 
 So we can do something like **"buildObj `|` buildObj `>` Link"**
 
