@@ -1,44 +1,54 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="yes" regexBackward4PowerUser="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="1" transparency="114" dotMatchesNewline="no" isSearch2ButtonsMode="yes" regexBackward4PowerUser="no">
+        <Path name="E:\_Project\ExeLoader_" />
+        <Path name="E:\_Project\Metalkit_Kernel" />
+        <Path name="E:\_Test\CpcdosOS2.1" />
+        <Path name="E:\_Project\Vellum\mesa\src\" />
+        <Path name="E:\_Project\Vellum\mesa\LLVM_3_8_0" />
+        <Path name="E:\_Project\_Cwc\Toolchain\VLianceTool\LibRT\LibRT-999\i686-w64-mingw32" />
         <Path name="E:\_Project\Vellum\mesa\src" />
-        <Path name="E:\_Project\ExeLoader_Good" />
+        <Path name="E:\_Project\Vellum\mesa\src/" />
+        <Path name="E:\_Project\Vellum\mesa\" />
         <Path name="E:\_Project\ExeLoader" />
-        <Path name="E:\_Test\ODFAEG\ODFAEG" />
-        <Path name="E:\_Project\ExeLoader\" />
-        <Path name="E:\_Project\Vellum\ExeLoader\" />
-        <Path name="E:\_Project\Vellum\ExeLoader\src" />
-        <Path name="E:\_Project\Vellum\mesa" />
-        <Path name="E:\_Project\Vellum\mesa/src" />
-        <Path name="E:\_Project\Vellum\witchblast" />
+        <Filter name="*.c; *.cpp; *.h; *.inc" />
+        <Filter name="*.c" />
+        <Filter name="*.h" />
+        <Filter name="*.cpp" />
+        <Filter name="*.inc" />
         <Filter name="*.cpp *.c *.h" />
         <Filter name="*.*" />
-        <Filter name="*.c" />
-        <Find name="LLVMPIPE" />
-        <Find name="-&gt;data" />
-        <Find name="softpipe_user_buffer_create" />
-        <Find name="softpipe_resource" />
-        <Find name="must_resize" />
-        <Find name="fb-&gt;" />
-        <Find name="aContext" />
-        <Find name="fb_head" />
-        <Find name="stw_get_framebuffer_resource" />
-        <Find name="gdi_sw_displaytarget" />
-        <Replace name="func_who" />
-        <Replace name="/" />
-        <Replace name="pSFML_obj" />
+        <Find name="myprintf" />
+        <Find name="far" />
+        <Find name="udelay" />
+        <Find name="ReadX" />
+        <Find name="iostream" />
+        <Find name="DWORD" />
+        <Find name="RPCRTAPI" />
+        <Find name="CreateSemaphoreExW" />
+        <Find name="W64" />
+        <Find name="#if defined" />
+        <Replace name="strarror" />
+        <Replace name="__sysarr" />
+        <Replace name="th_" />
+        <Replace name="thread_" />
+        <Replace name="ifdef" />
+        <Replace name='d&quot;,' />
+        <Replace name="());" />
+        <Replace name=': %d&quot;' />
+        <Replace name="                                                         " />
+        <Replace name='printf(&quot;\n' />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Project\Vellum\mesa\src\gallium\winsys\sw\gdi\gdi_sw_winsys.c" />
-        <File filename="E:\_Project\ExeLoader_\include\FuncTable\FuncTable_Sys.h" />
-        <File filename="E:\_Project\ExeLoader_\include\FuncTable\FuncTable_Pipe.h" />
-        <File filename="E:\_Project\ExeLoader_\include\_Config.h" />
-        <File filename="E:\_Project\Vellum\mesa\src\mesa\state_tracker\st_cb_bufferobjects.c" />
-        <File filename="E:\_Project\Vellum\mesa\src\gallium\auxiliary\util\u_inlines.h" />
-        <File filename="E:\_Project\ExeLoader_\include\FuncTable\FuncTable_Imp.h" />
-        <File filename="E:\_Project\Vellum\Sokol_Test\_cwc\sapp\_out\imgui-sapp\CpcDos_Debug_wasm\imgui-sapp.exe" />
-        <File filename="E:\_Project\Vellum\mesa\src\gallium\drivers\softpipe\sp_texture.c" />
-        <File filename="E:\_Project\Vellum\mesa\src\gallium\frontends\wgl\stw_framebuffer.c" />
+        <File filename="E:\_Test\CpcdosOS2.1\OS2.1\Dans FreeBasic cpcdos.c" />
+        <File filename="E:\_Test\CpcdosOS2.1\OS2.1\Cpcdos_CPinticore_NPP.xml" />
+        <File filename="E:\_Test\CpcdosOS2.1\OS2.1\CLEAN.BAT" />
+        <File filename="E:\_Project\_Cwc\Toolchain\VLianceTool\DJGPP_RT\DJGPP_RT-99999\cwc\DJGPP.Default.cwcfg" />
+        <File filename="E:\_Project\_Cwc\Toolchain\VLianceTool\DJGPP_RT\DJGPP_RT-99999\lib\gcc\i586-pc-msdosdjgpp\10.2.0\include\c++\bits\memoryfwd.h" />
+        <File filename="E:\_Test\CpcdosOS2.1\OS2.1\CPinti\include\core.h" />
+        <File filename="E:\_Test\CpcdosOS2.1\djgpp\include\pthread.h" />
+        <File filename="E:\_Test\CpcdosOS2.1\OS2.1\CPinti\core\stack.cpp" />
+        <File filename="E:\_Test\CpcdosOS2.1\OS2.1\CPinti\core\makefile" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -47,8 +57,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="-1027" y="74" width="929" height="897" isMaximized="no" />
-        <GUIConfig name="FindWindowPosition" left="1299" top="223" right="1890" bottom="587" />
+        <GUIConfig name="AppPosition" x="862" y="787" width="827" height="923" isMaximized="yes" />
+        <GUIConfig name="FindWindowPosition" left="587" top="427" right="1176" bottom="791" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">yes</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -82,9 +92,9 @@
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="yes">yes</GUIConfig>
         <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="0" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="yes" />
-        <GUIConfig name="DockingManager" leftWidth="354" rightWidth="243" topHeight="200" bottomHeight="354">
-            <FloatingWindow cont="4" x="-881" y="399" width="535" height="1203" />
-            <FloatingWindow cont="4" x="-881" y="399" width="535" height="1203" />
+        <GUIConfig name="DockingManager" leftWidth="125" rightWidth="243" topHeight="200" bottomHeight="207">
+            <FloatingWindow cont="4" x="119" y="601" width="1535" height="899" />
+            <FloatingWindow cont="4" x="119" y="601" width="1535" height="899" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="4" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="4" isVisible="yes" />
@@ -105,10 +115,8 @@
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    
-
-
-<FileBrowser>
- <root foldername="E:/_Project/Vellum/mesa/" />
-</FileBrowser>
+    <FileBrowser latestSelectedItem="E:/_Test/CpcdosOS2.1/djgpp/include/">
+        <root foldername="E:/_Test/CpcdosOS2.1/OS2.1/CPinti/" />
+        <root foldername="E:/_Test/CpcdosOS2.1/djgpp/include/" />
+    </FileBrowser>
 </NotepadPlus>
