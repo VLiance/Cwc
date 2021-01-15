@@ -1,5 +1,5 @@
 
-# The CWeet compilation " [![Screen Shot](Utils/Cwc_small.png)](https://github.com/Honera/Cwc/blob/master/Tools/Cwc_small.png) "
+# The CWeet Compilation " [![Screen Shot](Utils/Cwc_small.png)](https://github.com/Honera/Cwc/blob/master/Tools/Cwc_small.png) "
 
 Cwc is a **front-end** C++ compiler made for programmers who want to make their life easier.
 
