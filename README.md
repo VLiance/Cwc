@@ -73,7 +73,7 @@ Here are the supported toolchains for now:
 * Windows           ([LibRT](https://github.com/VLianceTool/LibRT))
 * Web -> Emscriptem ([WebRT](https://github.com/VLianceTool/WebRT))
 * Android           ([DroidRT](https://github.com/VLianceTool/DroidRT))
-
+* DOS               ([DJGPP_RT](https://github.com/VLianceTool/DJGPP_RT))
 
 Any other custom toolchain can be added easily with a Github repo, possibilities are limitless.
 
