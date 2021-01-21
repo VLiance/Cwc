@@ -85,6 +85,6 @@ See the [wiki](https://github.com/VLiance/Cwc/wiki):
 * [Directives](https://github.com/VLiance/Cwc/wiki/Directives)
 * [Variable](https://github.com/VLiance/Cwc/wiki/Variables)
 
-See some demos:
-* [Some libs using Cwc](https://github.com/cwc-lib)
-* [Some examples with GZE](https://github.com/cwc-gze)
+See some examples:
+* [Libs using Cwc](https://github.com/cwc-lib)
+* [Games using Cwc](https://github.com/Cwc-game)
