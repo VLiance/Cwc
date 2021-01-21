@@ -77,7 +77,7 @@ Toolchain  | From  | Target
 [DJGPP_RT](https://github.com/VLianceTool/DJGPP_RT) | Windows | DOS / OSdev
 [Elf_RT](https://github.com/VLianceTool/Elf_RT) | Windows | Linux / OSdev
 
-Any other custom toolchain can be added easily with a Github repo, possibilities are limitless.
+Any other [custom toolchain](https://github.com/VLiance/Cwc/wiki/Build-your-own-Toolchain) can be added easily with a Github repo, possibilities are limitless.
 
  # How to use
 
