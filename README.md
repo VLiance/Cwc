@@ -74,6 +74,7 @@ Toolchain  | From  | Target
  --- | --- | ---
 [LibRT](https://github.com/VLianceTool/LibRT) | Windows | Windows, Linux
 [WebRT](https://github.com/VLianceTool/WebRT) | Windows | Web (Wasm/JS)
+[DroidRT](https://github.com/VLianceTool/DroidRT) | Windows | Android
 [DJGPP_RT](https://github.com/VLianceTool/DJGPP_RT) | Windows | DOS / OSdev
 [Elf_RT](https://github.com/VLianceTool/Elf_RT) | Windows | Linux / OSdev
 
