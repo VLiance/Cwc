@@ -68,7 +68,7 @@ So you can debug in your prefered IDE, see the notepad++ plugin: [DBGpPluginMx](
 
 Cwc can export binary files to any platform without any modification of your makefile or your code
 
-Currently, these out of the box [toolchains](https://github.com/VLianceTool) are available:
+Currently, these "out of the box" [toolchains](https://github.com/VLianceTool) are available:
 
 Toolchain  | From  | Target
  --- | --- | ---
