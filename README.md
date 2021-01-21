@@ -86,5 +86,5 @@ See the [wiki](https://github.com/VLiance/Cwc/wiki):
 * [Variable](https://github.com/VLiance/Cwc/wiki/Variables)
 
 See some examples:
-* [Libs using Cwc](https://github.com/cwc-lib)
-* [Games builded with Cwc](https://github.com/Cwc-game)
+* [Libs](https://github.com/cwc-lib)
+* [Games](https://github.com/Cwc-game)
