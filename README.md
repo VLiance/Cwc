@@ -87,4 +87,4 @@ See the [wiki](https://github.com/VLiance/Cwc/wiki):
 
 See some examples:
 * [Libs using Cwc](https://github.com/cwc-lib)
-* [Games using Cwc](https://github.com/Cwc-game)
+* [Games builded with Cwc](https://github.com/Cwc-game)
