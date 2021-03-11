@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="1" transparency="114" dotMatchesNewline="no" isSearch2ButtonsMode="yes" regexBackward4PowerUser="no">
+<<<<<<< HEAD
         <Path name="E:\_Project\XE-Loader\src\XE\" />
         <Path name="C:\Users\Maeiky\Downloads\glibc-2.33.tar\glibc-2.33" />
         <Path name="E:\_Project\XE-Loader\" />
@@ -47,6 +48,57 @@
         <File filename="E:\_Project\XE-Loader\src\XE\Module\PE\win.h" />
         <File filename="E:\_Project\XE-Loader\src\XE\FuncTable\FT_Imp.h" />
         <File filename="E:\_Project\XE-Loader\src\XE\XE.c" />
+=======
+        <Path name="E:\Data\setting\XE-Loader" />
+        <Path name="E:\Data\setting\gcc\mingw_w64_v8.1.0" />
+        <Path name="E:\Data\setting\UltimateArray\src\" />
+        <Path name="E:\Data\autre\_Cwc\Toolchain\VLianceTool\Elf_RT\Elf_RT-9999\linux" />
+        <Path name="E:\Data\setting\ElfLoader" />
+        <Path name="E:\Data\setting\ExeLoader" />
+        <Path name="E:\Data\setting\gcc\mingw_w64_v8.0.0\" />
+        <Path name="E:\Data\setting\mingw_w64_v8.0.0" />
+        <Path name="E:\_Project\ExeLoader_" />
+        <Path name="E:\_Project\Metalkit_Kernel" />
+        <Filter name="*.c *.inc *.h" />
+        <Filter name="*.cpp *.inc *.h" />
+        <Filter name="*.*" />
+        <Filter name="*.h" />
+        <Filter name="*.c; *.cpp; *.h; *.inc" />
+        <Filter name="*.c" />
+        <Filter name="*.cpp" />
+        <Filter name="*.inc" />
+        <Filter name="*.cpp *.c *.h" />
+        <Find name="Xe_Loa" />
+        <Find name="FuncTable.h" />
+        <Find name="Func_Table" />
+        <Find name="PE_Loader.h" />
+        <Find name="Module/PE" />
+        <Find name="Module/PE_Loader.h" />
+        <Find name="CpcDos" />
+        <Find name="OnWIn" />
+        <Find name="IsBadReadPtr" />
+        <Find name="time_t" />
+        <Replace name="/" />
+        <Replace name="MEMORYMODULE*" />
+        <Replace name="func" />
+        <Replace name="fn" />
+        <Replace name="inl" />
+        <Replace name="\n-" />
+        <Replace name="pCRTsrc" />
+        <Replace name=".c\n" />
+        <Replace name=";\n" />
+        <Replace name="strarror" />
+    </FindHistory>
+    <History nbMaxFile="10" inSubMenu="no" customLength="-1">
+        <File filename="E:\Data\setting\XE-Loader\src\XE\Module\ELF\FT_elf.h" />
+        <File filename="E:\Data\autre\_Cwc\Toolchain\VLianceTool\DJGPP_RT\DJGPP_RT-10.2.0.3\lib\gcc\i586-pc-msdosdjgpp\10.2.0\include\c++\stdlib.h" />
+        <File filename="E:\Data\setting\XE-Loader\src\XE\Module\PE\PE_Loader.h" />
+        <File filename="E:\Data\setting\XE-Loader\src\XE\Xternal\Basic\xIO.c" />
+        <File filename="E:\Data\setting\XE-Loader\src\XE\Module\PE\FT_Pipe.h" />
+        <File filename="E:\Data\setting\XE-Loader\src\XE\XEGI\XEGI.h" />
+        <File filename="E:\Data\setting\XE-Loader\src\XE\Module\PE\FT_Sys.h" />
+        <File filename="E:\Data\setting\XE-Loader\include\XE-Loader.h" />
+>>>>>>> d6390297ce300a2909bbe318ee3206311cbbbae0
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -55,8 +107,13 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
+<<<<<<< HEAD
         <GUIConfig name="AppPosition" x="-1197" y="566" width="916" height="1194" isMaximized="no" />
         <GUIConfig name="FindWindowPosition" left="-855" top="295" right="-263" bottom="659" />
+=======
+        <GUIConfig name="AppPosition" x="2047" y="197" width="1174" height="812" isMaximized="yes" />
+        <GUIConfig name="FindWindowPosition" left="742" top="325" right="1331" bottom="689" />
+>>>>>>> d6390297ce300a2909bbe318ee3206311cbbbae0
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">yes</GUIConfig>
         <GUIConfig name="Auto-detection">auto</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -82,7 +139,7 @@
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="yes" />
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
         <GUIConfig name="titleBar" short="no" />
-        <GUIConfig name="stylerTheme" path="E:\_Project\_Cwc\Utils\npp\stylers.xml" />
+        <GUIConfig name="stylerTheme" path="E:\Data\autre\_Cwc\Utils\npp\stylers.xml" />
         <GUIConfig name="wordCharList" useDefault="yes" charsAdded="" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="multiInst" setting="0" />
@@ -90,9 +147,15 @@
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="yes">yes</GUIConfig>
         <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="0" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="yes" />
+<<<<<<< HEAD
         <GUIConfig name="DockingManager" leftWidth="285" rightWidth="314" topHeight="200" bottomHeight="282">
             <FloatingWindow cont="4" x="119" y="601" width="1535" height="899" />
             <FloatingWindow cont="4" x="119" y="601" width="1535" height="899" />
+=======
+        <GUIConfig name="DockingManager" leftWidth="152" rightWidth="89" topHeight="200" bottomHeight="257">
+            <FloatingWindow cont="4" x="2009" y="637" width="3053" height="935" />
+            <FloatingWindow cont="4" x="2009" y="637" width="3053" height="935" />
+>>>>>>> d6390297ce300a2909bbe318ee3206311cbbbae0
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="4" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="4" isVisible="yes" />
@@ -113,8 +176,15 @@
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
+<<<<<<< HEAD
     
 <FileBrowser>
  <root foldername="E:/_Project/XE-Loader/" />
 </FileBrowser>
 </NotepadPlus>
+=======
+    <FileBrowser latestSelectedItem="E:/Data/autre/CpcdosOS2.1-1_XE_Loader/CONTRIB/include/">
+        <root foldername="E:/Data/autre/CpcdosOS2.1-1_XE_Loader/CONTRIB/include/" />
+    </FileBrowser>
+</NotepadPlus>
+>>>>>>> d6390297ce300a2909bbe318ee3206311cbbbae0
