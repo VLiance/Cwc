@@ -78,8 +78,10 @@ Toolchain  | From  | Target
  --- | --- | ---
 [LibRT](https://github.com/VLianceTool/LibRT) | Windows | Windows, Linux
 [WebRT](https://github.com/VLianceTool/WebRT) | Windows | Web (Wasm/JS)
+[Droid](https://github.com/VLianceTool/DroidRT) | Windows | Android
 [DJGPP_RT](https://github.com/VLianceTool/DJGPP_RT) | Windows | DOS / OSdev
 [Elf_RT](https://github.com/VLianceTool/Elf_RT) | Windows | Linux / OSdev
+[PS2_RT](https://github.com/VLianceTool/PS2_RT) | Windows | PS2
 
 
 Any other custom toolchain can be added easily with a Github repo, possibilities are limitless.
