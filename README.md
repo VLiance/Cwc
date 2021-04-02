@@ -64,7 +64,7 @@ So you can debug in your prefered IDE, see the notepad++ plugin: [DBGpPluginMx](
 Simple Hello World
  [![Screen Shot](Utils/Screen.png)](https://raw.githubusercontent.com/VLiance/Cwc/master/Utils/Screen.png)
  
-GDB interaction, auto-loading symboles (sending a SIGINT / switching thread)
+GDB interaction, auto-loading symboles (sending a SIGINT / switching thread / show backtrace)
  [![Screen Shot](Utils/Cwc_backtrace.png)](https://raw.githubusercontent.com/VLiance/Cwc/master/Utils/Cwc_backtrace.png)
 
  
