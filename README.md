@@ -61,8 +61,12 @@ So you can debug in your prefered IDE, see the notepad++ plugin: [DBGpPluginMx](
 
 # Screen
 
+Simple Hello World
  [![Screen Shot](Utils/Screen.png)](https://github.com/Honera/Cwc/blob/master/Tools/Screen.png)
  
+GDB interaction, auto-loading symboles (sending a SIGINT / switching thread)
+ [![Screen Shot](Cwc_backtrace.png)](https://github.com/Honera/Cwc/blob/master/Tools/Screen.png)
+
  
  # Supported Export Platform
 
