@@ -1,23 +1,58 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no" regexBackward4PowerUser="no">
-        <Path name="E:\_Project\XE-Loader\src\" />
-        <Path name="E:\_Project\XE-Loader\src\XE\Sys" />
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="186" dotMatchesNewline="no" isSearch2ButtonsMode="yes" regexBackward4PowerUser="no">
+        <Path name="E:\_Prog\Wake\" />
+        <Path name="E:\_Prog\GZE_Utils" />
+        <Path name="E:\_Prog\Wake\Desktop" />
+        <Path name="E:\_Prog\sokol-samples\sapp" />
+        <Path name="E:\_Prog\Wake\Desktop\xlibs\Sokol" />
+        <Path name="E:\_Prog\Wake\Utils\Ref" />
+        <Path name="D:\webpage\opera\" />
+        <Path name="D:\webpage\opera\Dave Gamache_files" />
+        <Path name="E:\_Prog\Wake\Smarthphone" />
+        <Path name="E:\_Prog\Wake\cwc\Android_App" />
+        <Filter name="*.c *.cpp *.cc *.h *.inc *.cw *.as " />
+        <Filter name="*.c *.cpp *.cc *.h *.inc *.cw *.as" />
+        <Filter name="*.c *.cpp *.cc *.h *.inc .*.cw *.as" />
+        <Filter name="*.c *.cpp *.cc *.h *.inc .*cw *.as" />
+        <Filter name="*.c *.cpp *.cc *.h *.inc .*cw" />
         <Filter name="*.*" />
-        <Find name="registerSignal" />
-        <Find name="File format" />
-        <Find name="signal" />
-        <Replace name="" />
+        <Filter name="*.c *.cpp *.cc *.h *.inc .*cw *.java" />
+        <Filter name="*.c *.cpp *.cc *.h *.inc" />
+        <Filter name="*.bas *.cpp *.c *.h" />
+        <Filter name="*.bas" />
+        <Find name="Xe_LoadFile" />
+        <Find name="LoadFile size" />
+        <Find name="content.size" />
+        <Find name="drawSquare3" />
+        <Find name="drawSquare" />
+        <Find name="cross(" />
+        <Find name="sub" />
+        <Find name="substact" />
+        <Find name="substract(" />
+        <Find name="dquad" />
+        <Replace name="substract" />
+        <Replace name="vec3" />
+        <Replace name="posS(" />
+        <Replace name="vt" />
+        <Replace name="jit_glsl" />
+        <Replace name="gjit_im_file" />
+        <Replace name="gbl_jit_im_file" />
+        <Replace name="jit_get_symbol" />
+        <Replace name="jit_add_symbol" />
+        <Replace name="jit_im_args" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Test\GZE_First_Linux\_Lib\GZ_0.01\System\Win\GZ\FrameRate.cpp" />
-        <File filename="E:\_Test\GZE_First_Linux\_Lib\GZ_0.01\System\Win\GZ\Window.cpp" />
-        <File filename="E:\_Test\GZE_First_Linux\_Lib\GZ_0.01\System\Win\GZ\Window.h" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_System\Lib_GzWindows\Overplace\OpContext.cw" />
-        <File filename="E:\_Project\_Cwc\Lib\VLiance\GZE\GZE-999\src\SubLib_System\Lib_GzWindows\Overplace\OpMainThreadPlatformMsg.cw" />
-        <File filename="E:\_Project\XE-Loader\src\XE\Xternal\Types.h" />
-        <File filename="E:\_Project\XE-Loader\src\XE\FuncTable\FuncTable.h" />
-        <File filename="E:\_Project\_Cwc\Toolchain\VLianceTool\DJGPP_RT\DJGPP_RT-10.2.0.4\FreeBASIC\bin\dos\as.exe" />
+        <File filename="E:\_Prog\Wake\Desktop\xlibs\imgui\imgui_widgets.cpp" />
+        <File filename="E:\_Prog\Wake\Desktop\xlibs\sassy\src\ocornut_imgui\backends\imgui_impl_sdl.cpp" />
+        <File filename="E:\_Prog\Wake\Desktop\tools\parser_imgui\bin\Debug\net6.0-windows\cimgui.h" />
+        <File filename="E:\_Prog\Wake\Desktop\xlibs\sassy\src\ocornut_imgui\imgui.cpp" />
+        <File filename="E:\_Prog\Wake\Desktop\Rc\tcc\lib_inc\cimgui.h" />
+        <File filename="E:\_Prog\Wake\Desktop\xlibs\Sokol\util\sokol_imgui.h" />
+        <File filename="E:\_Prog\Wake\Desktop\xlibs\Sokol\sokol_app.h" />
+        <File filename="E:\_Prog\GZE_Utils\ref\Gpu\ShaderModel\GzModel\GzShModel_Quad\GzShModel_Quad_Vertex.cw" />
+        <File filename="E:\_Prog\GZE_Utils\ref\Object.cw" />
+        <File filename="E:\_Prog\GZE_Utils\ref\GzShModel_Quad_work.cw" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -26,10 +61,10 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="291" y="84" width="844" height="859" isMaximized="yes" />
-        <GUIConfig name="FindWindowPosition" left="1165" top="351" right="1754" bottom="715" />
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20210326">no</GUIConfig>
-        <GUIConfig name="Auto-detection">yes</GUIConfig>
+        <GUIConfig name="AppPosition" x="-1782" y="69" width="1278" height="974" isMaximized="yes" />
+        <GUIConfig name="FindWindowPosition" left="-1270" top="203" right="-681" bottom="567" />
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20230804">no</GUIConfig>
+        <GUIConfig name="Auto-detection">autoOld</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
         <GUIConfig name="MaitainIndent">yes</GUIConfig>
@@ -53,22 +88,25 @@
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="no" />
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
         <GUIConfig name="titleBar" short="no" />
-        <GUIConfig name="stylerTheme" path="E:\_Project\_Cwc\Utils\npp\stylers.xml" />
+        <GUIConfig name="stylerTheme" path="E:\_Cwc\Utils\npp\stylers.xml" />
         <GUIConfig name="wordCharList" useDefault="yes" charsAdded="" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="multiInst" setting="0" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" monospacedFontFindDlg="no" writeTechnologyEngine="0" stopFillingFindField="no" newStyleSaveDlg="yes" isFolderDroppedOpenFiles="no" docPeekOnTab="no" docPeekOnMap="no" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="0" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
-        <GUIConfig name="DockingManager" leftWidth="214" rightWidth="200" topHeight="200" bottomHeight="200">
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="show" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="-1" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="DockingManager" leftWidth="241" rightWidth="200" topHeight="200" bottomHeight="303">
+            <FloatingWindow cont="4" x="-1486" y="689" width="-285" height="878" />
+            <FloatingWindow cont="4" x="-1486" y="689" width="-285" height="878" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
-            <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="4" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="4" isVisible="yes" />
             <ActiveTabs cont="0" activeTab="0" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
+            <ActiveTabs cont="4" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <ProjectPanels>
@@ -76,8 +114,14 @@
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="E:/_Project/XE-Loader/\src\XE\Sys\File.inc">
-        <root foldername="E:/_Project/XE-Loader/" />
-        <root foldername="E:/_Project/CpcdosOS2.1_XE_Loader/build/" />
-    </FileBrowser>
+    
+<FileBrowser>
+ <root foldername="E:/_Prog/Wake/Desktop/cwc/Interface/" />
+ <root foldername="E:/_Prog/Wake/Desktop/src/interface/" />
+ <root foldername="E:/_Prog/Wake/Desktop/src/commun/" />
+ <root foldername="E:/_Prog/Wake/Desktop/xlibs/" />
+ <root foldername="E:/_Prog/Wake/Desktop/test/" />
+ <root foldername="E:/_Prog/Wake/Desktop/src/platform/" />
+ <root foldername="E:/_Prog/Wake/Desktop/Jit/" />
+</FileBrowser>
 </NotepadPlus>
