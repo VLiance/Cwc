@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="186" dotMatchesNewline="no" isSearch2ButtonsMode="yes" regexBackward4PowerUser="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="1" transparency="186" dotMatchesNewline="no" isSearch2ButtonsMode="yes" regexBackward4PowerUser="no">
         <Path name="E:\_Prog\Wake\" />
-        <Path name="E:\_Prog\GZE_Utils" />
         <Path name="E:\_Prog\Wake\Desktop" />
+        <Path name="E:\_Prog\GZE_Utils" />
         <Path name="E:\_Prog\sokol-samples\sapp" />
         <Path name="E:\_Prog\Wake\Desktop\xlibs\Sokol" />
         <Path name="E:\_Prog\Wake\Utils\Ref" />
@@ -21,16 +21,18 @@
         <Filter name="*.c *.cpp *.cc *.h *.inc" />
         <Filter name="*.bas *.cpp *.c *.h" />
         <Filter name="*.bas" />
+        <Find name="test" />
+        <Find name='&quot;\t' />
+        <Find name="\t" />
+        <Find name="_this" />
         <Find name="Xe_LoadFile" />
         <Find name="LoadFile size" />
         <Find name="content.size" />
         <Find name="drawSquare3" />
         <Find name="drawSquare" />
         <Find name="cross(" />
-        <Find name="sub" />
-        <Find name="substact" />
-        <Find name="substract(" />
-        <Find name="dquad" />
+        <Replace name="    " />
+        <Replace name="_" />
         <Replace name="substract" />
         <Replace name="vec3" />
         <Replace name="posS(" />
@@ -39,8 +41,6 @@
         <Replace name="gjit_im_file" />
         <Replace name="gbl_jit_im_file" />
         <Replace name="jit_get_symbol" />
-        <Replace name="jit_add_symbol" />
-        <Replace name="jit_im_args" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
         <File filename="E:\_Prog\Wake\Desktop\xlibs\imgui\imgui_widgets.cpp" />
@@ -57,12 +57,12 @@
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
         <GUIConfig name="StatusBar">show</GUIConfig>
-        <GUIConfig name="TabBar" dragAndDrop="yes" drawTopBar="yes" drawInactiveTab="yes" reduce="yes" closeButton="yes" doubleClick2Close="no" vertical="no" multiLine="no" hide="no" quitOnEmpty="no" />
+        <GUIConfig name="TabBar" dragAndDrop="yes" drawTopBar="yes" drawInactiveTab="yes" reduce="yes" closeButton="yes" doubleClick2Close="no" vertical="no" multiLine="yes" hide="no" quitOnEmpty="no" />
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
-        <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="-1782" y="69" width="1278" height="974" isMaximized="yes" />
-        <GUIConfig name="FindWindowPosition" left="-1270" top="203" right="-681" bottom="567" />
+        <GUIConfig name="TabSetting" replaceBySpace="yes" size="4" />
+        <GUIConfig name="AppPosition" x="344" y="83" width="1015" height="974" isMaximized="yes" />
+        <GUIConfig name="FindWindowPosition" left="450" top="272" right="1039" bottom="636" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20230804">no</GUIConfig>
         <GUIConfig name="Auto-detection">autoOld</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -85,23 +85,22 @@
         <GUIConfig name="workspaceExt"></GUIConfig>
         <GUIConfig name="MenuBar">show</GUIConfig>
         <GUIConfig name="Caret" width="1" blinkRate="600" />
-        <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="no" />
+        <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="yes" />
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
         <GUIConfig name="titleBar" short="no" />
-        <GUIConfig name="stylerTheme" path="E:\_Cwc\Utils\npp\stylers.xml" />
+        <GUIConfig name="stylerTheme" path="D:\Prog\_Cwc\Utils\npp\stylers.xml" />
         <GUIConfig name="wordCharList" useDefault="yes" charsAdded="" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="multiInst" setting="0" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" monospacedFontFindDlg="no" writeTechnologyEngine="0" stopFillingFindField="no" newStyleSaveDlg="yes" isFolderDroppedOpenFiles="no" docPeekOnTab="no" docPeekOnMap="no" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
-        <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="show" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="-1" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="yes">yes</GUIConfig>
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="show" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="0" zoom2="0" whiteSpaceShow="show" eolShow="show" borderWidth="0" smoothFont="no" />
         <GUIConfig name="DockingManager" leftWidth="241" rightWidth="200" topHeight="200" bottomHeight="303">
-            <FloatingWindow cont="4" x="-1486" y="689" width="-285" height="878" />
             <FloatingWindow cont="4" x="-1486" y="689" width="-285" height="878" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="4" isVisible="no" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="4" isVisible="yes" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="4" isVisible="no" />
             <ActiveTabs cont="0" activeTab="0" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
@@ -116,12 +115,10 @@
     </ProjectPanels>
     
 <FileBrowser>
- <root foldername="E:/_Prog/Wake/Desktop/cwc/Interface/" />
- <root foldername="E:/_Prog/Wake/Desktop/src/interface/" />
- <root foldername="E:/_Prog/Wake/Desktop/src/commun/" />
- <root foldername="E:/_Prog/Wake/Desktop/xlibs/" />
- <root foldername="E:/_Prog/Wake/Desktop/test/" />
- <root foldername="E:/_Prog/Wake/Desktop/src/platform/" />
- <root foldername="E:/_Prog/Wake/Desktop/Jit/" />
+ <root foldername="D:/Prog/Wake/Desktop/cwc/Wake/" />
+ <root foldername="D:/Prog/Wake/Desktop/src/wake/" />
+ <root foldername="D:/Prog/Wake/Desktop/src/commun/" />
+ <root foldername="D:/Prog/Wake/Desktop/xlibs/" />
+ <root foldername="D:/Prog/Wake/Desktop/Jit/" />
 </FileBrowser>
 </NotepadPlus>
