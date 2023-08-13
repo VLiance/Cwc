@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="186" dotMatchesNewline="no" isSearch2ButtonsMode="yes" regexBackward4PowerUser="no" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no" bookmarkLine="no" purge="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="186" dotMatchesNewline="no" isSearch2ButtonsMode="yes" regexBackward4PowerUser="no" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no" bookmarkLine="no" purge="no">
+        <Path name="E:\_Prog\Wake\Smarthphone" />
+        <Path name="E:\_Prog\Wake" />
         <Path name="E:\_Prog\Wake\Desktop" />
         <Path name="E:\_Prog\Wake\" />
         <Path name="E:\_Prog\GZE_Utils" />
@@ -9,8 +11,6 @@
         <Path name="E:\_Prog\Wake\Utils\Ref" />
         <Path name="D:\webpage\opera\" />
         <Path name="D:\webpage\opera\Dave Gamache_files" />
-        <Path name="E:\_Prog\Wake\Smarthphone" />
-        <Path name="E:\_Prog\Wake\cwc\Android_App" />
         <Filter name="*.c *.cpp *.cc *.h *.inc *.cw *.as " />
         <Filter name="*.c *.cpp *.cc *.h *.inc *.cw *.as" />
         <Filter name="*.c *.cpp *.cc *.h *.inc .*.cw *.as" />
@@ -21,16 +21,17 @@
         <Filter name="*.c *.cpp *.cc *.h *.inc" />
         <Filter name="*.bas *.cpp *.c *.h" />
         <Filter name="*.bas" />
-        <Find name="port" />
-        <Find name="receivedAddress" />
-        <Find name="receivedAddress.port" />
-        <Find name="address.port" />
-        <Find name="enet_peer_get_port" />
-        <Find name="packet_receive" />
-        <Find name="information" />
-        <Find name="ENET_PACKET_FLAG_RELIABLE" />
-        <Find name="enet_packet_destroy" />
-        <Find name="enet_host_service" />
+        <Find name="e SG_RANGE" />
+        <Find name="SG_RANGE" />
+        <Find name="sg_append_buffer" />
+        <Find name="SG_LOADACTION" />
+        <Find name="SG_LOADACTION_LOAD" />
+        <Find name="pass action" />
+        <Find name="SG_ACTION" />
+        <Find name="SG_ACTION_LOAD" />
+        <Find name="depth" />
+        <Find name="color_write_mask" />
+        <Replace name="ucha" />
         <Replace name="printf" />
         <Replace name="iMouse" />
         <Replace name="aJaw" />
@@ -40,18 +41,17 @@
         <Replace name="vec3" />
         <Replace name="posS(" />
         <Replace name="vt" />
-        <Replace name="jit_glsl" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Cwc\Utils\npp\plugins\Config\NppFTP\Cache\admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com\home\admin\.bash_history" />
-        <File filename="E:\_Cwc\Utils\npp\plugins\Config\NppFTP\Cache\admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com\home\admin\home\enet\CMakeLists.txt" />
-        <File filename="E:\_Cwc\Utils\npp\plugins\Config\NppFTP\Cache\admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com\home\admin\home\mk.sh" />
-        <File filename="E:\_Prog\Wake\Desktop\src\commun\json\ANod.h" />
-        <File filename="E:\_AWS\enet\include\enet.h" />
-        <File filename="E:\_Cwc\Utils\npp\plugins\Config\NppFTP\Cache\admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com\home\admin\home\file.txt" />
-        <File filename="E:\_Prog\Wake\Desktop\Jit\canvas.c" />
-        <File filename="E:\_AWS\enet\server\server.c" />
-        <File filename="E:\_Cwc\Utils\npp\plugins\Config\NppFTP\Cache\admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com\home\admin\mk.sh" />
+        <File filename="E:\_aws\admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com\home\admin\enet\server\server.c" />
+        <File filename="E:\_aws\admin@ec2-15-156-72-179.ca-central-1.compute.amazonaws.com\home\admin\enet\client\client.c" />
+        <File filename="E:\_aws\admin@ec2-15-156-72-179.ca-central-1.compute.amazonaws.com\home\admin\mk.sh" />
+        <File filename="E:\_aws\admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com\home\admin\copy_enet_ca.ps1" />
+        <File filename="E:\_aws\admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com\home\admin\launch_ca.bat" />
+        <File filename="E:\_Prog\Wake\Desktop\src\interface\json\imgui_jit.cpp" />
+        <File filename="E:\_Prog\Wake\Desktop\cwc\Wake\build.cwc" />
+        <File filename="E:\_aws\admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com\home\admin\enet\cwc\build.cwc" />
+        <File filename="E:\_aws\admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com\home\admin\enet\client\client.c" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
@@ -70,8 +70,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="3" />
-        <GUIConfig name="AppPosition" x="111" y="10" width="1786" height="1018" isMaximized="no" />
-        <GUIConfig name="FindWindowPosition" left="-1501" top="460" right="-887" bottom="824" isLessModeOn="no" />
+        <GUIConfig name="AppPosition" x="-2967" y="208" width="1294" height="830" isMaximized="yes" />
+        <GUIConfig name="FindWindowPosition" left="-2655" top="473" right="-2041" bottom="837" isLessModeOn="no" />
         <GUIConfig name="FinderConfig" wrappedLines="no" purgeBeforeEverySearch="no" showOnlyOneEntryPerFoundLine="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20230819">no</GUIConfig>
         <GUIConfig name="Auto-detection">autoOld</GUIConfig>
@@ -112,26 +112,27 @@
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
         <GUIConfig name="DarkMode" enable="no" colorTone="0" customColorTop="2105376" customColorMenuHotTrack="4210752" customColorActive="4210752" customColorMain="2105376" customColorError="176" customColorText="14737632" customColorDarkText="12632256" customColorDisabledText="8421504" customColorLinkText="65535" customColorEdge="6579300" customColorHotEdge="10197915" customColorDisabledEdge="4737096" enableWindowsMode="no" darkThemeName="DarkModeDefault.xml" darkToolBarIconSet="0" darkTabIconSet="2" darkTabUseTheme="no" lightThemeName="" lightToolBarIconSet="4" lightTabIconSet="0" lightTabUseTheme="yes" />
         <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" lineNumberDynamicWidth="yes" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" isChangeHistoryEnabled="yes" lineWrapMethod="aligned" currentLineIndicator="1" currentLineFrameWidth="1" virtualSpace="no" scrollBeyondLastLine="no" rightClickKeepsSelection="no" disableAdvancedScrolling="no" wrapSymbolShow="show" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="0" zoom2="0" whiteSpaceShow="hide" eolShow="hide" eolMode="1" npcShow="hide" npcMode="1" npcCustomColor="no" npcIncludeCcUniEOL="no" ccShow="no" borderWidth="2" smoothFont="no" paddingLeft="0" paddingRight="0" distractionFreeDivPart="4" />
-        <GUIConfig name="DockingManager" leftWidth="200" rightWidth="334" topHeight="200" bottomHeight="223">
+        <GUIConfig name="DockingManager" leftWidth="248" rightWidth="334" topHeight="200" bottomHeight="469">
             <FloatingWindow cont="4" x="-1486" y="689" width="-285" height="878" />
             <FloatingWindow cont="5" x="31" y="127" width="231" height="527" />
-            <FloatingWindow cont="4" x="-1486" y="689" width="-285" height="878" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="NppFTP.dll" id="0" curr="0" prev="5" isVisible="yes" />
-            <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="4" isVisible="no" />
-            <PluginDlg pluginName="NppFTP.dll" id="99" curr="3" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="NppFTP.dll" id="99" curr="3" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="4" isVisible="yes" />
-            <ActiveTabs cont="0" activeTab="1" />
+            <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="4" isVisible="no" />
+            <ActiveTabs cont="0" activeTab="0" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
-            <ActiveTabs cont="3" activeTab="-1" />
+            <ActiveTabs cont="3" activeTab="1" />
             <ActiveTabs cont="4" activeTab="-1" />
             <ActiveTabs cont="5" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
 <FileBrowser>
- <root foldername="E:/_aws/admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com/home/admin/enet/cwc/" />
- <root foldername="E:/_aws/admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com/home/admin/enet/client/" />
- <root foldername="E:/_aws/admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com/home/admin/enet/include/" />
+ <root foldername="E:/_Prog/Wake/Smarthphone/cwc/Emulator/" />
+ <root foldername="E:/_Prog/Wake/Desktop/src/commun/" />
+ <root foldername="E:/_Prog/Wake/Smarthphone/slibs/" />
+ <root foldername="E:/_Prog/Wake/Desktop/Jit/" />
+ <root foldername="E:/_Prog/Wake/Desktop/xlibs/sassy/src/" />
 </FileBrowser>
 </NotepadPlus>
