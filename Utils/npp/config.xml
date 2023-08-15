@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="186" dotMatchesNewline="no" isSearch2ButtonsMode="yes" regexBackward4PowerUser="no" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no" bookmarkLine="no" purge="no">
+        <Path name="E:\_Prog\Wake\" />
         <Path name="E:\_Prog\Wake\Smarthphone" />
         <Path name="E:\_Prog\Wake" />
         <Path name="E:\_Prog\Wake\Desktop" />
-        <Path name="E:\_Prog\Wake\" />
         <Path name="E:\_Prog\GZE_Utils" />
         <Path name="E:\_Prog\sokol-samples\sapp" />
         <Path name="E:\_Prog\Wake\Desktop\xlibs\Sokol" />
@@ -21,16 +21,16 @@
         <Filter name="*.c *.cpp *.cc *.h *.inc" />
         <Filter name="*.bas *.cpp *.c *.h" />
         <Filter name="*.bas" />
+        <Find name="SDL_CreateMutex" />
+        <Find name="cold_reset" />
+        <Find name="SDL_LockMutex" />
+        <Find name="gAudioMutex" />
+        <Find name="wake_app" />
+        <Find name="gjit_glsl_file" />
         <Find name="e SG_RANGE" />
         <Find name="SG_RANGE" />
         <Find name="sg_append_buffer" />
         <Find name="SG_LOADACTION" />
-        <Find name="SG_LOADACTION_LOAD" />
-        <Find name="pass action" />
-        <Find name="SG_ACTION" />
-        <Find name="SG_ACTION_LOAD" />
-        <Find name="depth" />
-        <Find name="color_write_mask" />
         <Replace name="ucha" />
         <Replace name="printf" />
         <Replace name="iMouse" />
@@ -43,15 +43,13 @@
         <Replace name="vt" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="E:\_aws\admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com\home\admin\enet\server\server.c" />
-        <File filename="E:\_aws\admin@ec2-15-156-72-179.ca-central-1.compute.amazonaws.com\home\admin\enet\client\client.c" />
-        <File filename="E:\_aws\admin@ec2-15-156-72-179.ca-central-1.compute.amazonaws.com\home\admin\mk.sh" />
-        <File filename="E:\_aws\admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com\home\admin\copy_enet_ca.ps1" />
-        <File filename="E:\_aws\admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com\home\admin\launch_ca.bat" />
-        <File filename="E:\_Prog\Wake\Desktop\src\interface\json\imgui_jit.cpp" />
-        <File filename="E:\_Prog\Wake\Desktop\cwc\Wake\build.cwc" />
-        <File filename="E:\_aws\admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com\home\admin\enet\cwc\build.cwc" />
-        <File filename="E:\_aws\admin@ec2-18-117-167-192.us-east-2.compute.amazonaws.com\home\admin\enet\client\client.c" />
+        <File filename="E:\_Prog\Wake\Desktop\xlibs\sassy\src\eval_impl_jit\eval_impl_jit.cpp" />
+        <File filename="E:\_Prog\Wake\Smarthphone\slibs\sokol\util\sokol_spine.h" />
+        <File filename="E:\_Prog\Wake\Smarthphone\cwc\Emulator\src\imgui-sapp.cc" />
+        <File filename="E:\_Prog\Wake\Desktop\src\interface\main.c" />
+        <File filename="E:\_Prog\Wake\Desktop\src\interface\jit\glsl_jit.c" />
+        <File filename="E:\_Prog\Wake\Desktop\xlibs\sassy\src\sassy.cpp" />
+        <File filename="E:\_Prog\Wake\Desktop\xlibs\sassy\src\sassy.h" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
@@ -66,12 +64,12 @@
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
         <GUIConfig name="StatusBar">show</GUIConfig>
-        <GUIConfig name="TabBar" dragAndDrop="yes" drawTopBar="yes" drawInactiveTab="yes" reduce="yes" closeButton="yes" doubleClick2Close="no" vertical="no" multiLine="no" hide="no" quitOnEmpty="no" iconSetNumber="0" />
+        <GUIConfig name="TabBar" dragAndDrop="yes" drawTopBar="yes" drawInactiveTab="yes" reduce="yes" closeButton="yes" doubleClick2Close="no" vertical="no" multiLine="yes" hide="no" quitOnEmpty="no" iconSetNumber="0" />
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="3" />
-        <GUIConfig name="AppPosition" x="-2967" y="208" width="1294" height="830" isMaximized="yes" />
-        <GUIConfig name="FindWindowPosition" left="-2655" top="473" right="-2041" bottom="837" isLessModeOn="no" />
+        <GUIConfig name="AppPosition" x="393" y="0" width="1294" height="830" isMaximized="yes" />
+        <GUIConfig name="FindWindowPosition" left="-975" top="557" right="-361" bottom="921" isLessModeOn="no" />
         <GUIConfig name="FinderConfig" wrappedLines="no" purgeBeforeEverySearch="no" showOnlyOneEntryPerFoundLine="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20230819">no</GUIConfig>
         <GUIConfig name="Auto-detection">autoOld</GUIConfig>
@@ -112,7 +110,7 @@
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
         <GUIConfig name="DarkMode" enable="no" colorTone="0" customColorTop="2105376" customColorMenuHotTrack="4210752" customColorActive="4210752" customColorMain="2105376" customColorError="176" customColorText="14737632" customColorDarkText="12632256" customColorDisabledText="8421504" customColorLinkText="65535" customColorEdge="6579300" customColorHotEdge="10197915" customColorDisabledEdge="4737096" enableWindowsMode="no" darkThemeName="DarkModeDefault.xml" darkToolBarIconSet="0" darkTabIconSet="2" darkTabUseTheme="no" lightThemeName="" lightToolBarIconSet="4" lightTabIconSet="0" lightTabUseTheme="yes" />
         <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" lineNumberDynamicWidth="yes" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" isChangeHistoryEnabled="yes" lineWrapMethod="aligned" currentLineIndicator="1" currentLineFrameWidth="1" virtualSpace="no" scrollBeyondLastLine="no" rightClickKeepsSelection="no" disableAdvancedScrolling="no" wrapSymbolShow="show" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="0" zoom2="0" whiteSpaceShow="hide" eolShow="hide" eolMode="1" npcShow="hide" npcMode="1" npcCustomColor="no" npcIncludeCcUniEOL="no" ccShow="no" borderWidth="2" smoothFont="no" paddingLeft="0" paddingRight="0" distractionFreeDivPart="4" />
-        <GUIConfig name="DockingManager" leftWidth="248" rightWidth="334" topHeight="200" bottomHeight="469">
+        <GUIConfig name="DockingManager" leftWidth="248" rightWidth="334" topHeight="200" bottomHeight="283">
             <FloatingWindow cont="4" x="-1486" y="689" width="-285" height="878" />
             <FloatingWindow cont="5" x="31" y="127" width="231" height="527" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
