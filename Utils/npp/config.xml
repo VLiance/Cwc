@@ -68,7 +68,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="3" />
-        <GUIConfig name="AppPosition" x="393" y="0" width="1294" height="830" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="-1686" y="-84" width="1294" height="830" isMaximized="no" />
         <GUIConfig name="FindWindowPosition" left="-975" top="557" right="-361" bottom="921" isLessModeOn="no" />
         <GUIConfig name="FinderConfig" wrappedLines="no" purgeBeforeEverySearch="no" showOnlyOneEntryPerFoundLine="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20230819">no</GUIConfig>
@@ -110,27 +110,26 @@
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
         <GUIConfig name="DarkMode" enable="no" colorTone="0" customColorTop="2105376" customColorMenuHotTrack="4210752" customColorActive="4210752" customColorMain="2105376" customColorError="176" customColorText="14737632" customColorDarkText="12632256" customColorDisabledText="8421504" customColorLinkText="65535" customColorEdge="6579300" customColorHotEdge="10197915" customColorDisabledEdge="4737096" enableWindowsMode="no" darkThemeName="DarkModeDefault.xml" darkToolBarIconSet="0" darkTabIconSet="2" darkTabUseTheme="no" lightThemeName="" lightToolBarIconSet="4" lightTabIconSet="0" lightTabUseTheme="yes" />
         <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" lineNumberDynamicWidth="yes" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" isChangeHistoryEnabled="yes" lineWrapMethod="aligned" currentLineIndicator="1" currentLineFrameWidth="1" virtualSpace="no" scrollBeyondLastLine="no" rightClickKeepsSelection="no" disableAdvancedScrolling="no" wrapSymbolShow="show" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="0" zoom2="0" whiteSpaceShow="hide" eolShow="hide" eolMode="1" npcShow="hide" npcMode="1" npcCustomColor="no" npcIncludeCcUniEOL="no" ccShow="no" borderWidth="2" smoothFont="no" paddingLeft="0" paddingRight="0" distractionFreeDivPart="4" />
-        <GUIConfig name="DockingManager" leftWidth="248" rightWidth="334" topHeight="200" bottomHeight="283">
+        <GUIConfig name="DockingManager" leftWidth="288" rightWidth="334" topHeight="200" bottomHeight="283">
             <FloatingWindow cont="4" x="-1486" y="689" width="-285" height="878" />
             <FloatingWindow cont="5" x="31" y="127" width="231" height="527" />
+            <FloatingWindow cont="4" x="-1486" y="689" width="-285" height="878" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="NppFTP.dll" id="0" curr="0" prev="5" isVisible="yes" />
             <PluginDlg pluginName="NppFTP.dll" id="99" curr="3" prev="-1" isVisible="yes" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="4" isVisible="yes" />
             <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="4" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="4" isVisible="yes" />
             <ActiveTabs cont="0" activeTab="0" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
-            <ActiveTabs cont="3" activeTab="1" />
+            <ActiveTabs cont="3" activeTab="0" />
             <ActiveTabs cont="4" activeTab="-1" />
             <ActiveTabs cont="5" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
 <FileBrowser>
  <root foldername="E:/_Prog/Wake/Smarthphone/cwc/Emulator/" />
- <root foldername="E:/_Prog/Wake/Desktop/src/commun/" />
  <root foldername="E:/_Prog/Wake/Smarthphone/slibs/" />
- <root foldername="E:/_Prog/Wake/Desktop/Jit/" />
- <root foldername="E:/_Prog/Wake/Desktop/xlibs/sassy/src/" />
+ <root foldername="E:/_Prog/Wake/Desktop/" />
 </FileBrowser>
 </NotepadPlus>
