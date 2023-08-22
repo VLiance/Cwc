@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="186" dotMatchesNewline="no" isSearch2ButtonsMode="yes" regexBackward4PowerUser="no" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no" bookmarkLine="no" purge="no">
-        <Path name="E:\_Prog\Wake\" />
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="186" dotMatchesNewline="no" isSearch2ButtonsMode="yes" regexBackward4PowerUser="no" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no" bookmarkLine="no" purge="no">
         <Path name="E:\_Prog\Wake\Smarthphone" />
+        <Path name="E:\_Prog\Wake\" />
         <Path name="E:\_Prog\Wake" />
         <Path name="E:\_Prog\Wake\Desktop" />
         <Path name="E:\_Prog\GZE_Utils" />
@@ -11,26 +11,26 @@
         <Path name="E:\_Prog\Wake\Utils\Ref" />
         <Path name="D:\webpage\opera\" />
         <Path name="D:\webpage\opera\Dave Gamache_files" />
+        <Filter name="*.*" />
         <Filter name="*.c *.cpp *.cc *.h *.inc *.cw *.as " />
         <Filter name="*.c *.cpp *.cc *.h *.inc *.cw *.as" />
         <Filter name="*.c *.cpp *.cc *.h *.inc .*.cw *.as" />
         <Filter name="*.c *.cpp *.cc *.h *.inc .*cw *.as" />
         <Filter name="*.c *.cpp *.cc *.h *.inc .*cw" />
-        <Filter name="*.*" />
         <Filter name="*.c *.cpp *.cc *.h *.inc .*cw *.java" />
         <Filter name="*.c *.cpp *.cc *.h *.inc" />
         <Filter name="*.bas *.cpp *.c *.h" />
         <Filter name="*.bas" />
-        <Find name="SDL_CreateMutex" />
-        <Find name="cold_reset" />
-        <Find name="SDL_LockMutex" />
-        <Find name="gAudioMutex" />
-        <Find name="wake_app" />
-        <Find name="gjit_glsl_file" />
-        <Find name="e SG_RANGE" />
-        <Find name="SG_RANGE" />
-        <Find name="sg_append_buffer" />
-        <Find name="SG_LOADACTION" />
+        <Find name="sapp_sgcontext" />
+        <Find name="sapp_metal_get_renderpass_descriptor" />
+        <Find name="_sapp_macos_view" />
+        <Find name="@interface" />
+        <Find name="QuartzCore" />
+        <Find name="import QuartzCore" />
+        <Find name="sg_pipeline_desc" />
+        <Find name="SG_LOADACTION_CLEAR" />
+        <Find name="simgui_desc_t" />
+        <Find name="write_alpha_channel" />
         <Replace name="ucha" />
         <Replace name="printf" />
         <Replace name="iMouse" />
@@ -43,20 +43,23 @@
         <Replace name="vt" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="E:\_Prog\Wake\Desktop\xlibs\sassy\src\eval_impl_jit\eval_impl_jit.cpp" />
-        <File filename="E:\_Prog\Wake\Smarthphone\slibs\sokol\util\sokol_spine.h" />
-        <File filename="E:\_Prog\Wake\Smarthphone\cwc\Emulator\src\imgui-sapp.cc" />
-        <File filename="E:\_Prog\Wake\Desktop\src\interface\main.c" />
-        <File filename="E:\_Prog\Wake\Desktop\src\interface\jit\glsl_jit.c" />
-        <File filename="E:\_Prog\Wake\Desktop\xlibs\sassy\src\sassy.cpp" />
-        <File filename="E:\_Prog\Wake\Desktop\xlibs\sassy\src\sassy.h" />
+        <File filename="E:\_Prog\Wake\Smarthphone\cwc\Emulator\src\sokol_impl.mm" />
+        <File filename="E:\_Prog\Wake\Desktop\xlibs\sassy\src\sassy_asio.cpp" />
+        <File filename="E:\_Prog\Wake\Smarthphone\slibs\imgui2\examples\example_apple_opengl2\main.mm" />
+        <File filename="E:\_Prog\Wake\Smarthphone\slibs\imgui2\examples\example_apple_metal\main.mm" />
+        <File filename="E:\_Prog\Wake\Smarthphone\cwc\Android_App_Activity\java\gz\GzActivity.java" />
+        <File filename="E:\_Prog\Wake\Desktop\xlibs\Sokol\sokol_app.h" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    
+    <FileBrowser latestSelectedItem="E:/_Prog/Wake/Smarthphone/cwc/Emulator/\Emu_Bash.cwMake">
+        <root foldername="E:/_Prog/Wake/Smarthphone/cwc/Emulator/" />
+        <root foldername="E:/_Prog/Wake/Smarthphone/slibs/" />
+        <root foldername="E:/_Prog/Wake/Desktop/" />
+    </FileBrowser>
     <ColumnEditor choice="number">
         <text content="" />
         <number initial="-1" increase="-1" repeat="-1" formatChoice="dec" leadingChoice="none" />
@@ -68,8 +71,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="3" />
-        <GUIConfig name="AppPosition" x="-1686" y="-84" width="1294" height="830" isMaximized="no" />
-        <GUIConfig name="FindWindowPosition" left="-975" top="557" right="-361" bottom="921" isLessModeOn="no" />
+        <GUIConfig name="AppPosition" x="2094" y="85" width="1014" height="944" isMaximized="yes" />
+        <GUIConfig name="FindWindowPosition" left="-818" top="352" right="-204" bottom="716" isLessModeOn="no" />
         <GUIConfig name="FinderConfig" wrappedLines="no" purgeBeforeEverySearch="no" showOnlyOneEntryPerFoundLine="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20230819">no</GUIConfig>
         <GUIConfig name="Auto-detection">autoOld</GUIConfig>
@@ -110,7 +113,7 @@
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
         <GUIConfig name="DarkMode" enable="no" colorTone="0" customColorTop="2105376" customColorMenuHotTrack="4210752" customColorActive="4210752" customColorMain="2105376" customColorError="176" customColorText="14737632" customColorDarkText="12632256" customColorDisabledText="8421504" customColorLinkText="65535" customColorEdge="6579300" customColorHotEdge="10197915" customColorDisabledEdge="4737096" enableWindowsMode="no" darkThemeName="DarkModeDefault.xml" darkToolBarIconSet="0" darkTabIconSet="2" darkTabUseTheme="no" lightThemeName="" lightToolBarIconSet="4" lightTabIconSet="0" lightTabUseTheme="yes" />
         <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" lineNumberDynamicWidth="yes" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" isChangeHistoryEnabled="yes" lineWrapMethod="aligned" currentLineIndicator="1" currentLineFrameWidth="1" virtualSpace="no" scrollBeyondLastLine="no" rightClickKeepsSelection="no" disableAdvancedScrolling="no" wrapSymbolShow="show" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="0" zoom2="0" whiteSpaceShow="hide" eolShow="hide" eolMode="1" npcShow="hide" npcMode="1" npcCustomColor="no" npcIncludeCcUniEOL="no" ccShow="no" borderWidth="2" smoothFont="no" paddingLeft="0" paddingRight="0" distractionFreeDivPart="4" />
-        <GUIConfig name="DockingManager" leftWidth="288" rightWidth="334" topHeight="200" bottomHeight="283">
+        <GUIConfig name="DockingManager" leftWidth="328" rightWidth="334" topHeight="200" bottomHeight="395">
             <FloatingWindow cont="4" x="-1486" y="689" width="-285" height="878" />
             <FloatingWindow cont="5" x="31" y="127" width="231" height="527" />
             <FloatingWindow cont="4" x="-1486" y="689" width="-285" height="878" />
@@ -127,9 +130,4 @@
             <ActiveTabs cont="5" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
-<FileBrowser>
- <root foldername="E:/_Prog/Wake/Smarthphone/cwc/Emulator/" />
- <root foldername="E:/_Prog/Wake/Smarthphone/slibs/" />
- <root foldername="E:/_Prog/Wake/Desktop/" />
-</FileBrowser>
 </NotepadPlus>
