@@ -1,5 +1,5 @@
 <NotepadPlus>
-    <UserLang name="CWayv" ext="cw c cpp cc h glsl inc cc" udlVersion="2.1">
+    <UserLang name="CWayv" ext="jc cw c cpp cc h glsl inc cc" udlVersion="2.1">
         <Settings>
             <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
             <Prefix Keywords1="no" Keywords2="no" Keywords3="yes" Keywords4="no" Keywords5="yes" Keywords6="yes" Keywords7="yes" Keywords8="yes" />
@@ -32,7 +32,7 @@
             <Keywords name="Keywords6">@ctype fptr &#x000D;&#x000A;oA oB oC oD oE oF oG oH oI oJ oK oL oM oN oO oP oQ oR oS oT oU oV oW oX oY oZ&#x000D;&#x000A;_oA _oB _oC _oD _oE _oF _oG _oH _oI _oJ _oK _oL _oM _oN _oO _oP _oQ _oR _oS _oT _oU _oV _oW _oX _oY _oZ gz GZ_&#x000D;&#x000A;&#x000D;&#x000A;_a _b _c _d _e _f _g _h _i _j _k _l _m _n _o _p _q _r _s _t _u _v _w _x _y _z &#x000D;&#x000A;err_ dbg_ warn_ pass_ info_ trace_ log_ action_&#x000D;&#x000A;</Keywords>
             <Keywords name="Keywords7">aA aB aC aD aE aF aG aH aI aJ aK aL aM aN aO aP aQ aR aS aT aU aV aW aX aY aZ &#x000D;&#x000A;_aA _aB _aC _aD _aE _aF _aG _aH _aI _aJ _aK _aL _aM _aN _aO _aP _aQ _aR _aS _aT _aU _aV _aW_aX _aY _aZ&#x000D;&#x000A;qA qB qC qD qE qF qG qH qI qJ qK qL qM qN qO qP qQ qR qS qT qU qV qW qX qY qZ&#x000D;&#x000A;_qA _qB _qC _qD _qE _qF _qG _qH _qI _qJ _qK _qL _qM _qN _qO _qP _qQ _qR _qS _qT _qU _qV _qW _qX _qY _qZ&#x000D;&#x000A;qeA qeB qeC qeD qeE qeF qeG qeH qeI qeJ qeK qeL qeM qeN qeO qeP qeQ qeR qeS qeT qeU qeV qeW qeX qeY qeZ&#x000D;&#x000A;_qeA _qeB _qeC _qeD _qeE _qeF _qeG _qeH _qeI _qeJ _qeK _qeL _qeM _qeN _qeO _qeP _qeQ _qeR _qeS _qeT _qeU _qeV _qeW _qeX _qeY _qeZ&#x000D;&#x000A;qaA qaB qaC qaD qaE qaF qaG qaH qaI qaJ qaK qaL qaM qaN qaO qaP qaQ qaR qaS qaT qaU qaV qaW qaX qaY qaZ&#x000D;&#x000A;_qaA _qaB _qaC _qaD _qaE _qaF _qaG _qaH _qaI _qaJ _qaK _qaL _qaM _qaN _qaO _qaP _qaQ _qaR _qaS _qaT _qaU _qaV _qaW _qaX _qaY _qaZ</Keywords>
             <Keywords name="Keywords8">constants&#x000D;&#x000A;A B C D E F G H I J K L M N O P Q R S T U V W X Y Z&#x000D;&#x000A;&#x000D;&#x000A;cA cB cC cD cE cF cG cH cI cJ cK cL cM cN cO cP cQ cR cS cT cU cV cW cX cY cZ&#x000D;&#x000A;csA csB csC csD csE csF csG csH csI csJ csK csL csM csN csO csP csQ csR csS csT csU csV csW csX csY csZ&#x000D;&#x000A;</Keywords>
-            <Keywords name="Delimiters">00&quot; 01\ 02&quot; 03//! 04 05((EOL)) 06//TODO 06#skipContent 06#Wrapper 07 08((EOL)) 08((EOL)) 08((EOL)) 09!## 10 11##! 12&quot; 13\ 14&quot; 15 16 17 18 19 20 21// 22 23((EOL))</Keywords>
+            <Keywords name="Delimiters">00&quot; 01\ 02&quot; 03//! 04 05((EOL)) 06//TODO 06//wk 06#skipContent 06#Wrapper 07 08((EOL)) 08((EOL)) 08((EOL)) 09!## 10 11##! 12&quot; 13\ 14&quot; 15 16 17 18 19 20 21// 22 23((EOL))</Keywords>
         </KeywordLists>
         <Styles>
             <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
