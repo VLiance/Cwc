@@ -20,16 +20,18 @@
         <Filter name="*.c *.cc *.h *.cpp" />
         <Filter name="*.h" />
         <Filter name="*.c *.cc *.h" />
+        <Find name="jit" />
+        <Find name="args" />
+        <Find name="_args" />
+        <Find name="Trunc_add" />
+        <Find name="dbg_x" />
+        <Find name="ChipmunkDebugDrawDot" />
         <Find name="LoadFile size" />
         <Find name="fullpath" />
         <Find name="Tcc_Compile" />
         <Find name=", real_size" />
-        <Find name="FileNod_ToJSON" />
-        <Find name="real_size" />
-        <Find name="TO JSON" />
-        <Find name="sh-&gt;attrs" />
-        <Find name="sh-&gt;attrs[0]" />
-        <Find name="finish result" />
+        <Replace name="jit" />
+        <Replace name="_j" />
         <Replace name="itf_dll_main" />
         <Replace name="ibr_nod" />
         <Replace name="gbl_nod" />
@@ -38,27 +40,21 @@
         <Replace name="pass_action" />
         <Replace name="apply_rot" />
         <Replace name="q_" />
-        <Replace name="angle" />
-        <Replace name="barycentre_P(" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="D:\Prog\Wake-Core\Desktop\src\wake\association.c" />
-        <File filename="D:\Prog\Wake-Core\Desktop\src\interface\multiviewport.cpp" />
-        <File filename="D:\Prog\Wake-Core\Desktop\src\interface\jit\glsl_jit.c" />
-        <File filename="D:\Prog\Wake-Core\Desktop\src\interface\jit\imgui_base.cpp" />
-        <File filename="D:\Prog\Wake-Core\Desktop\src\commun\jit\libTcc.h" />
-        <File filename="D:\Prog\Wake-Core\Desktop\src\commun\jit\tcc.c" />
         <File filename="D:\Prog\Wake-Core\Desktop\src\commun\FileNod.c" />
         <File filename="D:\Prog\Wake-Core\Desktop\src\commun\Xternal.c" />
-        <File filename="D:\Prog\Wake-Samples-vA\shader\space.jc" />
-        <File filename="D:\Prog\Wake-Samples-vA\shader\space.glsl.h" />
+        <File filename="D:\Prog\Wake-Core\Desktop\src\interface\jit\imgui_jit.c" />
+        <File filename="D:\Prog\Wake-Core\bin\_out\Windows_Debug_x64_jit\itf\Rc\tcc\jit_inc\FileNod.c" />
+        <File filename="D:\Prog\Wake-Samples-vA\debug.cwmake" />
+        <File filename="D:\Prog\Wake-Core\Desktop\cwc\Interface\Inteface_Windows_Release_64.cwMake" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="D:/Prog/Wake-Samples-vA/">
+    <FileBrowser latestSelectedItem="D:/Prog/Wake-Samples-vA/\imgui\rchip.jc">
         <root foldername="D:/Prog/Wake-Samples-vA/" />
     </FileBrowser>
     <ColumnEditor choice="number">
@@ -72,7 +68,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="3" />
-        <GUIConfig name="AppPosition" x="233" y="-8" width="1278" height="858" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="-1509" y="151" width="1278" height="858" isMaximized="yes" />
         <GUIConfig name="FindWindowPosition" left="-755" top="193" right="-141" bottom="557" isLessModeOn="no" />
         <GUIConfig name="FinderConfig" wrappedLines="no" purgeBeforeEverySearch="no" showOnlyOneEntryPerFoundLine="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
@@ -113,8 +109,8 @@
         <GUIConfig name="MarkAll" matchCase="no" wholeWordOnly="yes" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="yes">yes</GUIConfig>
         <GUIConfig name="DarkMode" enable="no" colorTone="0" customColorTop="2105376" customColorMenuHotTrack="4210752" customColorActive="4210752" customColorMain="2105376" customColorError="176" customColorText="14737632" customColorDarkText="12632256" customColorDisabledText="8421504" customColorLinkText="65535" customColorEdge="6579300" customColorHotEdge="10197915" customColorDisabledEdge="4737096" enableWindowsMode="no" darkThemeName="DarkModeDefault.xml" darkToolBarIconSet="0" darkTabIconSet="2" darkTabUseTheme="no" lightThemeName="" lightToolBarIconSet="4" lightTabIconSet="0" lightTabUseTheme="yes" />
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" lineNumberDynamicWidth="yes" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" isChangeHistoryEnabled="yes" lineWrapMethod="aligned" currentLineIndicator="1" currentLineFrameWidth="1" virtualSpace="no" scrollBeyondLastLine="yes" rightClickKeepsSelection="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="-1" zoom2="1" whiteSpaceShow="hide" eolShow="hide" eolMode="1" npcShow="hide" npcMode="1" npcCustomColor="no" npcIncludeCcUniEOL="no" ccShow="no" borderWidth="2" smoothFont="no" paddingLeft="0" paddingRight="0" distractionFreeDivPart="4" />
-        <GUIConfig name="DockingManager" leftWidth="176" rightWidth="61" topHeight="200" bottomHeight="307">
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" lineNumberDynamicWidth="yes" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" isChangeHistoryEnabled="yes" lineWrapMethod="aligned" currentLineIndicator="1" currentLineFrameWidth="1" virtualSpace="no" scrollBeyondLastLine="yes" rightClickKeepsSelection="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="0" zoom2="1" whiteSpaceShow="hide" eolShow="hide" eolMode="1" npcShow="hide" npcMode="1" npcCustomColor="no" npcIncludeCcUniEOL="no" ccShow="no" borderWidth="2" smoothFont="no" paddingLeft="0" paddingRight="0" distractionFreeDivPart="4" />
+        <GUIConfig name="DockingManager" leftWidth="176" rightWidth="61" topHeight="200" bottomHeight="179">
             <FloatingWindow cont="4" x="1018" y="736" width="1931" height="951" />
             <FloatingWindow cont="4" x="1018" y="736" width="1931" height="951" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
