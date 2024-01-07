@@ -54,9 +54,7 @@
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="D:/Prog/Wake-Samples-vA/\imgui\rchip.jc">
-        <root foldername="D:/Prog/Wake-Samples-vA/" />
-    </FileBrowser>
+    
     <ColumnEditor choice="number">
         <text content="" />
         <number initial="-1" increase="-1" repeat="-1" formatChoice="dec" leadingChoice="none" />
@@ -68,7 +66,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="3" />
-        <GUIConfig name="AppPosition" x="-1509" y="151" width="1278" height="858" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="649" y="516" width="1278" height="397" isMaximized="yes" />
         <GUIConfig name="FindWindowPosition" left="-755" top="193" right="-141" bottom="557" isLessModeOn="no" />
         <GUIConfig name="FinderConfig" wrappedLines="no" purgeBeforeEverySearch="no" showOnlyOneEntryPerFoundLine="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
@@ -126,4 +124,14 @@
             <ActiveTabs cont="4" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
+<FileBrowser>
+ <root foldername="D:/Prog/Wake-Core/Desktop/cwc/Interface/" />
+ <root foldername="D:/Prog/Wake-Core/Desktop/src/interface/" />
+ <root foldername="D:/Prog/Wake-Core/Desktop/src/commun/" />
+ <root foldername="D:/Prog/Wake-Core/Desktop/xlibs/" />
+ <root foldername="D:/Prog/Wake-Core/Desktop/test/" />
+ <root foldername="D:/Prog/Wake-Core/Desktop/src/platform/" />
+ <root foldername="D:/Prog/Wake-Core/bin/obj/Windows_Debug_x64_no_jit/jit/" />
+ <root foldername="D:/Prog/Wake-Core/Desktop/Jit/" />
+</FileBrowser>
 </NotepadPlus>
