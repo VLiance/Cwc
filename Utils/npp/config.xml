@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <NotepadPlus>
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="0" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no" regexBackward4PowerUser="no" bookmarkLine="no" purge="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="no" fifRecuisive="yes" fifInHiddenFolder="no" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="0" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no" regexBackward4PowerUser="no" bookmarkLine="no" purge="no">
         <Path name="D:\Prog\Wake-Core\" />
+        <Path name="D:\Prog\Wake-Core\Desktop" />
+        <Path name="D:\Prog\ShaderEditor\app\src\main\java\de\markusfisch" />
+        <Path name="D:\Prog\Wake-Samples-dev" />
         <Path name="D:\Prog\Wake-Core\Desktop\" />
         <Path name="D:\Prog\Wake-Core\Desktop\Jit\imgui" />
-        <Path name="D:\Prog\Wake-Core\Desktop" />
         <Path name="D:\Prog\Wake\Desktop" />
         <Path name="D:\Prog\sokol-samples\sapp" />
         <Path name="D:\Prog\sokol\util" />
         <Path name="D:\.archives\_NewProject\GZE\src\Lib_GZ\" />
-        <Path name="D:\.archives\_NewProject\GZE\src\Lib_GZ\Gpu\ShaderModel\GzModel\GzShModel_Tiles" />
-        <Path name="D:\Prog\GZE_Utils\ref\Gpu\ShaderModel\GzModel\GzShModel_Quad" />
+        <Filter name="*.c *.cc *.h *.cpp *.glsl *.cw *.inc *.hpp *.java" />
+        <Filter name="*.c *.cc *.h *.cpp *.glsl *.cw *.inc *.hpp" />
         <Filter name="*.c *.cc *.h *.cpp *.glsl *.cw *.inc" />
         <Filter name="*.cwc *.cwmake" />
         <Filter name="*.c *.cc *.h *.cpp *.glsl *.cw *inc" />
@@ -19,42 +21,55 @@
         <Filter name="*.c *.cc *.h *.cpp *.glsl" />
         <Filter name="*.c *.cc *.h *.cpp" />
         <Filter name="*.h" />
-        <Filter name="*.c *.cc *.h" />
-        <Find name="jit" />
-        <Find name="args" />
-        <Find name="_args" />
-        <Find name="Trunc_add" />
-        <Find name="dbg_x" />
-        <Find name="ChipmunkDebugDrawDot" />
-        <Find name="LoadFile size" />
-        <Find name="fullpath" />
-        <Find name="Tcc_Compile" />
-        <Find name=", real_size" />
-        <Replace name="jit" />
+        <Find name="plot" />
+        <Find name="ImPlot_SetupAxesLimits" />
+        <Find name="ImAxis_X1" />
+        <Find name="BeginPlot" />
+        <Find name="Move your mouse to change the data" />
+        <Find name="ImPlotAxisFlags" />
+        <Find name="ScrollingBuffer" />
+        <Find name="iResolution" />
+        <Find name="BeginTabBar" />
+        <Find name="Demo_RealtimePlots" />
         <Replace name="_j" />
+        <Replace name="gaudio_req_samples" />
+        <Replace name="sound_exit" />
+        <Replace name="sound_ini" />
+        <Replace name="sub" />
+        <Replace name="drawSquare_" />
+        <Replace name="fnc" />
+        <Replace name="f" />
+        <Replace name="jit" />
         <Replace name="itf_dll_main" />
-        <Replace name="ibr_nod" />
-        <Replace name="gbl_nod" />
-        <Replace name="gbl_fnod" />
-        <Replace name="state" />
-        <Replace name="pass_action" />
-        <Replace name="apply_rot" />
-        <Replace name="q_" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="D:\Prog\Wake-Core\Desktop\src\commun\FileNod.c" />
-        <File filename="D:\Prog\Wake-Core\Desktop\src\commun\Xternal.c" />
-        <File filename="D:\Prog\Wake-Core\Desktop\src\interface\jit\imgui_jit.c" />
-        <File filename="D:\Prog\Wake-Core\bin\_out\Windows_Debug_x64_jit\itf\Rc\tcc\jit_inc\FileNod.c" />
-        <File filename="D:\Prog\Wake-Samples-vA\debug.cwmake" />
-        <File filename="D:\Prog\Wake-Core\Desktop\cwc\Interface\Inteface_Windows_Release_64.cwMake" />
+        <File filename="D:\Prog\Wake-Core\Desktop\xlibs\Sokol\util\sokol_gl.h" />
+        <File filename="D:\Prog\Wake-Core\Desktop\cwc\Interface\build_itf.cwc" />
+        <File filename="D:\Prog\Wake-Alpha\Rc\tcc\jit_inc\Xternal.h" />
+        <File filename="D:\Prog\Wake-Core\Desktop\cwc\Interface\Inteface_Windows_Release_64[no_jit].cwMake" />
+        <File filename="D:\Prog\Wake-Alpha\Rc\tcc\jit_inc\imgui_draw.h" />
+        <File filename="D:\Prog\Wake-Core\Desktop\src\interface\sassy_link.h" />
+        <File filename="D:\Prog\Wake-Core_test\Desktop\src\interface\multiviewport.cpp" />
+        <File filename="D:\Prog\Wake-Alpha\Rc\tcc\jit_inc\audio_jit.h" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    
+    <FileBrowser latestSelectedItem="D:/Prog/Wake-Core/bin/obj/Windows_Debug_x64_jit/jit/\tcc.o">
+        <root foldername="D:/Prog/Wake-Core/Desktop/cwc/Interface/" />
+        <root foldername="D:/Prog/Wake-Core/Desktop/src/interface/" />
+        <root foldername="D:/Prog/Wake-Core/Desktop/src/commun/" />
+        <root foldername="D:/Prog/Wake-Core/Desktop/xlibs/" />
+        <root foldername="D:/Prog/Wake-Core/Desktop/test/" />
+        <root foldername="D:/Prog/Wake-Core/Desktop/src/platform/" />
+        <root foldername="D:/Prog/Wake-Core/bin/obj/Windows_Debug_x64_jit/jit/" />
+        <root foldername="D:/Prog/Wake-Core/Desktop/Jit/" />
+        <root foldername="D:/Prog/Wake-Alpha/Rc/tcc/jit_inc/" />
+        <root foldername="D:/Prog/Wake-Samples-dev/" />
+        <root foldername="D:/Prog/Wake-Core/Desktop/src/wake/" />
+    </FileBrowser>
     <ColumnEditor choice="number">
         <text content="" />
         <number initial="-1" increase="-1" repeat="-1" formatChoice="dec" leadingChoice="none" />
@@ -66,8 +81,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="3" />
-        <GUIConfig name="AppPosition" x="649" y="516" width="1278" height="397" isMaximized="yes" />
-        <GUIConfig name="FindWindowPosition" left="-755" top="193" right="-141" bottom="557" isLessModeOn="no" />
+        <GUIConfig name="AppPosition" x="11" y="0" width="1678" height="1000" isMaximized="yes" />
+        <GUIConfig name="FindWindowPosition" left="-930" top="635" right="-316" bottom="999" isLessModeOn="no" />
         <GUIConfig name="FinderConfig" wrappedLines="no" purgeBeforeEverySearch="no" showOnlyOneEntryPerFoundLine="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="Auto-detection">autoOld</GUIConfig>
@@ -107,31 +122,23 @@
         <GUIConfig name="MarkAll" matchCase="no" wholeWordOnly="yes" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="yes">yes</GUIConfig>
         <GUIConfig name="DarkMode" enable="no" colorTone="0" customColorTop="2105376" customColorMenuHotTrack="4210752" customColorActive="4210752" customColorMain="2105376" customColorError="176" customColorText="14737632" customColorDarkText="12632256" customColorDisabledText="8421504" customColorLinkText="65535" customColorEdge="6579300" customColorHotEdge="10197915" customColorDisabledEdge="4737096" enableWindowsMode="no" darkThemeName="DarkModeDefault.xml" darkToolBarIconSet="0" darkTabIconSet="2" darkTabUseTheme="no" lightThemeName="" lightToolBarIconSet="4" lightTabIconSet="0" lightTabUseTheme="yes" />
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" lineNumberDynamicWidth="yes" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" isChangeHistoryEnabled="yes" lineWrapMethod="aligned" currentLineIndicator="1" currentLineFrameWidth="1" virtualSpace="no" scrollBeyondLastLine="yes" rightClickKeepsSelection="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="0" zoom2="1" whiteSpaceShow="hide" eolShow="hide" eolMode="1" npcShow="hide" npcMode="1" npcCustomColor="no" npcIncludeCcUniEOL="no" ccShow="no" borderWidth="2" smoothFont="no" paddingLeft="0" paddingRight="0" distractionFreeDivPart="4" />
-        <GUIConfig name="DockingManager" leftWidth="176" rightWidth="61" topHeight="200" bottomHeight="179">
-            <FloatingWindow cont="4" x="1018" y="736" width="1931" height="951" />
-            <FloatingWindow cont="4" x="1018" y="736" width="1931" height="951" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" lineNumberDynamicWidth="yes" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" isChangeHistoryEnabled="yes" lineWrapMethod="aligned" currentLineIndicator="1" currentLineFrameWidth="1" virtualSpace="no" scrollBeyondLastLine="yes" rightClickKeepsSelection="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="0" zoom2="0" whiteSpaceShow="hide" eolShow="hide" eolMode="1" npcShow="hide" npcMode="1" npcCustomColor="no" npcIncludeCcUniEOL="no" ccShow="no" borderWidth="2" smoothFont="no" paddingLeft="0" paddingRight="0" distractionFreeDivPart="4" />
+        <GUIConfig name="DockingManager" leftWidth="359" rightWidth="141" topHeight="200" bottomHeight="200">
+            <FloatingWindow cont="4" x="-1522" y="762" width="-609" height="977" />
+            <FloatingWindow cont="5" x="674" y="752" width="1587" height="967" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="5" isVisible="yes" />
             <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="4" isVisible="no" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="4" isVisible="yes" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="MultiClipboard.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <ActiveTabs cont="0" activeTab="0" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
-            <ActiveTabs cont="3" activeTab="-1" />
+            <ActiveTabs cont="3" activeTab="0" />
             <ActiveTabs cont="4" activeTab="-1" />
+            <ActiveTabs cont="5" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
-<FileBrowser>
- <root foldername="D:/Prog/Wake-Core/Desktop/cwc/Interface/" />
- <root foldername="D:/Prog/Wake-Core/Desktop/src/interface/" />
- <root foldername="D:/Prog/Wake-Core/Desktop/src/commun/" />
- <root foldername="D:/Prog/Wake-Core/Desktop/xlibs/" />
- <root foldername="D:/Prog/Wake-Core/Desktop/test/" />
- <root foldername="D:/Prog/Wake-Core/Desktop/src/platform/" />
- <root foldername="D:/Prog/Wake-Core/bin/obj/Windows_Debug_x64_no_jit/jit/" />
- <root foldername="D:/Prog/Wake-Core/Desktop/Jit/" />
-</FileBrowser>
 </NotepadPlus>
