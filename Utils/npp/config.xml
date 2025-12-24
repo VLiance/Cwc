@@ -1,61 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <NotepadPlus>
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="yes" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no" regexBackward4PowerUser="no">
-        <Path name="D:\dev\wnextr\Wake-Samples-dev\Sound\gsound" />
-        <Path name="D:\dev\wnextr\Module_Builder\wake-tools\sokol" />
-        <Path name="D:\dev\wnextr\Wake-Samples-dev\" />
-        <Path name="D:\dev\wnextr\Module_Builder\wake-tools\sokol\patch" />
-        <Path name="D:\dev\wnextr\Wake-Samples-dev" />
-        <Path name="D:\dev\wnextr\Wake-Samples-dev\fontstash_new" />
-        <Path name="D:\dev\wnextr\Wake-Samples-dev\new_shadertoy\fluid" />
-        <Path name="D:\dev\wnextr\Module_Builder\wake-tools\imgui\_build_lib\dear_bindings\libc\cimplot3d" />
-        <Path name="D:\dev\wnextr\bin\_out\Windows_Debug_w32-d\runtime" />
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="1" transparency="156" dotMatchesNewline="no" isSearch2ButtonsMode="yes" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no" regexBackward4PowerUser="no">
+        <Path name="D:\dev\wnextr\Smarthphone\cwc\Android_App_Activity_Wake" />
+        <Path name="D:\dev\wnextr\Smarthphone\cwc\Android_App_Activity_Wake\_out" />
         <Path name="D:\dev\wnextr\Desktop" />
+        <Path name="D:\dev\wnextr\Wake-Samples-dev" />
+        <Path name="D:\dev\wnextr\Wake-Samples-dev\Sound\gsound" />
+        <Path name="D:\dev\wnextr\Module_Builder\wake-tools\sokol\" />
+        <Path name="D:\dev\wnextr\Module_Builder\wake-tools\sokol\builder" />
+        <Path name="D:\dev\wnextr\Wake-Samples-dev\Sound\gsound\ssound" />
+        <Path name="D:\dev\wnextr\Wake-Samples-dev\Sound\gsound_bck" />
+        <Path name="D:\dev\wnextr\Wake-Samples-dev\sdf\sdf_v0.2" />
+        <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *.jc *.java *.cpp" />
+        <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *.jc *.java" />
+        <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *.jc" />
         <Filter name="*.*" />
-        <Find name="ssound_simple2" />
-        <Find name="SSND_VARIANT_COUNT" />
-        <Find name="mainSound" />
-        <Find name="vol" />
-        <Find name="saudio_push" />
-        <Find name="sound_request_push" />
-        <Find name="sg_query_image_pixels" />
-        <Find name="add_wav_to_audio" />
-        <Find name="right" />
-        <Find name="anchor_imgui_draw" />
-        <Replace name="ANIMATE_MODE" />
-        <Replace name="1.0" />
-        <Replace name="fsstate" />
-        <Replace name="_" />
-        <Replace name="cfg_nod_obj" />
-        <Replace name="cfg_nod" />
-        <Replace name="FileFlags" />
-        <Replace name="fontman_state" />
-        <Replace name="LOG_FONTMAN" />
-        <Replace name="LOG_MANAGER" />
+        <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *gc" />
+        <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh" />
+        <Find name="onInit" />
+        <Find name="set_main_nod" />
+        <Find name="_close_mem" />
+        <Find name="close_mem" />
+        <Find name="close_meme" />
+        <Find name="close" />
+        <Find name="memclose" />
+        <Find name="mem_close" />
+        <Find name="jit_get_main_nod" />
+        <Find name="jit_get_build_env" />
+        <Replace name="" />
+        <Replace name="&gt;&gt; Dock Left" />
+        <Replace name="&gt;&gt; Dock Right" />
+        <Replace name="dummysound" />
+        <Replace name="dummy" />
+        <Replace name="ssound_pixsamples" />
+        <Replace name="ssound.param" />
+        <Replace name="squad" />
+        <Replace name="sound2_program_" />
+        <Replace name="sound1_program_" />
+        <Replace name="sound1_program" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="D:\dev\wnextr\Wake-Samples-dev\Sound\gsound\ctrl_util.hh" />
-        <File filename="D:\dev\wnextr\Wake-Samples-dev\Sound\gsound\sokol_sound.inc" />
-        <File filename="D:\dev\wnextr\Wake-Samples-dev\Sound\gsound\winmod.hh" />
-        <File filename="D:\dev\wnextr\Wake-Samples-dev\Sound\gsound\touch_ctrl.hh" />
-        <File filename="D:\dev\wnextr\Wake-Samples-dev\Sound\gsound\touch.hh" />
-        <File filename="D:\dev\wnextr\Wake-Samples-dev\Sound\gsound\ssound.hh" />
-        <File filename="D:\dev\wnextr\Wake-Samples-dev\Sound\gsound\ui_demo.inc" />
+        <File filename="D:\dev\wnextr\Wake-Samples-dev\persistance\persistance.jc" />
+        <File filename="D:\dev\wnextr\Smarthphone\cwc\Android_App_Activity_Wake\java\gz\GzCpp.java" />
+        <File filename="D:\dev\wnextr\Desktop\src\wake\direct_run.c" />
+        <File filename="D:\dev\wnextr\Smarthphone\cwc\Android_App_Activity_Wake\java\Android\Wrapper\Application.cpp" />
+        <File filename="D:\dev\wnextr\Desktop\src\jitlib\jit.h" />
+        <File filename="D:\dev\wnextr\Smarthphone\cwc\Android_App_Activity_Wake\java\Android\Wrapper\RendererES2.cpp" />
+        <File filename="D:\dev\wnextr\Smarthphone\cwc\Android_App_Activity_Wake\java\Android\Wrapper\RendererES2.h" />
+        <File filename="D:\dev\wnextr\Wake-Samples-dev\new_shadertoy\sphere_v0.2\shadertoy.jc" />
+        <File filename="D:\document\ac_data\ac.dll" />
+        <File filename="D:\dev\wnextr\Smarthphone\cwc\Android_App_Activity_Wake\java\Android\Wrapper\WrapCpp.cpp" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="D:/dev/wnextr/Wake-Samples-dev/\Sound\converted">
-        <root foldername="D:/dev/wnextr/Desktop/cwc/Interface/" />
-        <root foldername="D:/dev/wnextr/Desktop/src/" />
-        <root foldername="D:/dev/wnextr/Desktop/xlibs/" />
-        <root foldername="D:/dev/wnextr/Desktop/lib/include/" />
+    <FileBrowser latestSelectedItem="D:/dev/wnextr/Desktop/src/jitlib/\jit\nod.h">
+        <root foldername="D:/dev/wnextr/Smarthphone/cwc/Android_App_Activity_Wake/" />
+        <root foldername="D:/dev/wnextr/Desktop/src/jitlib/" />
+        <root foldername="D:/dev/wnextr/Desktop/src/common/" />
         <root foldername="D:/dev/wnextr/Wake-Samples-dev/" />
-        <root foldername="D:/dev/wnextr/Desktop/XE/include/" />
-        <root foldername="D:/dev/wnextr/Desktop/XE/src/" />
-        <root foldername="D:/dev/wnextr/Desktop/lib/w32/" />
+        <root foldername="D:/dev/wnextr/Module/wake-tools/imgui-v0.2w/include/" />
+        <root foldername="D:/dev/wnextr/Module/wake-tools/sapp-v0.2w/include/" />
+        <root foldername="D:/dev/wnextr/Module/wake-tools/sgfx-v0.2w/include/" />
+        <root foldername="D:/dev/wnextr/Module/wake-tools/sokol-v0.2w/include/" />
     </FileBrowser>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -64,8 +73,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="3" />
-        <GUIConfig name="AppPosition" x="200" y="1195" width="1469" height="869" isMaximized="yes" />
-        <GUIConfig name="FindWindowPosition" left="-1334" top="1647" right="-745" bottom="2011" />
+        <GUIConfig name="AppPosition" x="53" y="1142" width="1064" height="653" isMaximized="yes" />
+        <GUIConfig name="FindWindowPosition" left="-1571" top="1596" right="-982" bottom="1960" />
         <GUIConfig name="FinderConfig" wrappedLines="no" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">yes</GUIConfig>
         <GUIConfig name="Auto-detection">autoOld</GUIConfig>
@@ -88,7 +97,7 @@
         <GUIConfig name="auto-insert" parentheses="no" brackets="no" curlyBrackets="no" quotes="no" doubleQuotes="no" htmlXmlTag="no" />
         <GUIConfig name="sessionExt"></GUIConfig>
         <GUIConfig name="workspaceExt"></GUIConfig>
-        <GUIConfig name="MenuBar">hide</GUIConfig>
+        <GUIConfig name="MenuBar">show</GUIConfig>
         <GUIConfig name="Caret" width="1" blinkRate="600" />
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="yes" />
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
@@ -100,15 +109,14 @@
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" writeTechnologyEngine="0" isFolderDroppedOpenFiles="no" docPeekOnTab="no" docPeekOnMap="no" saveDlgExtFilterToAllTypes="no" muteSounds="yes" />
         <GUIConfig name="Searching" monospacedFontFindDlg="no" stopFillingFindField="no" findDlgAlwaysVisible="no" confirmReplaceInAllOpenDocs="yes" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
-        <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" lineNumberDynamicWidth="yes" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" rightClickKeepsSelection="yes" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="0" zoom2="1" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
-        <GUIConfig name="DockingManager" leftWidth="238" rightWidth="368" topHeight="200" bottomHeight="263">
-            <FloatingWindow cont="4" x="1202" y="1265" width="1421" height="1821" />
-            <FloatingWindow cont="5" x="-1399" y="1955" width="-1058" height="2093" />
-            <FloatingWindow cont="4" x="1202" y="1265" width="1421" height="1821" />
+        <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="yes">yes</GUIConfig>
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" lineNumberDynamicWidth="yes" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" rightClickKeepsSelection="yes" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="0" zoom2="-1" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="DockingManager" leftWidth="225" rightWidth="368" topHeight="200" bottomHeight="250">
+            <FloatingWindow cont="4" x="18" y="1486" width="1490" height="1617" />
+            <FloatingWindow cont="4" x="18" y="1486" width="1490" height="1617" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="4" isVisible="yes" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="4" isVisible="no" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="5" isVisible="yes" />
             <PluginDlg pluginName="3P" id="2" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="3P" id="1" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="4" prev="1" isVisible="no" />
@@ -117,7 +125,6 @@
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="0" />
             <ActiveTabs cont="4" activeTab="-1" />
-            <ActiveTabs cont="5" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
 </NotepadPlus>
