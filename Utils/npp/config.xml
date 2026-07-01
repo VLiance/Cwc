@@ -1,71 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <NotepadPlus>
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="1" transparency="156" dotMatchesNewline="no" isSearch2ButtonsMode="yes" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no" regexBackward4PowerUser="no">
-        <Path name="D:\dev\wnextr\Smarthphone\cwc\Android_App_Activity_Wake" />
-        <Path name="D:\dev\wnextr\Smarthphone\cwc\Android_App_Activity_Wake\_out" />
-        <Path name="D:\dev\wnextr\Desktop" />
-        <Path name="D:\dev\wnextr\Wake-Samples-dev" />
-        <Path name="D:\dev\wnextr\Wake-Samples-dev\Sound\gsound" />
-        <Path name="D:\dev\wnextr\Module_Builder\wake-tools\sokol\" />
-        <Path name="D:\dev\wnextr\Module_Builder\wake-tools\sokol\builder" />
-        <Path name="D:\dev\wnextr\Wake-Samples-dev\Sound\gsound\ssound" />
-        <Path name="D:\dev\wnextr\Wake-Samples-dev\Sound\gsound_bck" />
-        <Path name="D:\dev\wnextr\Wake-Samples-dev\sdf\sdf_v0.2" />
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="1" transparency="159" dotMatchesNewline="no" isSearch2ButtonsMode="yes" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no" regexBackward4PowerUser="no">
+        <Path name="D:\dev\wnex\wk\emp\src\video\videoconv" />
+        <Path name="D:\dev\wnex\wk\emp" />
+        <Path name="D:\dev\wnex\Module_Builder\wake-tools\imgui" />
+        <Path name="D:\dev\wnex\Module_Builder\wake-tools\imgui\builder\build_lib" />
+        <Path name="D:\dev\wnex\wk\emp\src\video" />
+        <Path name="D:\dev\wnex\Desktop\" />
+        <Path name="D:\dev\alt\wnex\wk\emp\src\agent\llm_agent" />
+        <Path name="D:\dev\wnex\wk\emp\" />
+        <Path name="D:\dev\wnex\wk\activity\jc" />
+        <Path name="D:\dev\Cwc-src\src" />
+        <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *.jc *.java *.cpp *.hh *.cwc *.cwmake" />
+        <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *.jc *.java *.cpp *.hh" />
+        <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *.jc *.java *.cpp *.hh *.json" />
+        <Filter name="*.*" />
+        <Filter name="*.cwmake" />
         <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *.jc *.java *.cpp" />
+        <Filter name="*.java" />
+        <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *gc" />
         <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *.jc *.java" />
         <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *.jc" />
-        <Filter name="*.*" />
-        <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *gc" />
-        <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh" />
-        <Find name="onInit" />
-        <Find name="set_main_nod" />
-        <Find name="_close_mem" />
-        <Find name="close_mem" />
-        <Find name="close_meme" />
-        <Find name="close" />
-        <Find name="memclose" />
-        <Find name="mem_close" />
-        <Find name="jit_get_main_nod" />
-        <Find name="jit_get_build_env" />
-        <Replace name="" />
-        <Replace name="&gt;&gt; Dock Left" />
-        <Replace name="&gt;&gt; Dock Right" />
-        <Replace name="dummysound" />
-        <Replace name="dummy" />
-        <Replace name="ssound_pixsamples" />
-        <Replace name="ssound.param" />
-        <Replace name="squad" />
-        <Replace name="sound2_program_" />
-        <Replace name="sound1_program_" />
-        <Replace name="sound1_program" />
+        <Find name="videoconv_draw_settings_project_instance_tab" />
+        <Find name="vc_project_draw_instance_settings" />
+        <Find name="Grid 3x3" />
+        <Find name="vc_pane_settings_tab_from_cmd" />
+        <Find name="VC_SETTINGS_TAB_VIEWS" />
+        <Find name="Project" />
+        <Find name="Last-frame" />
+        <Find name="First-frame" />
+        <Find name="Assertion failed" />
+        <Find name="_try" />
+        <Replace name="paneditor" />
+        <Replace name="vplayer" />
+        <Replace name="player" />
+        <Replace name="v0.2w" />
+        <Replace name="g_ctx" />
+        <Replace name="ERR_WEBCAM(" />
+        <Replace name="WEBCAM" />
+        <Replace name="view_match_c" />
+        <Replace name="_expview" />
+        <Replace name="_view" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="D:\dev\wnextr\Wake-Samples-dev\persistance\persistance.jc" />
-        <File filename="D:\dev\wnextr\Smarthphone\cwc\Android_App_Activity_Wake\java\gz\GzCpp.java" />
-        <File filename="D:\dev\wnextr\Desktop\src\wake\direct_run.c" />
-        <File filename="D:\dev\wnextr\Smarthphone\cwc\Android_App_Activity_Wake\java\Android\Wrapper\Application.cpp" />
-        <File filename="D:\dev\wnextr\Desktop\src\jitlib\jit.h" />
-        <File filename="D:\dev\wnextr\Smarthphone\cwc\Android_App_Activity_Wake\java\Android\Wrapper\RendererES2.cpp" />
-        <File filename="D:\dev\wnextr\Smarthphone\cwc\Android_App_Activity_Wake\java\Android\Wrapper\RendererES2.h" />
-        <File filename="D:\dev\wnextr\Wake-Samples-dev\new_shadertoy\sphere_v0.2\shadertoy.jc" />
-        <File filename="D:\document\ac_data\ac.dll" />
-        <File filename="D:\dev\wnextr\Smarthphone\cwc\Android_App_Activity_Wake\java\Android\Wrapper\WrapCpp.cpp" />
+        <File filename="D:\dev\wnex\wk\emp\src\video\videoconv\vc_depthvid_pad.glsl" />
+        <File filename="D:\dev\wnex\wk\emp\src\video\videoconv\videoconv.jc" />
+        <File filename="D:\dev\wnex\Desktop\src\wake\direct_run.c" />
+        <File filename="D:\ia\workflow\perfectloop\ComfyUI_Windows_portable\ComfyUI\output\_join.bat" />
+        <File filename="D:\dev\wnex\wk\emp\src\video\videoconv\shadertoy\mandelbrot.sht" />
+        <File filename="D:\dev\wnex\wk\emp\src\video\videoconv\shadertoy\mk_shaders.ps1" />
+        <File filename="D:\dev\wnex\wk\emp\src\video\videoconv\projects\katy4.jspin" />
+        <File filename="D:\dev\wnex\wk\emp\src\video\videoconv\projects\katy3.jspin" />
+        <File filename="D:\dev\wnex\wk\emp\src\video\videoconv\projects\katy2.jspin" />
+        <File filename="D:\dev\wnex\Module_Builder\wake-tools\sokol\builder\build_util_h\xtra\sokol.h" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="D:/dev/wnextr/Desktop/src/jitlib/\jit\nod.h">
-        <root foldername="D:/dev/wnextr/Smarthphone/cwc/Android_App_Activity_Wake/" />
-        <root foldername="D:/dev/wnextr/Desktop/src/jitlib/" />
-        <root foldername="D:/dev/wnextr/Desktop/src/common/" />
-        <root foldername="D:/dev/wnextr/Wake-Samples-dev/" />
-        <root foldername="D:/dev/wnextr/Module/wake-tools/imgui-v0.2w/include/" />
-        <root foldername="D:/dev/wnextr/Module/wake-tools/sapp-v0.2w/include/" />
-        <root foldername="D:/dev/wnextr/Module/wake-tools/sgfx-v0.2w/include/" />
-        <root foldername="D:/dev/wnextr/Module/wake-tools/sokol-v0.2w/include/" />
-    </FileBrowser>
+    
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
         <GUIConfig name="StatusBar">show</GUIConfig>
@@ -73,8 +67,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="3" />
-        <GUIConfig name="AppPosition" x="53" y="1142" width="1064" height="653" isMaximized="yes" />
-        <GUIConfig name="FindWindowPosition" left="-1571" top="1596" right="-982" bottom="1960" />
+        <GUIConfig name="AppPosition" x="-1479" y="-796" width="958" height="747" isMaximized="yes" />
+        <GUIConfig name="FindWindowPosition" left="-926" top="514" right="-336" bottom="878" />
         <GUIConfig name="FinderConfig" wrappedLines="no" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">yes</GUIConfig>
         <GUIConfig name="Auto-detection">autoOld</GUIConfig>
@@ -110,21 +104,32 @@
         <GUIConfig name="Searching" monospacedFontFindDlg="no" stopFillingFindField="no" findDlgAlwaysVisible="no" confirmReplaceInAllOpenDocs="yes" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="yes">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" lineNumberDynamicWidth="yes" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" rightClickKeepsSelection="yes" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="0" zoom2="-1" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
-        <GUIConfig name="DockingManager" leftWidth="225" rightWidth="368" topHeight="200" bottomHeight="250">
-            <FloatingWindow cont="4" x="18" y="1486" width="1490" height="1617" />
-            <FloatingWindow cont="4" x="18" y="1486" width="1490" height="1617" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" lineNumberDynamicWidth="yes" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" rightClickKeepsSelection="yes" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="yes" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="2" zoom2="1" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="DockingManager" leftWidth="312" rightWidth="449" topHeight="200" bottomHeight="273">
+            <FloatingWindow cont="4" x="266" y="1443" width="620" height="1954" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="4" isVisible="yes" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="4" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="4" isVisible="no" />
             <PluginDlg pluginName="3P" id="2" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="3P" id="1" curr="1" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="4" prev="1" isVisible="no" />
             <ActiveTabs cont="0" activeTab="0" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
-            <ActiveTabs cont="3" activeTab="0" />
-            <ActiveTabs cont="4" activeTab="-1" />
+            <ActiveTabs cont="3" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
+<FileBrowser>
+ <root foldername="D:/dev/wnex/wk/vr/vrspin/" />
+ <root foldername="D:/dev/wnex/Desktop/src/common/" />
+ <root foldername="D:/dev/wnex/Desktop/src/jitlib/" />
+ <root foldername="D:/dev/wnex/Module/wake-tools/sokol-v0.2w/include/" />
+ <root foldername="D:/dev/wnex/wk/emp/src/" />
+ <root foldername="D:/dev/wnex/Module/wake-tools/sapp-v0.2w/" />
+ <root foldername="D:/dev/wnex/Module/wake-tools/sgfx-v0.2w/" />
+ <root foldername="D:/dev/wnex/Module/wake-tools/webp-v0.2w/" />
+ <root foldername="D:/dev/wnex/Module/wake-tools/stb-v0.2w/" />
+ <root foldername="D:/dev/wnex/Module/wake-tools/jit-v0.2w/" />
+ <root foldername="D:/dev/wnex/Module/wake-tools/imgui-v0.2w/" />
+</FileBrowser>
 </NotepadPlus>
