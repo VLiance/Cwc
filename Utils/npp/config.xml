@@ -1,65 +1,78 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <NotepadPlus>
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="1" transparency="159" dotMatchesNewline="no" isSearch2ButtonsMode="yes" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no" regexBackward4PowerUser="no">
-        <Path name="D:\dev\wnex\wk\emp\src\video\videoconv" />
-        <Path name="D:\dev\wnex\wk\emp" />
-        <Path name="D:\dev\wnex\Module_Builder\wake-tools\imgui" />
-        <Path name="D:\dev\wnex\Module_Builder\wake-tools\imgui\builder\build_lib" />
-        <Path name="D:\dev\wnex\wk\emp\src\video" />
-        <Path name="D:\dev\wnex\Desktop\" />
-        <Path name="D:\dev\alt\wnex\wk\emp\src\agent\llm_agent" />
-        <Path name="D:\dev\wnex\wk\emp\" />
-        <Path name="D:\dev\wnex\wk\activity\jc" />
-        <Path name="D:\dev\Cwc-src\src" />
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="1" transparency="159" dotMatchesNewline="no" isSearch2ButtonsMode="no" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no" regexBackward4PowerUser="no">
+        <Path name="D:\dev\wnex\wk\emp\src\mesh\meshopt" />
+        <Path name="D:\dev\majify-api\worker\polynite-auth" />
+        <Path name="D:\dev\wnex\wk\emp\src\game\Numeris" />
+        <Path name="D:\dev\wnex\wk\emp\src\game" />
+        <Path name="D:\dev\wnex\wk\vr\blob\blobcone_fast" />
+        <Path name="D:\dev\wnex" />
+        <Path name="D:\dev\wnex\wk" />
+        <Path name="D:\dev\wnex\wk\vr\blob\blobcone_fast\src" />
+        <Path name="D:\dev\wnex\wk\emp\src" />
+        <Path name="D:\dev\wnex\wk\" />
+        <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *.jc *.java *.cpp *.hh *.cwc *.cwmake *.pane" />
+        <Filter name="*.*" />
         <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *.jc *.java *.cpp *.hh *.cwc *.cwmake" />
         <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *.jc *.java *.cpp *.hh" />
         <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *.jc *.java *.cpp *.hh *.json" />
-        <Filter name="*.*" />
         <Filter name="*.cwmake" />
         <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *.jc *.java *.cpp" />
         <Filter name="*.java" />
         <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *gc" />
         <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *.jc *.java" />
-        <Filter name="*.c *.h  *.inc *.ginc *.glsl *.glslh *.jc" />
-        <Find name="videoconv_draw_settings_project_instance_tab" />
-        <Find name="vc_project_draw_instance_settings" />
-        <Find name="Grid 3x3" />
-        <Find name="vc_pane_settings_tab_from_cmd" />
-        <Find name="VC_SETTINGS_TAB_VIEWS" />
-        <Find name="Project" />
-        <Find name="Last-frame" />
-        <Find name="First-frame" />
-        <Find name="Assertion failed" />
-        <Find name="_try" />
+        <Find name="pk_" />
+        <Find name='&quot;View mode&quot;' />
+        <Find name="View mode" />
+        <Find name="VM_FRAME_MARGIN      " />
+        <Find name="VM_BUILD_CAM_DIST" />
+        <Find name='&quot;production&quot;' />
+        <Find name="ANON_UPLOAD_ENABLED" />
+        <Find name="ANON_LINK_HOURS" />
+        <Find name="ANON_TOTAL_DAY_GB" />
+        <Find name="ANON_TOTAL_DAY_GB " />
+        <Replace name="" />
+        <Replace name=" {pSrc}" />
+        <Replace name="D:\dev" />
+        <Replace name="synth" />
+        <Replace name="html #" />
         <Replace name="paneditor" />
         <Replace name="vplayer" />
         <Replace name="player" />
         <Replace name="v0.2w" />
         <Replace name="g_ctx" />
         <Replace name="ERR_WEBCAM(" />
-        <Replace name="WEBCAM" />
-        <Replace name="view_match_c" />
-        <Replace name="_expview" />
-        <Replace name="_view" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="D:\dev\wnex\wk\emp\src\video\videoconv\vc_depthvid_pad.glsl" />
-        <File filename="D:\dev\wnex\wk\emp\src\video\videoconv\videoconv.jc" />
-        <File filename="D:\dev\wnex\Desktop\src\wake\direct_run.c" />
-        <File filename="D:\ia\workflow\perfectloop\ComfyUI_Windows_portable\ComfyUI\output\_join.bat" />
-        <File filename="D:\dev\wnex\wk\emp\src\video\videoconv\shadertoy\mandelbrot.sht" />
-        <File filename="D:\dev\wnex\wk\emp\src\video\videoconv\shadertoy\mk_shaders.ps1" />
-        <File filename="D:\dev\wnex\wk\emp\src\video\videoconv\projects\katy4.jspin" />
-        <File filename="D:\dev\wnex\wk\emp\src\video\videoconv\projects\katy3.jspin" />
-        <File filename="D:\dev\wnex\wk\emp\src\video\videoconv\projects\katy2.jspin" />
-        <File filename="D:\dev\wnex\Module_Builder\wake-tools\sokol\builder\build_util_h\xtra\sokol.h" />
+        <File filename="D:\dev\polynite-web\version.txt" />
+        <File filename="D:\dev\majify-api\worker\polynite-auth\wrangler.jsonc" />
+        <File filename="D:\ia\3D\Trellis2\hf_token.txt" />
+        <File filename="D:\dev\majify-api\worker\polynite-auth\src\index.js" />
+        <File filename="D:\dev\wnex\wk\emp\src\mesh\meshopt\pn_account_hud.hh" />
+        <File filename="D:\dev\test\trellis_v1\trellis.txt" />
+        <File filename="D:\dev\majify-api\worker\polynite-auth\app_info.txt" />
+        <File filename="D:\dev\majify-api\worker\polynite-auth\.dev.vars.example" />
+        <File filename="D:\dev\wnex\wk\vr\blob\blobcone_fast\webgpu_vs_webgl.txt" />
+        <File filename="D:\dev\wnex\wk\emp\src\mesh\meshopt\.sm\meshopt.sm" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    
+    <FileBrowser latestSelectedItem="D:/dev/wnex/wk/emp/src/\mesh\meshopt\meshopt.jc">
+        <root foldername="D:/dev/wnex/Desktop/src/common/" />
+        <root foldername="D:/dev/wnex/Desktop/src/jitlib/" />
+        <root foldername="D:/dev/wnex/Module/wake-tools/sokol-v0.2w/include/" />
+        <root foldername="D:/dev/wnex/wk/emp/src/" />
+        <root foldername="D:/dev/wnex/Module/wake-tools/sapp-v0.2w/" />
+        <root foldername="D:/dev/wnex/Module/wake-tools/sgfx-v0.2w/" />
+        <root foldername="D:/dev/wnex/Module/wake-tools/stb-v0.2w/" />
+        <root foldername="D:/dev/wnex/Module/wake-tools/webp-v0.2w/" />
+        <root foldername="D:/dev/wnex/Module/wake-tools/jit-v0.2w/" />
+        <root foldername="D:/dev/wnex/Module/wake-tools/imgui-v0.2w/" />
+        <root foldername="D:/dev/wnex/Module/wake-tools/meshoptimizer-v0.2w/" />
+    </FileBrowser>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
         <GUIConfig name="StatusBar">show</GUIConfig>
@@ -67,8 +80,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="3" />
-        <GUIConfig name="AppPosition" x="-1479" y="-796" width="958" height="747" isMaximized="yes" />
-        <GUIConfig name="FindWindowPosition" left="-926" top="514" right="-336" bottom="878" />
+        <GUIConfig name="AppPosition" x="452" y="56" width="1199" height="741" isMaximized="no" />
+        <GUIConfig name="FindWindowPosition" left="296" top="668" right="886" bottom="1032" />
         <GUIConfig name="FinderConfig" wrappedLines="no" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">yes</GUIConfig>
         <GUIConfig name="Auto-detection">autoOld</GUIConfig>
@@ -104,8 +117,8 @@
         <GUIConfig name="Searching" monospacedFontFindDlg="no" stopFillingFindField="no" findDlgAlwaysVisible="no" confirmReplaceInAllOpenDocs="yes" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="yes">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" lineNumberDynamicWidth="yes" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" rightClickKeepsSelection="yes" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="yes" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="2" zoom2="1" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
-        <GUIConfig name="DockingManager" leftWidth="312" rightWidth="449" topHeight="200" bottomHeight="273">
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" lineNumberDynamicWidth="yes" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" rightClickKeepsSelection="yes" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="2" zoom2="3" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="DockingManager" leftWidth="317" rightWidth="449" topHeight="200" bottomHeight="440">
             <FloatingWindow cont="4" x="266" y="1443" width="620" height="1954" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="4" isVisible="yes" />
@@ -119,17 +132,4 @@
             <ActiveTabs cont="3" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
-<FileBrowser>
- <root foldername="D:/dev/wnex/wk/vr/vrspin/" />
- <root foldername="D:/dev/wnex/Desktop/src/common/" />
- <root foldername="D:/dev/wnex/Desktop/src/jitlib/" />
- <root foldername="D:/dev/wnex/Module/wake-tools/sokol-v0.2w/include/" />
- <root foldername="D:/dev/wnex/wk/emp/src/" />
- <root foldername="D:/dev/wnex/Module/wake-tools/sapp-v0.2w/" />
- <root foldername="D:/dev/wnex/Module/wake-tools/sgfx-v0.2w/" />
- <root foldername="D:/dev/wnex/Module/wake-tools/webp-v0.2w/" />
- <root foldername="D:/dev/wnex/Module/wake-tools/stb-v0.2w/" />
- <root foldername="D:/dev/wnex/Module/wake-tools/jit-v0.2w/" />
- <root foldername="D:/dev/wnex/Module/wake-tools/imgui-v0.2w/" />
-</FileBrowser>
 </NotepadPlus>
